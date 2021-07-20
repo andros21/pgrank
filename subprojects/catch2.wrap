@@ -1,0 +1,5 @@
+[wrap-git]
+
+directory = catch2
+url = https://github.com/catchorg/Catch2
+revision = v2.x

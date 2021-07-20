@@ -1,0 +1,7 @@
+#
+# @project pgrank
+# @authors Andrea Rossoni
+# @version 0.1
+#
+
+option('test', type : 'boolean', value : 'false', description : 'Setup or not tests/ dir')

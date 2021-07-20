@@ -1,0 +1,9 @@
+{"objects": [
+{"url": "http://geoportale.caibergamo.it/it/rifugio/baita-lago-nero", "urls": []},
+{"url": "http://geoportale.caibergamo.it/it/rifugio/rifugio-brunone", "urls": []},
+{"url": "http://geoportale.caibergamo.it/it/rifugio/rifugio-benigni", "urls": []},
+{"url": "http://geoportale.caibergamo.it/it/rifugio/rifugio-antonio-cur%C3%B2", "urls": ["http://geoportale.caibergamo.it/it/rifugio/rifugio-mario-merelli-al-coca"]},
+{"url": "http://geoportale.caibergamo.it/it/rifugio/rifugio-mario-merelli-al-coca", "urls": ["http://geoportale.caibergamo.it/it/rifugio/rifugio-antonio-cur%C3%B2"]},
+{"url": "http://geoportale.caibergamo.it/it/rifugio/rifugio-alpe-corte", "urls": []},
+{"url": "http://geoportale.caibergamo.it/it/rifugio/bivacco-zamboni", "urls": []}
+]}

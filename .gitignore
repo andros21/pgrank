@@ -1,0 +1,6 @@
+*.pyc
+__init__.py
+subprojects/argparse*
+subprojects/catch2*
+!subprojects/argparse.wrap
+!subprojects/catch2.wrap

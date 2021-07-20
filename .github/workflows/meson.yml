@@ -1,0 +1,195 @@
+#
+# MESON.YML
+#
+# This workflow will run:
+#
+#   * `pre_ci`
+#     * extract branch name
+#
+#   * `meson`
+#     * clean install dependencies
+#     * build app
+#     * run unit tests
+#     * install and run the built app
+#     * make code coverage xml report
+#     * parse and stdout the report
+#
+#   * `badge` (needs `pre_ci` and `meson`)
+#     * generate badge json from coverage xml report
+#     * push it inside `Coverage Badges` gist
+#     * return embedded markdown badge thanks to shields.io/endpoint
+#
+#  Badge coverage creation, credit to:
+#   * https://github.com/emibcn/covid/blob/master/.github/workflows/node.js.yml
+#   * https://github.com/Schneegans/dynamic-badges-action/
+#
+
+---
+name: Meson CI
+
+on:
+  push:
+    branches: [ master ]
+    paths-ignore:
+      - '*.md'
+      - '*.png'
+      - '.clang-format'
+      - '.gitignore'
+      - '.yamllint'
+      - 'LICENSE'
+      - 'examples*'
+  pull_request:
+    branches: [ master ]
+    paths-ignore:
+      - '*.md'
+      - '*.png'
+      - '.clang-format'
+      - '.gitignore'
+      - '.yamllint'
+      - 'LICENSE'
+      - 'examples*'
+
+jobs:
+  pre_ci:
+    name: Prepare CI env
+    runs-on: ubuntu-latest
+    outputs:
+      branch: ${{ steps.branch.outputs.branch }}
+      repo: ${{ steps.repo.outputs.repo }}
+    steps:
+      - name: Checkout Project
+        uses: actions/checkout@v2
+        with:
+          # Fetch with a depth of 2 for pull_request so we can do HEAD^2
+          fetch-depth: 2
+
+      - name: Get branch name
+        id: branch
+        run: |
+          TMP_PULL_HEAD_REF="${{ github.head_ref }}"
+          TMP_GITHUB_REF="${GITHUB_REF#refs/heads/}"
+          EXPORT_VALUE=""
+          if [ "${TMP_PULL_HEAD_REF}" != "" ]
+          then
+              EXPORT_VALUE="${TMP_PULL_HEAD_REF}"
+          else
+              EXPORT_VALUE="${TMP_GITHUB_REF}"
+          fi
+          echo "Branch: ${EXPORT_VALUE}"
+          echo "##[set-output name=branch;]${EXPORT_VALUE}"
+
+      - name: Get repo name
+        id: repo
+        run: |
+          REPO_NAME=${GITHUB_REPOSITORY#$GITHUB_REPOSITORY_OWNER/}
+          echo "Repo: ${REPO_NAME}"
+          echo "##[set-output name=repo;]${REPO_NAME}"
+
+  meson:
+    name: Meson Coverage
+    runs-on: ubuntu-latest
+    outputs:
+      coverage: ${{ steps.coverage.outputs.coverage }}
+    steps:
+      - name: Checkout project
+        uses: actions/checkout@v2
+
+      # note: armadillo.pc not shipped by libarmadillo-devel
+      - name: Install deps
+        run: |
+          sudo apt update
+          sudo apt install libarmadillo-dev libopenblas-dev rapidjson-dev
+          python -m pip install meson==0.59.0 ninja==1.10.0 gcovr==4.2
+
+      - name: Create pkgconfig local dir
+        run: mkdir -p "$HOME/.local/lib/pkgconfig"
+
+      - name: Setup some envs
+        run: |
+          echo "HOME=$HOME" >> $GITHUB_ENV
+          echo "PATH=$PATH:$HOME/.local/bin" >> $GITHUB_ENV
+          echo "LD_LIBRARY_PATH=$HOME/.local/lib" >> $GITHUB_ENV
+          echo "PKG_CONFIG_PATH=$HOME/.local/lib/pkgconfig" >> $GITHUB_ENV
+
+      - name: Create armadillo.pc
+        run: |
+          cat > $PKG_CONFIG_PATH/armadillo.pc << EOF
+          libdir=/usr/include
+          includedir=/usr/lib
+          Name: armadillo
+          Description: Fast C++ matrix library with syntax similar to MATLAB and Octave
+          URL: http://arma.sourceforge.net
+          Version: 9.800.4
+          Cflags: -I${includedir}
+          Libs: -L${libdir} -larmadillo
+          EOF
+
+      - name: Meson build and test
+        run: |
+          meson setup build --prefix $HOME/.local \
+                            --libdir lib \
+                            -Dtest=true \
+                            -Db_coverage=true
+          meson test -C build
+
+      - name: Meson install
+        run: meson install -C build
+
+      - name: Run pgrank help
+        run: pgrank --help
+
+      - name: Check pgrank deps
+        run: |
+          pkg-config --cflags --libs json2mat
+          pkg-config --cflags --libs pagerank
+
+      - name: Meson coverage
+        run: ninja coverage-text -C build
+
+      - name: Report coverage
+        id: coverage
+        run: |
+          COVERAGE=$(cat build/meson-logs/coverage.txt \
+                      | grep "TOTAL" | awk '{print $4}' | sed 's/%//')
+          echo "Coverage (lines): ${COVERAGE}%"
+          echo "##[set-output name=coverage;]${COVERAGE}"
+
+  badge:
+    name: Coverage Badge
+    needs: [meson, pre_ci]
+    runs-on: ubuntu-latest
+    env:
+      gist_id: 0e20cd331d0800e3299298a3868aab7a
+    outputs:
+      markdown: ${{ steps.url.outputs.markdown }}
+      url: ${{ steps.url.outputs.url }}
+    steps:
+      # note: Use the output from `coverage` id of `meson` job
+      #       Use the output from `branch`, `repo` ids of `pre_ci` job
+      - name: Generate dynamic badge
+        uses: schneegans/dynamic-badges-action@v1.0.0
+        with:
+          auth: ${{ secrets.GIST_TOKEN }}
+          color: ${{
+            needs.meson.outputs.coverage >  90 && 'brightgreen'   ||
+            needs.meson.outputs.coverage >  80 && 'green'         ||
+            needs.meson.outputs.coverage >  70 && 'yellowgreen'   ||
+            needs.meson.outputs.coverage >  60 && 'yellow'        ||
+            needs.meson.outputs.coverage >  50 && 'orange'        ||
+            'red' }}
+          filename: ${{ needs.pre_ci.outputs.repo }}__${{ needs.pre_ci.outputs.branch }}.json
+          gistID: ${{ env.gist_id }}
+          label: Coverage
+          message: ${{ needs.meson.outputs.coverage }}%
+          namedLogo: github
+          style: flat-square
+
+      - name: Badge image URL
+        id: url
+        run: |
+          URL="https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/${{ github.actor }}/${{ env.gist_id }}/raw/${{ needs.pre_ci.outputs.repo }}__${{ needs.pre_ci.outputs.branch }}.json"
+          MARKDOWN="![Coverage ${{ needs.meson.outputs.coverage }}](${URL})"
+          echo "Badge URL: ${URL}"
+          echo "Badge image for Markdown: ${MARKDOWN}"
+          echo "##[set-output name=url;]${URL}"
+          echo "##[set-output name=markdown;]${MARKDOWN}"
