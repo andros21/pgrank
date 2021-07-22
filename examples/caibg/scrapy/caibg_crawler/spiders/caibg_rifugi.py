@@ -1,4 +1,4 @@
-"""CaiBgRifugiCrawler class inherits from CrawlSpieder"""
+"""CaiBgRifugiCrawler class inherits from CrawlSpider"""
 
 import re
 import urllib.request
