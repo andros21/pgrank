@@ -12,7 +12,7 @@
   <a href="https://github.com/andros21/pgrank/actions/workflows/meson.yml">
     <img src="https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/andros21/0e20cd331d0800e3299298a3868aab7a/raw/pgrank__master.json" alt="Coverage">
   </a>
-  <a href="https://github.com/andros21/pgrank/LICENSE">
+  <a href="https://github.com/andros21/pgrank/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/andros21/pgrank?color=blue&label=License&style=flat-square" alt="License">
   </a>
 
