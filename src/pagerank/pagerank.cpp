@@ -149,6 +149,7 @@ PageRank::evoRank(const double& epsilon, const bool& info)
    double b = (1. - _alpha) / N;
    arma::rowvec rank(N);
    arma::rowvec ones(N, arma::fill::ones);
+   // +++++++++++++++++++++++++++++++++++++++++++++++++++++++
    // arma::rowvec ones(_rank.n_rows, arma::fill::ones);
    // arma::cx_vec cx_eigval;
    // arma::cx_mat cx_eigvec;
@@ -160,6 +161,7 @@ PageRank::evoRank(const double& epsilon, const bool& info)
    // arma::mat gm = dump + _sm * _alpha;
    //// Eigenvalue and eigenvector computation
    // arma::eig_gen(cx_eigval, cx_eigvec, gm);
+   // +++++++++++++++++++++++++++++++++++++++++++++++++++++
    do {
       rank = _rank;
       _rank =
