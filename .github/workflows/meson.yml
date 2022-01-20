@@ -1,78 +1,52 @@
-#
-# MESON.YML
-#
-# This workflow will run:
-#
-#   * `changes`
-#     * check what files have been changes
-#
-#   * `pre_ci`
-#     * extract branch name
-#
-#   * `meson`
-#     * clean install dependencies
-#     * build app
-#     * run unit tests
-#     * install and run the built app
-#     * make code coverage xml report
-#     * parse and stdout the report
-#
-#   * `badge` (needs `pre_ci` and `meson`)
-#     * generate badge json from coverage xml report
-#     * push it inside `Coverage Badges` gist
-#     * return embedded markdown badge thanks to shields.io/endpoint
-#
-#  Badge coverage creation, credit to:
-#   * https://github.com/emibcn/covid/blob/master/.github/workflows/node.js.yml
-#   * https://github.com/Schneegans/dynamic-badges-action/
-#
-
 ---
 name: Meson CI
 
-on:
+"on":
   push:
-    branches: [ master ]
+    branches:
+      - master
+    paths:
+      - 'meson.build'
+      - 'meson_options.txt'
+      - 'src/**'
+      - 'subprojects/**'
+      - 'tests/**'
   pull_request:
-    branches: [ master ]
+    branches:
+      - master
+    paths:
+      - 'meson.build'
+      - 'meson_options.txt'
+      - 'src/**'
+      - 'subprojects/**'
+      - 'tests/**'
+
+permissions:
+  actions: read
+  checks: read
+  contents: read
+  deployments: read
+  issues: read
+  packages: read
+  pull-requests: write
+  repository-projects: read
+  security-events: read
+  statuses: read
 
 jobs:
-  changes:
-    name: Check changes
-    runs-on: ubuntu-latest
-    outputs:
-      files: ${{ steps.filter.outputs.files }}
-    steps:
-      - name: Checkout project
-        uses: actions/checkout@v2
-
-      - name: Filter paths
-        uses: dorny/paths-filter@v2
-        id: filter
-        with:
-          filters: |
-            files:
-              - 'meson.build'
-              - 'meson_options.txt'
-              - 'src/**'
-              - 'subprojects/**'
-              - 'tests/**'
-
   pre_ci:
     name: Prepare CI env
+    if: ${{ github.event_name == 'push' }}
     runs-on: ubuntu-latest
-    needs: [ changes ]
-    if: ${{ needs.changes.outputs.files == 'true' }}
     outputs:
       branch: ${{ steps.branch.outputs.branch }}
       repo: ${{ steps.repo.outputs.repo }}
     steps:
       - name: Checkout Project
-        uses: actions/checkout@v2
+        uses: actions/checkout@v2.4.0
         with:
           # Fetch with a depth of 2 for pull_request so we can do HEAD^2
           fetch-depth: 2
-
       - name: Get branch name
         id: branch
         run: |
@@ -87,42 +61,34 @@ jobs:
           fi
           echo "Branch: ${EXPORT_VALUE}"
           echo "##[set-output name=branch;]${EXPORT_VALUE}"
-
       - name: Get repo name
         id: repo
         run: |
           REPO_NAME=${GITHUB_REPOSITORY#$GITHUB_REPOSITORY_OWNER/}
           echo "Repo: ${REPO_NAME}"
           echo "##[set-output name=repo;]${REPO_NAME}"
-
   meson:
     name: Meson Coverage
     runs-on: ubuntu-latest
-    needs: [ changes ]
-    if: ${{ needs.changes.outputs.files == 'true' }}
     outputs:
       coverage: ${{ steps.coverage.outputs.coverage }}
     steps:
       - name: Checkout project
-        uses: actions/checkout@v2
-
-      # note: armadillo.pc not shipped by libarmadillo-devel
+        uses: actions/checkout@v2.4.0
       - name: Install deps
         run: |
           sudo apt update
           sudo apt install libarmadillo-dev libopenblas-dev rapidjson-dev
           python -m pip install meson==0.59.0 ninja==1.10.0 gcovr==4.2
-
       - name: Create pkgconfig local dir
         run: mkdir -p "$HOME/.local/lib/pkgconfig"
-
       - name: Setup some envs
         run: |
           echo "HOME=$HOME" >> $GITHUB_ENV
           echo "PATH=$PATH:$HOME/.local/bin" >> $GITHUB_ENV
           echo "LD_LIBRARY_PATH=$HOME/.local/lib" >> $GITHUB_ENV
           echo "PKG_CONFIG_PATH=$HOME/.local/lib/pkgconfig" >> $GITHUB_ENV
-
+      # note: armadillo.pc not shipped by libarmadillo-devel
       - name: Create armadillo.pc
         run: |
           cat > $PKG_CONFIG_PATH/armadillo.pc << EOF
@@ -135,7 +101,6 @@ jobs:
           Cflags: -I${includedir}
           Libs: -L${libdir} -larmadillo
           EOF
-
       - name: Meson build and test
         run: |
           meson setup build --prefix $HOME/.local \
@@ -143,32 +108,45 @@ jobs:
                             -Dtest=true \
                             -Db_coverage=true
           meson test -C build
-
       - name: Meson install
         run: meson install -C build
-
       - name: Run pgrank help
         run: pgrank --help
-
       - name: Check pgrank deps
         run: |
           pkg-config --cflags --libs json2mat
           pkg-config --cflags --libs pagerank
-
-      - name: Meson coverage
+      - name: Meson coverage txt
         run: ninja coverage-text -C build
-
+      - name: Meson coverage xml
+        run: ninja coverage-xml -C build
+      - name: Code coverage summary report
+        uses: irongut/CodeCoverageSummary@v1.2.0
+        with:
+          badge: true
+          filename: build/meson-logs/coverage.xml
+          format: 'markdown'
+          hide_complexity: true
+          output: both
+      - name: Add coverage PR comment
+        uses: marocchino/sticky-pull-request-comment@v2.2.0
+        if: ${{ github.event_name == 'pull_request' }}
+        with:
+          recreate: true
+          path: code-coverage-results.md
       - name: Report coverage
+        if: ${{ github.event_name == 'push' }}
         id: coverage
         run: |
           COVERAGE=$(cat build/meson-logs/coverage.txt \
                       | grep "TOTAL" | awk '{print $4}' | sed 's/%//')
-          echo "Coverage (lines): ${COVERAGE}%"
           echo "##[set-output name=coverage;]${COVERAGE}"
-
   badge:
     name: Coverage Badge
-    needs: [meson, pre_ci]
+    needs:
+      - pre_ci
+      - meson
+    if: ${{ github.event_name == 'push' }}
     runs-on: ubuntu-latest
     env:
       gist_id: 0e20cd331d0800e3299298a3868aab7a
@@ -195,7 +173,6 @@ jobs:
           message: ${{ needs.meson.outputs.coverage }}%
           namedLogo: github
           style: flat-square
-
       - name: Badge image URL
         id: url
         run: |
