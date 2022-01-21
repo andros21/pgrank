@@ -2,7 +2,7 @@
 <br>
 <p align="center">
   <a href="https://github.com/andros21/pgrank">
-    <img src="https://user-images.githubusercontent.com/58751603/126500738-0ef8e699-4071-441b-b547-46a9c6b3b20a.png" alt="Logo" width="300">
+    <img src="https://user-images.githubusercontent.com/58751603/150509326-c931ada2-aee3-4705-a664-ccc0a8caa016.png" alt="Logo" width="300">
   </a>
   <br>
   <br>
