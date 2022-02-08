@@ -12,7 +12,7 @@ if __name__ == "__main__":
         df["score"] = (df["pgrank"] / df["pgrank"].min()).round(1)
         with open("./caibg.json", "r") as fs:
             caibg_dict = json.load(fs)
-        name = [el["name"] for el in caibg_dict["objects"]]
+        name = [f"[{el['name']}]({el['url']})" for el in caibg_dict["objects"]]
         zone = [el["zone"] for el in caibg_dict["objects"]]
         df["name"] = name
         df["zone"] = zone
