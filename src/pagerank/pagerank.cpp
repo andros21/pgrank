@@ -145,14 +145,15 @@ PageRank::evoRank(const double& epsilon, const bool& info)
    auto start = std::chrono::high_resolution_clock::now();
    unsigned int it(0);
    auto N = _am.n_cols;
+   double wdang;
    double a = _alpha / N;
    double b = (1. - _alpha) / N;
    arma::rowvec rank(N);
    arma::rowvec ones(N, arma::fill::ones);
    do {
       rank = _rank;
-      _rank =
-         _rank * _am * _alpha + ones * (a * arma::dot(_rank, _dang)) + ones * b;
+      wdang = arma::dot(rank, _dang);
+      _rank = rank * _am * _alpha + ones * a * wdang + ones * b;
       ++it;
    } while (arma::norm(_rank - rank) >= epsilon);
    auto stop = std::chrono::high_resolution_clock::now();

@@ -43,16 +43,16 @@ main(int argc, char* argv[])
       if (!ofs)
          throw std::string("(main) Invalid output path <") +
             program.get<std::string>("output") + std::string(">");
-      PageRank caibg(program.get<std::string>("input").c_str(),
-                     !program.get<bool>("--quiet"),
-                     program.get<double>("--alpha"),
-                     program.get<std::string>("--master").c_str(),
-                     program.get<std::string>("--node").c_str(),
-                     program.get<std::string>("--nnode").c_str());
-      caibg.evoRank(program.get<double>("--epsilon"),
-                    !program.get<bool>("--quiet"));
-      caibg.csvRank(program.get<std::string>("output").c_str(),
-                    !program.get<bool>("--quiet"));
+      PageRank pgrank(program.get<std::string>("input").c_str(),
+                      !program.get<bool>("--quiet"),
+                      program.get<double>("--alpha"),
+                      program.get<std::string>("--master").c_str(),
+                      program.get<std::string>("--node").c_str(),
+                      program.get<std::string>("--nnode").c_str());
+      pgrank.evoRank(program.get<double>("--epsilon"),
+                     !program.get<bool>("--quiet"));
+      pgrank.csvRank(program.get<std::string>("output").c_str(),
+                     !program.get<bool>("--quiet"));
    } catch (const std::string& msg) {
       fprintf(stderr, "[ERROR] %s\n", msg.c_str());
       return EXIT_FAILURE;
