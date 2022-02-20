@@ -1,10 +1,13 @@
+# meson.build
+# ===========
+
 project('pgrank',
         'cpp',
-        default_options : ['buildtype=release',
+        default_options : ['buildtype=debugoptimized',
                            'warning_level=3',
                            'wrap_mode=nofallback',
                            'cpp_std=c++2a'],
-        version : '0.1')
+        version : '0.1.0')
 
 # import cmake
 cmake = import('cmake')

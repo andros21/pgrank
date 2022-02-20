@@ -1,6 +1,6 @@
 <!-- PROJECT LOGO -->
 <br>
-<p align="center">
+<div align="center">
   <a href="https://github.com/andros21/pgrank">
     <img src="https://user-images.githubusercontent.com/58751603/150509326-c931ada2-aee3-4705-a664-ccc0a8caa016.png" alt="Logo" width="300">
   </a>
@@ -16,15 +16,15 @@
     <img src="https://img.shields.io/github/license/andros21/pgrank?color=blue&label=License&style=flat-square" alt="License">
   </a>
 
-  <h3 align="center">cpp app for computing <a href="https://en.wikipedia.org/wiki/PageRank"> pagerank</a></h3>
-  <p align="center">
+  <h3 align="center">cpp app for computing <a href="https://en.wikipedia.org/wiki/PageRank">pagerank</a></h3>
+  <div align="center">
     <a href="examples/caibg/">Examples</a>
     ·
     <a href="#installation">Installation</a>
     ·
     <a href="#usage">Usage</a>
-  </p>
-</p>
+  </div>
+</div>
 
 ## Installation
 
@@ -32,7 +32,7 @@
 
 **Platform requirements**
 
-`Linux x86_64` or `macOS`
+`Linux x86_64`
 
 **Compiler requirements**
 
@@ -40,7 +40,7 @@ A `C++` compiler (e.g. `g++-9`) supporting the `C++2a` or `C++20` standard
 
 **Build system requirements**
 
-[`Meson`](http://mesonbuild.com) build system version `>=0.59.x` and `Ninja` (its dependency) version `>=1.10.x`
+[`Meson`](http://mesonbuild.com) build system version and `Ninja` (its dependency)
 
 Also `CMake` (to build subprojects) and `pkgconfig` (to search library dependencies) are needed
 
@@ -55,14 +55,16 @@ If Meson is not available on your system, it can be installed with `pip` or `con
 * [`rapidJSON`](https://github.com/Tencent/rapidjson/) - a fast JSON parser and generator for C++
 * [`argparse`](https://github.com/p-ranav/argparse) - argument parser for modern C++
 
-`argparse` (header only library), if not available on your system, are automatically built and installed as subprojects with the `Meson` build system, so in this sense are "optional" because provided by `Meson` itself
+`argparse` (header only library), if not available on your system, is automatically built and installed as subprojects with the `Meson` build system, so in this sense are "optional" because provided by `Meson` itself
 
 ### Meson build system
 
 To compile and install `pgrank`, run:
 
 ```
-meson setup --prefix=/install/path build
+meson setup \
+      --buildtype=release \
+      --prefix=/install/path build
 cd build/
 meson compile
 meson install
@@ -75,7 +77,7 @@ Where `build` is the build directory. Specifying the installation prefix with `-
 For **testing purpose** (developers only) working inside a conda env is probably the best way to build and use this project. Additional dependencies:
 
 * [`catch2`](https://github.com/catchorg/Catch2) - a modern, C++-native, header-only, test framework for unit-tests
-* [`gcovr`](https://gcovr.com/en/stable/) or [`lcov`](https://github.com/linux-test-project/lcov) - extensions of GCOV, for code coverage
+* [`gcovr`](https://gcovr.com/en/stable/) - extensions of GCOV, for code coverage
 
 `catch2` (header only library), if not available on your system, are automatically built and installed as subprojects with the `Meson` build system, so in this sense are "optional" because provided by `Meson` itself
 
@@ -89,7 +91,7 @@ meson test -v
 ninja coverage
 ```
 
-The target `coverage` will try to create code coverage report in all three formats `text` `xml` `html`, `coverage-html` needs `lcov` to be generated. Optionaly only one coverage format can be triggered (e.g `coverage-text`)
+The target `coverage` will try to create code coverage report in all three formats `text` `xml` `html` (`coverage-html` needs `lcov` to be generated). Optionaly only one coverage format can be triggered (e.g `coverage-text`)
 
 ## Usage
 

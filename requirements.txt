@@ -1,0 +1,4 @@
+gcovr==5.0
+meson==0.61.2
+ninja==1.10.2.3
+yamllint==1.26.3

@@ -8,6 +8,7 @@ name: Meson CI
     paths:
       - 'meson.build'
       - 'meson_options.txt'
+      - 'include/**'
       - 'src/**'
       - 'subprojects/**'
       - 'tests/**'
@@ -17,6 +18,7 @@ name: Meson CI
     paths:
       - 'meson.build'
       - 'meson_options.txt'
+      - 'include/**'
       - 'src/**'
       - 'subprojects/**'
       - 'tests/**'
@@ -39,28 +41,10 @@ jobs:
     if: ${{ github.event_name == 'push' }}
     runs-on: ubuntu-latest
     outputs:
-      branch: ${{ steps.branch.outputs.branch }}
       repo: ${{ steps.repo.outputs.repo }}
     steps:
       - name: Checkout Project
         uses: actions/checkout@v2.4.0
-        with:
-          # Fetch with a depth of 2 for pull_request so we can do HEAD^2
-          fetch-depth: 2
-      - name: Get branch name
-        id: branch
-        run: |
-          TMP_PULL_HEAD_REF="${{ github.head_ref }}"
-          TMP_GITHUB_REF="${GITHUB_REF#refs/heads/}"
-          EXPORT_VALUE=""
-          if [ "${TMP_PULL_HEAD_REF}" != "" ]
-          then
-              EXPORT_VALUE="${TMP_PULL_HEAD_REF}"
-          else
-              EXPORT_VALUE="${TMP_GITHUB_REF}"
-          fi
-          echo "Branch: ${EXPORT_VALUE}"
-          echo "##[set-output name=branch;]${EXPORT_VALUE}"
       - name: Get repo name
         id: repo
         run: |
@@ -79,7 +63,7 @@ jobs:
         run: |
           sudo apt update
           sudo apt install libarmadillo-dev libopenblas-dev rapidjson-dev
-          python -m pip install meson==0.59.0 ninja==1.10.0 gcovr==4.2
+          python -m pip install -r requirements.txt
       - name: Create pkgconfig local dir
         run: mkdir -p "$HOME/.local/lib/pkgconfig"
       - name: Setup some envs
@@ -155,7 +139,7 @@ jobs:
       url: ${{ steps.url.outputs.url }}
     steps:
       # note: Use the output from `coverage` id of `meson` job
-      #       Use the output from `branch`, `repo` ids of `pre_ci` job
+      #       Use the output from `repo` ids of `pre_ci` job
       - name: Generate dynamic badge
         uses: schneegans/dynamic-badges-action@v1.1.0
         with:
@@ -167,7 +151,7 @@ jobs:
             needs.meson.outputs.coverage >  60 && 'yellow'        ||
             needs.meson.outputs.coverage >  50 && 'orange'        ||
             'red' }}
-          filename: ${{ needs.pre_ci.outputs.repo }}__${{ needs.pre_ci.outputs.branch }}.json
+          filename: ${{ needs.pre_ci.outputs.repo }}__${{ github.ref_name }}.json
           gistID: ${{ env.gist_id }}
           label: Coverage
           message: ${{ needs.meson.outputs.coverage }}%
@@ -176,7 +160,7 @@ jobs:
       - name: Badge image URL
         id: url
         run: |
-          URL="https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/${{ github.actor }}/${{ env.gist_id }}/raw/${{ needs.pre_ci.outputs.repo }}__${{ needs.pre_ci.outputs.branch }}.json"
+          URL="https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/${{ github.actor }}/${{ env.gist_id }}/raw/${{ needs.pre_ci.outputs.repo }}__${{ github.ref_name }}.json"
           MARKDOWN="![Coverage ${{ needs.meson.outputs.coverage }}](${URL})"
           echo "Badge URL: ${URL}"
           echo "Badge image for Markdown: ${MARKDOWN}"
