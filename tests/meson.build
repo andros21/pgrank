@@ -1,3 +1,5 @@
+# tests/meson.build
+# =================
 
 # catch2: search dependency, otherwise use cmake subproject
 catch2_dep  = dependency('catch2', version: ['>=2.x', '<3.x'], required : false)

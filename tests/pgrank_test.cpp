@@ -1,9 +1,10 @@
-/*
- * @project pgrank
+/**
  * @authors Andrea Rossoni
- * @version 0.1
- * @file    pgrank_test.cpp
- * @scope   Catch2 unit tests for pgrank
+ * @version 0.1.0
+ *
+ * @subsubsection Description
+ *
+ * Catch2 unit tests for pgrank
  *
  */
 

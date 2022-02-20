@@ -1,13 +1,10 @@
-/*
- * @project pgrank
+/**
  * @authors Andrea Rossoni
- * @version 0.1
- * @file    json2mat.cpp
- * @scope   Library to parse json files and convert
- *          them into armadillo adjacency matrix
+ * @version 0.1.0
+ *
  */
 
-#include "json2mat.hpp"
+#include <json2mat.hpp>
 
 // From json file to rapidjson document object
 rapidjson::Document

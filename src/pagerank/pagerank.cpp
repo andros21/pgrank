@@ -1,12 +1,10 @@
-/*
- * @project pgrank
+/**
  * @authors Andrea Rossoni
- * @version 0.1
- * @file    pagerank.cpp
- * @scope   Class library to compute pagerank algo
+ * @version 0.1.0
+ *
  */
 
-#include "pagerank.hpp"
+#include <pagerank.hpp>
 
 // Constructor of PageRank object from adjacency matrix
 PageRank::PageRank(const arma::sp_mat& am,
