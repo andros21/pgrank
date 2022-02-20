@@ -1,0 +1,66 @@
+---
+name: JReleaser
+
+"on":
+  push:
+    tags:
+      - "v*.*.*"
+
+permissions: read-all
+
+jobs:
+  version:
+    name: Get version
+    runs-on: ubuntu-latest
+    outputs:
+      ver: ${{ steps.ver.outputs.ver }}
+    steps:
+      - name: Get tag name
+        id: ver
+        run: |
+          VERSION=${GITHUB_REF_NAME#v}
+          echo "Version: ${VERSION}"
+          echo "##[set-output name=ver;]${VERSION}"
+  release:
+    name: JReleaser
+    needs:
+      - version
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout project
+        uses: actions/checkout@v2.4.0
+        with:
+          fetch-depth: 0
+      - name: JReleaser assemble
+        uses: jreleaser/release-action@v2
+        with:
+          version: early-access
+          arguments: assemble
+        env:
+          JRELEASER_PROJECT_VERSION: ${{ needs.version.outputs.ver }}
+      - name: Upload assemble logs
+        if: always()
+        uses: actions/upload-artifact@v2.3.1
+        with:
+          name: jreleaser-assemble
+          retention-days: 1
+          path: |
+            out/jreleaser/trace.log
+            out/jreleaser/output.properties
+      - name: JReleaser release
+        uses: jreleaser/release-action@v2
+        with:
+          version: early-access
+          arguments: release
+        env:
+          JRELEASER_GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }}
+          JRELEASER_PROJECT_VERSION: ${{ needs.version.outputs.ver }}
+      - name: Upload release logs
+        if: always()
+        uses: actions/upload-artifact@v2.3.1
+        with:
+          name: jreleaser-release
+          retention-days: 1
+          path: |
+            out/jreleaser/trace.log
+            out/jreleaser/output.properties
