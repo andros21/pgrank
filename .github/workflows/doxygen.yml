@@ -1,0 +1,38 @@
+---
+name: Doxy html
+
+"on":
+  release:
+    types:
+      - published
+
+permissions: read-all
+
+jobs:
+  doxygen:
+    name: Doxygen html
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout project
+        uses: actions/checkout@v2.4.0
+      - name: Download doxygen-awesome-css theme
+        uses: robinraju/release-downloader@v1.3
+        with:
+          repository: "jothepro/doxygen-awesome-css"
+          latest: true
+          tarBall: true
+          zipBall: false
+          out-file-path: "."
+      - name: Extract doxygen-awesome-css
+        run: |
+          tar xvf *.tar.gz
+          rm -f *.tar.gz
+          mv *doxygen-awesome-css* doxygen-awesome-css/
+      - name: Create html docs
+        uses: mattnotmitt/doxygen-action@v1.9.2
+      - name: Publish to gh-pages
+        uses: tsunematsu21/actions-publish-gh-pages@v1.0.2
+        with:
+          dir: html/
+          branch: gh-pages
+          token: ${{ secrets.REPO_TOKEN }}

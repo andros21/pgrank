@@ -1,0 +1,19 @@
+# Doxyfile
+# ========
+# Custom theme 'jothepro/doxygen-awesome-css'
+# -------------------------------------------
+
+PROJECT_NAME           = "pgrank"
+PROJECT_NUMBER         = "0.1.0"
+PROJECT_BRIEF          = "cpp app for computing pagerank"
+BUILTIN_STL_SUPPORT    = YES
+INPUT                  = README.md include/ src/
+RECURSIVE              = YES
+USE_MDFILE_AS_MAINPAGE = README.md
+SOURCE_BROWSER         = YES
+REFERENCED_BY_RELATION = YES
+REFERENCES_RELATION    = YES
+VERBATIM_HEADERS       = NO
+GENERATE_LATEX         = NO
+GENERATE_TREEVIEW      = YES
+HTML_EXTRA_STYLESHEET  = doxygen-awesome-css/doxygen-awesome.css doxygen-awesome-css/doxygen-awesome-sidebar-only.css
