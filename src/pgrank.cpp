@@ -1,8 +1,14 @@
-/*
- * @project pgrank
+/**
  * @authors Andrea Rossoni
- * @file    pgrank.cpp
- * @scope   Calculate rank and save csv results starting from json
+ * @version 0.1.1
+ * @subsubsection Description
+ *
+ * CLI for calculate rank
+ * saving csv results starting from json
+ *
+ * @see pagerank.hpp
+ * @see json2mat.hpp
+ *
  */
 
 #include <argparse/argparse.hpp>
