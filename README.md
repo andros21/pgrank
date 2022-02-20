@@ -12,6 +12,13 @@
   <a href="https://github.com/andros21/pgrank/actions/workflows/meson.yml">
     <img src="https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/andros21/0e20cd331d0800e3299298a3868aab7a/raw/pgrank__master.json" alt="Coverage">
   </a>
+  <a href="https://github.com/andros21/pgrank/actions/workflows/doxygen.yml">
+    <img src="https://img.shields.io/github/workflow/status/andros21/pgrank/Doxy%20html/master?label=Doxy%20html&logo=github&style=flat-square" alt="Doxy html">
+  </a>
+  <br>
+  <a href="https://github.com/andros21/pgrank/releases">
+    <img src="https://img.shields.io/github/v/release/andros21/pgrank?color=blue&label=Release&sort=semver&style=flat-square" alt="Version">
+  </a>
   <a href="https://github.com/andros21/pgrank/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/andros21/pgrank?color=blue&label=License&style=flat-square" alt="License">
   </a>
