@@ -38,10 +38,6 @@ main(int argc, char* argv[])
       .implicit_value(true);
    try {
       program.parse_args(argc, argv);
-      std::ofstream ofs(program.get<std::string>("output").c_str());
-      if (!ofs)
-         throw std::string("(main) Invalid output path <") +
-            program.get<std::string>("output") + std::string(">");
       PageRank pgrank(program.get<std::string>("input").c_str(),
                       !program.get<bool>("--quiet"),
                       program.get<double>("--alpha"),
@@ -50,6 +46,10 @@ main(int argc, char* argv[])
                       program.get<std::string>("--nnode").c_str());
       pgrank.evoRank(program.get<double>("--epsilon"),
                      !program.get<bool>("--quiet"));
+      std::ofstream ofs(program.get<std::string>("output").c_str());
+      if (!ofs)
+         throw std::string("(main) Invalid output path <") +
+            program.get<std::string>("output") + std::string(">");
       pgrank.csvRank(program.get<std::string>("output").c_str(),
                      !program.get<bool>("--quiet"));
    } catch (const std::string& msg) {
