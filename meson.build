@@ -7,7 +7,7 @@ project('pgrank',
                            'warning_level=3',
                            'wrap_mode=nofallback',
                            'cpp_std=c++2a'],
-        version : '0.1.0')
+        version : '0.1.1')
 
 # import cmake
 cmake = import('cmake')

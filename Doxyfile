@@ -4,7 +4,7 @@
 # -------------------------------------------
 
 PROJECT_NAME           = "pgrank"
-PROJECT_NUMBER         = "0.1.0"
+PROJECT_NUMBER         = "0.1.1"
 PROJECT_BRIEF          = "cpp app for computing pagerank"
 BUILTIN_STL_SUPPORT    = YES
 INPUT                  = README.md include/ src/
