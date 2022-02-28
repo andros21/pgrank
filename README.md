@@ -12,8 +12,8 @@
   <a href="https://github.com/andros21/pgrank/actions/workflows/meson.yml">
     <img src="https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/andros21/0e20cd331d0800e3299298a3868aab7a/raw/pgrank__master.json" alt="Coverage">
   </a>
-  <a href="https://github.com/andros21/pgrank/actions/workflows/doxygen.yml">
-    <img src="https://img.shields.io/github/workflow/status/andros21/pgrank/Doxy%20html/master?label=Doxy%20html&logo=github&style=flat-square" alt="Doxy html">
+  <a href="https://github.com/andros21/pgrank/actions/workflows/jreleaser.yml">
+    <img src="https://img.shields.io/github/workflow/status/andros21/pgrank/JReleaser?label=JReleaser%20CD&logo=github&style=flat-square" alt="JReleaser CD">
   </a>
   <br>
   <a href="https://github.com/andros21/pgrank/releases">

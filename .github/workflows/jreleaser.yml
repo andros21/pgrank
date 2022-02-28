@@ -4,9 +4,19 @@ name: JReleaser
 "on":
   push:
     tags:
-      - "v*.*.*"
+      - "v[0-9].[0-9].*"
 
-permissions: read-all
+permissions:
+  actions: read
+  checks: read
+  contents: write
+  deployments: read
+  issues: read
+  packages: read
+  pull-requests: read
+  repository-projects: read
+  security-events: read
+  statuses: read
 
 jobs:
   version:
@@ -53,7 +63,7 @@ jobs:
           version: early-access
           arguments: release
         env:
-          JRELEASER_GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }}
+          JRELEASER_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           JRELEASER_PROJECT_VERSION: ${{ needs.version.outputs.ver }}
       - name: Upload release logs
         if: always()
@@ -64,3 +74,31 @@ jobs:
           path: |
             out/jreleaser/trace.log
             out/jreleaser/output.properties
+  doxygen:
+    name: Doxygen html
+    needs:
+      - release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout project
+        uses: actions/checkout@v2.4.0
+      - name: Download doxygen-awesome-css theme
+        uses: robinraju/release-downloader@v1.3
+        with:
+          repository: "jothepro/doxygen-awesome-css"
+          latest: true
+          tarBall: true
+          zipBall: false
+          out-file-path: "."
+      - name: Extract doxygen-awesome-css
+        run: |
+          tar xvf *.tar.gz
+          rm -f *.tar.gz
+          mv *doxygen-awesome-css* doxygen-awesome-css/
+      - name: Create html docs
+        uses: mattnotmitt/doxygen-action@v1.9.2
+      - name: Publish to gh-pages
+        uses: peaceiris/actions-gh-pages@v3.8.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: html/
