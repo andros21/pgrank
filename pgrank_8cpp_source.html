@@ -27,7 +27,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">pgrank<span id="projectnumber">&#160;0.1.0</span>
+   <div id="projectname">pgrank<span id="projectnumber">&#160;0.1.1</span>
    </div>
    <div id="projectbrief">cpp app for computing pagerank</div>
   </td>
@@ -88,69 +88,63 @@ $(document).ready(function(){initNavTree('pgrank_8cpp_source.html',''); initResi
   <div class="headertitle"><div class="title">pgrank.cpp</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/*</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment"> * @project pgrank</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment"> * @authors Andrea Rossoni</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment"> * @file    pgrank.cpp</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment"> * @scope   Calculate rank and save csv results starting from json</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="comment"> */</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;argparse/argparse.hpp&gt;</span></div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;<a class="code" href="pagerank_8hpp.html">pagerank.hpp</a>&gt;</span></div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keywordtype">int</span></div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>main(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span>* argv[])</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>{</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>   argparse::ArgumentParser program(<span class="stringliteral">&quot;pgrank&quot;</span>, <span class="stringliteral">&quot;0.1.0&quot;</span>);</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>   program.add_argument(<span class="stringliteral">&quot;input&quot;</span>).help(<span class="stringliteral">&quot;input json file&quot;</span>);</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>   program.add_argument(<span class="stringliteral">&quot;output&quot;</span>).help(<span class="stringliteral">&quot;output csv file&quot;</span>);</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>   program.add_argument(<span class="stringliteral">&quot;-a&quot;</span>, <span class="stringliteral">&quot;--alpha&quot;</span>)</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>      .help(<span class="stringliteral">&quot;dumping factor&quot;</span>)</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>      .default_value(<a class="code hl_define" href="pagerank_8hpp.html#af5abd28c44c29b7397c84f1fec4b1d84">ALPHA</a>)</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>      .action([](<span class="keyword">const</span> std::string&amp; value) { <span class="keywordflow">return</span> std::stod(value); });</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>   program.add_argument(<span class="stringliteral">&quot;-e&quot;</span>, <span class="stringliteral">&quot;--epsilon&quot;</span>)</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>      .help(<span class="stringliteral">&quot;epsilon convergence error&quot;</span>)</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>      .default_value(<a class="code hl_define" href="pagerank_8hpp.html#a002b2f4894492820fe708b1b7e7c5e70">EPSILON</a>)</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>      .action([](<span class="keyword">const</span> std::string&amp; value) { <span class="keywordflow">return</span> std::stod(value); });</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>   program.add_argument(<span class="stringliteral">&quot;-m&quot;</span>, <span class="stringliteral">&quot;--master&quot;</span>)</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>      .help(<span class="stringliteral">&quot;master key of json&quot;</span>)</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>      .default_value(std::string(<span class="stringliteral">&quot;objects&quot;</span>))</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>      .action([](<span class="keyword">const</span> std::string&amp; value) { <span class="keywordflow">return</span> value; });</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>   program.add_argument(<span class="stringliteral">&quot;-n&quot;</span>, <span class="stringliteral">&quot;--node&quot;</span>)</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>      .help(<span class="stringliteral">&quot;node key of json&quot;</span>)</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>      .default_value(std::string(<span class="stringliteral">&quot;url&quot;</span>));</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>   program.add_argument(<span class="stringliteral">&quot;-nn&quot;</span>, <span class="stringliteral">&quot;--nnode&quot;</span>)</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>      .help(<span class="stringliteral">&quot;neighbors node key of json&quot;</span>)</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>      .default_value(std::string(<span class="stringliteral">&quot;urls&quot;</span>));</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>   program.add_argument(<span class="stringliteral">&quot;-q&quot;</span>, <span class="stringliteral">&quot;--quiet&quot;</span>)</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>      .help(<span class="stringliteral">&quot;no stdout info&quot;</span>)</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>      .default_value(<span class="keyword">false</span>)</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>      .implicit_value(<span class="keyword">true</span>);</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>   <span class="keywordflow">try</span> {</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>      program.parse_args(argc, argv);</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>      std::ofstream ofs(program.get&lt;std::string&gt;(<span class="stringliteral">&quot;output&quot;</span>).c_str());</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>      <span class="keywordflow">if</span> (!ofs)</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>         <span class="keywordflow">throw</span> std::string(<span class="stringliteral">&quot;(main) Invalid output path &lt;&quot;</span>) +</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>            program.get&lt;std::string&gt;(<span class="stringliteral">&quot;output&quot;</span>) + std::string(<span class="stringliteral">&quot;&gt;&quot;</span>);</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>      <a class="code hl_class" href="classPageRank.html">PageRank</a> pgrank(program.get&lt;std::string&gt;(<span class="stringliteral">&quot;input&quot;</span>).c_str(),</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>                      !program.get&lt;<span class="keywordtype">bool</span>&gt;(<span class="stringliteral">&quot;--quiet&quot;</span>),</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>                      program.get&lt;<span class="keywordtype">double</span>&gt;(<span class="stringliteral">&quot;--alpha&quot;</span>),</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>                      program.get&lt;std::string&gt;(<span class="stringliteral">&quot;--master&quot;</span>).c_str(),</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>                      program.get&lt;std::string&gt;(<span class="stringliteral">&quot;--node&quot;</span>).c_str(),</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>                      program.get&lt;std::string&gt;(<span class="stringliteral">&quot;--nnode&quot;</span>).c_str());</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>      pgrank.evoRank(program.get&lt;<span class="keywordtype">double</span>&gt;(<span class="stringliteral">&quot;--epsilon&quot;</span>),</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>                     !program.get&lt;<span class="keywordtype">bool</span>&gt;(<span class="stringliteral">&quot;--quiet&quot;</span>));</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>      pgrank.csvRank(program.get&lt;std::string&gt;(<span class="stringliteral">&quot;output&quot;</span>).c_str(),</div>
+<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &lt;argparse/argparse.hpp&gt;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &lt;<a class="code" href="pagerank_8hpp.html">pagerank.hpp</a>&gt;</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keywordtype">int</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>main(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span>* argv[])</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>{</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>   argparse::ArgumentParser program(<span class="stringliteral">&quot;pgrank&quot;</span>, <span class="stringliteral">&quot;0.1.1&quot;</span>);</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>   program.add_argument(<span class="stringliteral">&quot;input&quot;</span>).help(<span class="stringliteral">&quot;input json file&quot;</span>);</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>   program.add_argument(<span class="stringliteral">&quot;output&quot;</span>).help(<span class="stringliteral">&quot;output csv file&quot;</span>);</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>   program.add_argument(<span class="stringliteral">&quot;-a&quot;</span>, <span class="stringliteral">&quot;--alpha&quot;</span>)</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>      .help(<span class="stringliteral">&quot;dumping factor&quot;</span>)</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>      .default_value(<a class="code hl_define" href="pagerank_8hpp.html#af5abd28c44c29b7397c84f1fec4b1d84">ALPHA</a>)</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>      .action([](<span class="keyword">const</span> std::string&amp; value) { <span class="keywordflow">return</span> std::stod(value); });</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>   program.add_argument(<span class="stringliteral">&quot;-e&quot;</span>, <span class="stringliteral">&quot;--epsilon&quot;</span>)</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>      .help(<span class="stringliteral">&quot;epsilon convergence error&quot;</span>)</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>      .default_value(<a class="code hl_define" href="pagerank_8hpp.html#a002b2f4894492820fe708b1b7e7c5e70">EPSILON</a>)</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>      .action([](<span class="keyword">const</span> std::string&amp; value) { <span class="keywordflow">return</span> std::stod(value); });</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>   program.add_argument(<span class="stringliteral">&quot;-m&quot;</span>, <span class="stringliteral">&quot;--master&quot;</span>)</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>      .help(<span class="stringliteral">&quot;master key of json&quot;</span>)</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>      .default_value(std::string(<span class="stringliteral">&quot;objects&quot;</span>))</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>      .action([](<span class="keyword">const</span> std::string&amp; value) { <span class="keywordflow">return</span> value; });</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>   program.add_argument(<span class="stringliteral">&quot;-n&quot;</span>, <span class="stringliteral">&quot;--node&quot;</span>)</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>      .help(<span class="stringliteral">&quot;node key of json&quot;</span>)</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>      .default_value(std::string(<span class="stringliteral">&quot;url&quot;</span>));</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>   program.add_argument(<span class="stringliteral">&quot;-nn&quot;</span>, <span class="stringliteral">&quot;--nnode&quot;</span>)</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>      .help(<span class="stringliteral">&quot;neighbors node key of json&quot;</span>)</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>      .default_value(std::string(<span class="stringliteral">&quot;urls&quot;</span>));</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>   program.add_argument(<span class="stringliteral">&quot;-q&quot;</span>, <span class="stringliteral">&quot;--quiet&quot;</span>)</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>      .help(<span class="stringliteral">&quot;no stdout info&quot;</span>)</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>      .default_value(<span class="keyword">false</span>)</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>      .implicit_value(<span class="keyword">true</span>);</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>   <span class="keywordflow">try</span> {</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>      program.parse_args(argc, argv);</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>      <a class="code hl_class" href="classPageRank.html">PageRank</a> pgrank(program.get&lt;std::string&gt;(<span class="stringliteral">&quot;input&quot;</span>).c_str(),</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>                      !program.get&lt;<span class="keywordtype">bool</span>&gt;(<span class="stringliteral">&quot;--quiet&quot;</span>),</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>                      program.get&lt;<span class="keywordtype">double</span>&gt;(<span class="stringliteral">&quot;--alpha&quot;</span>),</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>                      program.get&lt;std::string&gt;(<span class="stringliteral">&quot;--master&quot;</span>).c_str(),</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>                      program.get&lt;std::string&gt;(<span class="stringliteral">&quot;--node&quot;</span>).c_str(),</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>                      program.get&lt;std::string&gt;(<span class="stringliteral">&quot;--nnode&quot;</span>).c_str());</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>      pgrank.evoRank(program.get&lt;<span class="keywordtype">double</span>&gt;(<span class="stringliteral">&quot;--epsilon&quot;</span>),</div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>                     !program.get&lt;<span class="keywordtype">bool</span>&gt;(<span class="stringliteral">&quot;--quiet&quot;</span>));</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>   } <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::string&amp; msg) {</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>      fprintf(stderr, <span class="stringliteral">&quot;[ERROR] %s\n&quot;</span>, msg.c_str());</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>      <span class="keywordflow">return</span> EXIT_FAILURE;</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>   } <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::runtime_error&amp; err) {</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>      fprintf(stderr, <span class="stringliteral">&quot;[ERROR] %s\n&quot;</span>, err.what());</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>      <span class="keywordflow">return</span> EXIT_FAILURE;</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>   }</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>   <span class="keywordflow">return</span> EXIT_SUCCESS;</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>}</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>      std::ofstream ofs(program.get&lt;std::string&gt;(<span class="stringliteral">&quot;output&quot;</span>).c_str());</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>      <span class="keywordflow">if</span> (!ofs)</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>         <span class="keywordflow">throw</span> std::string(<span class="stringliteral">&quot;(main) Invalid output path &lt;&quot;</span>) +</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>            program.get&lt;std::string&gt;(<span class="stringliteral">&quot;output&quot;</span>) + std::string(<span class="stringliteral">&quot;&gt;&quot;</span>);</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>      pgrank.csvRank(program.get&lt;std::string&gt;(<span class="stringliteral">&quot;output&quot;</span>).c_str(),</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>                     !program.get&lt;<span class="keywordtype">bool</span>&gt;(<span class="stringliteral">&quot;--quiet&quot;</span>));</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>   } <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::string&amp; msg) {</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>      fprintf(stderr, <span class="stringliteral">&quot;[ERROR] %s\n&quot;</span>, msg.c_str());</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>      <span class="keywordflow">return</span> EXIT_FAILURE;</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>   } <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::runtime_error&amp; err) {</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>      fprintf(stderr, <span class="stringliteral">&quot;[ERROR] %s\n&quot;</span>, err.what());</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>      <span class="keywordflow">return</span> EXIT_FAILURE;</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>   }</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>   <span class="keywordflow">return</span> EXIT_SUCCESS;</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>}</div>
 <div class="ttc" id="aclassPageRank_html"><div class="ttname"><a href="classPageRank.html">PageRank</a></div><div class="ttdoc">PageRank class (for computing pagerank)</div><div class="ttdef"><b>Definition:</b> <a href="pagerank_8hpp_source.html#l00025">pagerank.hpp:26</a></div></div>
 <div class="ttc" id="apagerank_8hpp_html"><div class="ttname"><a href="pagerank_8hpp.html">pagerank.hpp</a></div></div>
 <div class="ttc" id="apagerank_8hpp_html_a002b2f4894492820fe708b1b7e7c5e70"><div class="ttname"><a href="pagerank_8hpp.html#a002b2f4894492820fe708b1b7e7c5e70">EPSILON</a></div><div class="ttdeci">#define EPSILON</div><div class="ttdoc">Default epsilon.</div><div class="ttdef"><b>Definition:</b> <a href="pagerank_8hpp_source.html#l00020">pagerank.hpp:20</a></div></div>
