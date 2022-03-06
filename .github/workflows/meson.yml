@@ -44,7 +44,7 @@ jobs:
       repo: ${{ steps.repo.outputs.repo }}
     steps:
       - name: Checkout Project
-        uses: actions/checkout@v2.4.0
+        uses: actions/checkout@v3
       - name: Get repo name
         id: repo
         run: |
@@ -58,7 +58,7 @@ jobs:
       coverage: ${{ steps.coverage.outputs.coverage }}
     steps:
       - name: Checkout project
-        uses: actions/checkout@v2.4.0
+        uses: actions/checkout@v3
       - name: Install deps
         run: |
           sudo apt update
