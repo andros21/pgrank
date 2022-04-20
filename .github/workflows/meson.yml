@@ -24,16 +24,7 @@ name: Meson CI
       - 'tests/**'
 
 permissions:
-  actions: read
-  checks: read
   contents: read
-  deployments: read
-  issues: read
-  packages: read
-  pull-requests: write
-  repository-projects: read
-  security-events: read
-  statuses: read
 
 jobs:
   pre_ci:
@@ -44,7 +35,7 @@ jobs:
       repo: ${{ steps.repo.outputs.repo }}
     steps:
       - name: Checkout Project
-        uses: actions/checkout@v3
+        uses: actions/checkout@a12a3943b4bdde767164f792f33f40b04645d846
       - name: Get repo name
         id: repo
         run: |
@@ -54,13 +45,16 @@ jobs:
   meson:
     name: Meson Coverage
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
     outputs:
       coverage: ${{ steps.coverage.outputs.coverage }}
     steps:
       - name: Checkout project
-        uses: actions/checkout@v3
+        uses: actions/checkout@a12a3943b4bdde767164f792f33f40b04645d846
       - name: Check Cache
-        uses: actions/cache@v3
+        uses: actions/cache@4b0cf6cc4619e737324ddfcec08fff2413359514
         id: cache
         with:
           path: |
@@ -120,7 +114,7 @@ jobs:
       - name: Meson coverage xml
         run: ninja coverage-xml -C build
       - name: Code coverage summary report
-        uses: irongut/CodeCoverageSummary@v1.2.0
+        uses: irongut/CodeCoverageSummary@5088d5eb315a46ff785c607078606c0b9107e0b6
         with:
           badge: true
           filename: build/meson-logs/coverage.xml
@@ -128,7 +122,7 @@ jobs:
           hide_complexity: true
           output: both
       - name: Add coverage PR comment
-        uses: marocchino/sticky-pull-request-comment@v2.2.0
+        uses: marocchino/sticky-pull-request-comment@39c5b5dc7717447d0cba270cd115037d32d28443
         if: ${{ github.event_name == 'pull_request' }}
         with:
           recreate: true
@@ -156,7 +150,7 @@ jobs:
       # note: Use the output from `coverage` id of `meson` job
       #       Use the output from `repo` ids of `pre_ci` job
       - name: Generate dynamic badge
-        uses: schneegans/dynamic-badges-action@v1.2.0
+        uses: schneegans/dynamic-badges-action@65787a717d156508eec697fb494ae9291728da0f
         with:
           auth: ${{ secrets.GIST_TOKEN }}
           color: ${{

@@ -6,22 +6,12 @@ name: JReleaser
     tags:
       - "v[0-9].[0-9].*"
 
-permissions:
-  actions: read
-  checks: read
-  contents: write
-  deployments: read
-  issues: read
-  packages: read
-  pull-requests: read
-  repository-projects: read
-  security-events: read
-  statuses: read
-
 jobs:
   version:
     name: Get version
     runs-on: ubuntu-latest
+    permissions:
+      contents: none
     outputs:
       ver: ${{ steps.ver.outputs.ver }}
     steps:
@@ -36,13 +26,15 @@ jobs:
     needs:
       - version
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - name: Checkout project
-        uses: actions/checkout@v3
+        uses: actions/checkout@a12a3943b4bdde767164f792f33f40b04645d846
         with:
           fetch-depth: 0
       - name: JReleaser assemble
-        uses: jreleaser/release-action@v2
+        uses: jreleaser/release-action@77fb95c777ffa93ba25e5218e233baafe16a731e
         with:
           version: early-access
           arguments: assemble
@@ -50,7 +42,7 @@ jobs:
           JRELEASER_PROJECT_VERSION: ${{ needs.version.outputs.ver }}
       - name: Upload assemble logs
         if: always()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@6673cd052c4cd6fcf4b4e6e60ea986c889389535
         with:
           name: jreleaser-assemble
           retention-days: 1
@@ -58,7 +50,7 @@ jobs:
             out/jreleaser/trace.log
             out/jreleaser/output.properties
       - name: JReleaser release
-        uses: jreleaser/release-action@v2
+        uses: jreleaser/release-action@77fb95c777ffa93ba25e5218e233baafe16a731e
         with:
           version: early-access
           arguments: release
@@ -67,7 +59,7 @@ jobs:
           JRELEASER_PROJECT_VERSION: ${{ needs.version.outputs.ver }}
       - name: Upload release logs
         if: always()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@6673cd052c4cd6fcf4b4e6e60ea986c889389535
         with:
           name: jreleaser-release
           retention-days: 1
@@ -79,11 +71,13 @@ jobs:
     needs:
       - release
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout project
-        uses: actions/checkout@v3
+        uses: actions/checkout@a12a3943b4bdde767164f792f33f40b04645d846
       - name: Download doxygen-awesome-css theme
-        uses: robinraju/release-downloader@v1.3
+        uses: robinraju/release-downloader@4bdb8ee081c9ee08a35320794dd461312ac9e4ad
         with:
           repository: "jothepro/doxygen-awesome-css"
           latest: true
@@ -96,9 +90,9 @@ jobs:
           rm -f *.tar.gz
           mv *doxygen-awesome-css* doxygen-awesome-css/
       - name: Create html docs
-        uses: mattnotmitt/doxygen-action@v1.9.2
+        uses: mattnotmitt/doxygen-action@592353912f380a976df0007746e939a002cabae2
       - name: Publish to gh-pages
-        uses: peaceiris/actions-gh-pages@v3.8.0
+        uses: peaceiris/actions-gh-pages@b24891da2a683970a75ebe54633f084809cc25c0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: html/
