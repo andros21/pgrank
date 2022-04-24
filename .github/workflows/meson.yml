@@ -150,7 +150,7 @@ jobs:
       # note: Use the output from `coverage` id of `meson` job
       #       Use the output from `repo` ids of `pre_ci` job
       - name: Generate dynamic badge
-        uses: schneegans/dynamic-badges-action@65787a717d156508eec697fb494ae9291728da0f
+        uses: schneegans/dynamic-badges-action@a6775a64878aca0ec9d4cb5b1a4018cb17d5d297
         with:
           auth: ${{ secrets.GIST_TOKEN }}
           color: ${{
