@@ -23,14 +23,13 @@ name: Meson CI
       - 'subprojects/**'
       - 'tests/**'
 
-permissions:
-  contents: read
-
 jobs:
   pre_ci:
     name: Prepare CI env
     if: ${{ github.event_name == 'push' }}
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     outputs:
       repo: ${{ steps.repo.outputs.repo }}
     steps:
@@ -141,6 +140,7 @@ jobs:
       - meson
     if: ${{ github.event_name == 'push' }}
     runs-on: ubuntu-latest
+    permissions: {}
     env:
       gist_id: 0e20cd331d0800e3299298a3868aab7a
     outputs:
@@ -153,25 +153,18 @@ jobs:
         uses: schneegans/dynamic-badges-action@a6775a64878aca0ec9d4cb5b1a4018cb17d5d297
         with:
           auth: ${{ secrets.GIST_TOKEN }}
-          color: ${{
-            needs.meson.outputs.coverage >  90 && 'brightgreen'   ||
-            needs.meson.outputs.coverage >  80 && 'green'         ||
-            needs.meson.outputs.coverage >  70 && 'yellowgreen'   ||
-            needs.meson.outputs.coverage >  60 && 'yellow'        ||
-            needs.meson.outputs.coverage >  50 && 'orange'        ||
-            'red' }}
           filename: ${{ needs.pre_ci.outputs.repo }}__${{ github.ref_name }}.json
           gistID: ${{ env.gist_id }}
           label: Coverage
           message: ${{ needs.meson.outputs.coverage }}%
           namedLogo: github
           style: flat-square
+          valColorRange: ${{ needs.meson.outputs.coverage }}
+          maxColorRange: 100
+          minColorRange: 0
       - name: Badge image URL
-        id: url
         run: |
           URL="https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/${{ github.actor }}/${{ env.gist_id }}/raw/${{ needs.pre_ci.outputs.repo }}__${{ github.ref_name }}.json"
-          MARKDOWN="![Coverage ${{ needs.meson.outputs.coverage }}](${URL})"
+          MARKDOWN="![Coverage](${URL})"
           echo "Badge URL: ${URL}"
           echo "Badge image for Markdown: ${MARKDOWN}"
-          echo "##[set-output name=url;]${URL}"
-          echo "##[set-output name=markdown;]${MARKDOWN}"
