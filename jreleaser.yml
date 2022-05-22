@@ -30,9 +30,6 @@ release:
       preset: conventional-commits
       contributors:
         format: '- {{contributorName}} ({{contributorUsernameAsLink}})'
-      hide:
-        contributors:
-          - 'dependabot[bot]'
 
 assemble:
   archive:
