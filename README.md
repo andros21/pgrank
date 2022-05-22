@@ -2,7 +2,10 @@
 <br>
 <div align="center">
   <a href="https://github.com/andros21/pgrank">
-    <img src="https://user-images.githubusercontent.com/58751603/167304963-dc6f6948-ab4f-4e2a-b382-e9f7a2bd9e76.png" alt="Logo" width="300">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/58751603/169689326-c23a442a-4d40-4f60-9eae-a0a13be9ec2f.png">
+      <img src="https://user-images.githubusercontent.com/58751603/126500738-0ef8e699-4071-441b-b547-46a9c6b3b20a.png" alt="Logo" width="300">
+    </picture>
   </a>
   <br>
   <br>
