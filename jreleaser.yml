@@ -26,10 +26,9 @@ release:
     branch: master
     changelog:
       formatted: ALWAYS
-      format: '- {{commitShortHash}} {{commitTitle}}'
       preset: conventional-commits
       contributors:
-        format: '- {{contributorName}} ({{contributorUsernameAsLink}})'
+        format: '- {{contributorName}}'
 
 assemble:
   archive:
