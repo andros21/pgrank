@@ -1,0 +1,11 @@
+digraph "include/pagerank" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_d44c64559bbebec7f509842c48db8b23 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="include" fontname="Helvetica", fontsize="10", URL="dir_d44c64559bbebec7f509842c48db8b23.html"]
+  dir_fcb4fb62a8205f74db446b6c4c1eb152 [shape=box, label="pagerank", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_fcb4fb62a8205f74db446b6c4c1eb152.html"];
+  }
+  dir_a0299618b49a9d5a364bfd17779fcdfc [shape=box label="json2mat" URL="dir_a0299618b49a9d5a364bfd17779fcdfc.html"];
+  dir_fcb4fb62a8205f74db446b6c4c1eb152->dir_a0299618b49a9d5a364bfd17779fcdfc [headlabel="1", labeldistance=1.5 headhref="dir_000002_000001.html"];
+}
