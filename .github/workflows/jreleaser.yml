@@ -34,7 +34,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: JReleaser assemble
-        uses: jreleaser/release-action@77fb95c777ffa93ba25e5218e233baafe16a731e
+        uses: jreleaser/release-action@9d00b8a3e38acac18558faf7152ca24368ed0d9f
         with:
           version: early-access
           arguments: assemble
@@ -50,7 +50,7 @@ jobs:
             out/jreleaser/trace.log
             out/jreleaser/output.properties
       - name: JReleaser release
-        uses: jreleaser/release-action@77fb95c777ffa93ba25e5218e233baafe16a731e
+        uses: jreleaser/release-action@9d00b8a3e38acac18558faf7152ca24368ed0d9f
         with:
           version: early-access
           arguments: release
