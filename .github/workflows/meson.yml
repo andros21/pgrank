@@ -113,7 +113,7 @@ jobs:
       - name: Meson coverage xml
         run: ninja coverage-xml -C build
       - name: Code coverage summary report
-        uses: irongut/CodeCoverageSummary@5088d5eb315a46ff785c607078606c0b9107e0b6
+        uses: irongut/CodeCoverageSummary@51cc3a756ddcd398d447c044c02cb6aa83fdae95
         with:
           badge: true
           filename: build/meson-logs/coverage.xml
