@@ -16,7 +16,7 @@ jobs:
       - name: Checkout project
         uses: actions/checkout@2541b1294d2704b0964813337f33b291d3f8596b
       - name: Create release
-        uses: softprops/action-gh-release@6232f0b438cb856c39d14f8743e3a7c99fc879af
+        uses: softprops/action-gh-release@1e07f4398721186383de40550babbdf2b84acfc5
         with:
           generate_release_notes: true
   doxygen:
@@ -49,7 +49,7 @@ jobs:
           sub=$(sed -n "/<a href=\"https:\/\/github.com\/andros21\/pgrank\">/,/<\/a>/p" README.md)
           sed -i "s|<a href=\"https://github.com/andros21/pgrank\">\(.*\)</a>|$(echo ${sub})|" html/index.html
       - name: Publish to gh-pages
-        uses: peaceiris/actions-gh-pages@b24891da2a683970a75ebe54633f084809cc25c0
+        uses: peaceiris/actions-gh-pages@068dc23d9710f1ba62e86896f84735d869951305
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: html/
