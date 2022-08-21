@@ -49,7 +49,7 @@ jobs:
           sub=$(sed -n "/<a href=\"https:\/\/github.com\/andros21\/pgrank\">/,/<\/a>/p" README.md)
           sed -i "s|<a href=\"https://github.com/andros21/pgrank\">\(.*\)</a>|$(echo ${sub})|" html/index.html
       - name: Publish to gh-pages
-        uses: peaceiris/actions-gh-pages@b24891da2a683970a75ebe54633f084809cc25c0
+        uses: peaceiris/actions-gh-pages@068dc23d9710f1ba62e86896f84735d869951305
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: html/
