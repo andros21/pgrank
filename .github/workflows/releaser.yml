@@ -14,7 +14,7 @@ jobs:
       contents: write
     steps:
       - name: Checkout project
-        uses: actions/checkout@2541b1294d2704b0964813337f33b291d3f8596b
+        uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8
       - name: Create release
         uses: softprops/action-gh-release@1e07f4398721186383de40550babbdf2b84acfc5
         with:
@@ -28,7 +28,7 @@ jobs:
       contents: write
     steps:
       - name: Checkout project
-        uses: actions/checkout@2541b1294d2704b0964813337f33b291d3f8596b
+        uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8
       - name: Download doxygen-awesome-css theme
         uses: robinraju/release-downloader@d5673a24e65c6d286599c0ac7019805d32e15c0b
         with:
