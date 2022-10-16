@@ -40,7 +40,7 @@ jobs:
         run: |
           REPO_NAME=${GITHUB_REPOSITORY#$GITHUB_REPOSITORY_OWNER/}
           echo "Repo: ${REPO_NAME}"
-          echo "##[set-output name=repo;]${REPO_NAME}"
+          echo "repo=${REPO_NAME}" >> $GITHUB_OUTPUT
   meson:
     name: Meson Coverage
     runs-on: ubuntu-latest
@@ -132,7 +132,7 @@ jobs:
         run: |
           COVERAGE=$(cat build/meson-logs/coverage.txt \
                       | grep "TOTAL" | awk '{print $4}' | sed 's/%//')
-          echo "##[set-output name=coverage;]${COVERAGE}"
+          echo "coverage=${COVERAGE}" >> $GITHUB_OUTPUT
   badge:
     name: Coverage Badge
     needs:
