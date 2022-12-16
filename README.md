@@ -10,13 +10,13 @@
   <br>
   <br>
   <a href="https://github.com/andros21/pgrank/actions/workflows/meson.yml">
-    <img src="https://img.shields.io/github/workflow/status/andros21/pgrank/Meson%20CI/master?label=Meson%20CI&logo=github&style=flat-square" alt="Meson CI">
+    <img src="https://img.shields.io/github/actions/workflow/status/andros21/pgrank/meson.yml?branch=master&label=Meson%20CI&logo=github&style=flat-square" alt="Meson CI">
   </a>
   <a href="https://github.com/andros21/pgrank/actions/workflows/meson.yml">
     <img src="https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/andros21/0e20cd331d0800e3299298a3868aab7a/raw/pgrank__master.json" alt="Coverage">
   </a>
   <a href="https://github.com/andros21/pgrank/actions/workflows/releaser.yml">
-    <img src="https://img.shields.io/github/workflow/status/andros21/pgrank/Releaser?label=Releaser%20CD&logo=github&style=flat-square" alt="Releaser CD">
+    <img src="https://github.com/andros21/pgrank/actions/workflows/releaser.yml/badge.svg" alt="Releaser CD">
   </a>
   <br>
   <a href="https://github.com/andros21/pgrank/releases">
