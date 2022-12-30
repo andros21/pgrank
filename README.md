@@ -16,7 +16,7 @@
     <img src="https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/andros21/0e20cd331d0800e3299298a3868aab7a/raw/pgrank__master.json" alt="Coverage">
   </a>
   <a href="https://github.com/andros21/pgrank/actions/workflows/releaser.yml">
-    <img src="https://github.com/andros21/pgrank/actions/workflows/releaser.yml/badge.svg" alt="Releaser CD">
+    <img src="https://img.shields.io/github/actions/workflow/status/andros21/pgrank/releaser.yml?label=Releaser%20CD&logo=github&style=flat-square" alt="Releaser CD">
   </a>
   <br>
   <a href="https://github.com/andros21/pgrank/releases">
