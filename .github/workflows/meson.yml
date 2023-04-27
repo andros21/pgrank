@@ -38,9 +38,9 @@ jobs:
       - name: Get repo name
         id: repo
         run: |
-          REPO_NAME=${GITHUB_REPOSITORY#$GITHUB_REPOSITORY_OWNER/}
+          REPO_NAME="${GITHUB_REPOSITORY#"$GITHUB_REPOSITORY_OWNER"/}"
           echo "Repo: ${REPO_NAME}"
-          echo "repo=${REPO_NAME}" >> $GITHUB_OUTPUT
+          echo "repo=${REPO_NAME}" >> "$GITHUB_OUTPUT"
   meson:
     name: Meson Coverage
     runs-on: ubuntu-latest
@@ -75,15 +75,16 @@ jobs:
         run: mkdir -p "$HOME/.local/lib/pkgconfig"
       - name: Setup some envs
         run: |
-          echo "HOME=$HOME" >> $GITHUB_ENV
-          echo "PATH=$PATH:$HOME/.local/bin" >> $GITHUB_ENV
-          echo "LD_LIBRARY_PATH=$HOME/.local/lib" >> $GITHUB_ENV
-          echo "PKG_CONFIG_PATH=$HOME/.local/lib/pkgconfig" >> $GITHUB_ENV
+          # shellcheck disable=SC2129
+          echo "HOME=$HOME" >> "$GITHUB_ENV"
+          echo "PATH=$PATH:$HOME/.local/bin" >> "$GITHUB_ENV"
+          echo "LD_LIBRARY_PATH=$HOME/.local/lib" >> "$GITHUB_ENV"
+          echo "PKG_CONFIG_PATH=$HOME/.local/lib/pkgconfig" >> "$GITHUB_ENV"
       # note: armadillo.pc not shipped by libarmadillo-devel
       - name: Create armadillo.pc
         if: steps.cache.outputs.cache-hit != 'true'
         run: |
-          cat > $PKG_CONFIG_PATH/armadillo.pc << EOF
+          cat > "$PKG_CONFIG_PATH/armadillo.pc" << EOF
           libdir=/usr/include
           includedir=/usr/lib
           Name: armadillo
@@ -95,7 +96,7 @@ jobs:
           EOF
       - name: Meson build and test
         run: |
-          meson setup build --prefix $HOME/.local \
+          meson setup build --prefix "$HOME/.local" \
                             --libdir lib \
                             -Dtest=true \
                             -Db_coverage=true
@@ -130,9 +131,8 @@ jobs:
         if: ${{ github.event_name == 'push' }}
         id: coverage
         run: |
-          COVERAGE=$(cat build/meson-logs/coverage.txt \
-                      | grep "TOTAL" | awk '{print $4}' | sed 's/%//')
-          echo "coverage=${COVERAGE}" >> $GITHUB_OUTPUT
+          COVERAGE="$(awk '/TOTAL/ {print $4}' build/meson-logs/coverage.txt | sed 's/%//')"
+          echo "coverage=${COVERAGE}" >> "$GITHUB_OUTPUT"
   badge:
     name: Coverage Badge
     needs:
@@ -143,9 +143,6 @@ jobs:
     permissions: {}
     env:
       gist_id: 0e20cd331d0800e3299298a3868aab7a
-    outputs:
-      markdown: ${{ steps.url.outputs.markdown }}
-      url: ${{ steps.url.outputs.url }}
     steps:
       # note: Use the output from `coverage` id of `meson` job
       #       Use the output from `repo` ids of `pre_ci` job

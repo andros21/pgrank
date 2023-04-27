@@ -39,15 +39,15 @@ jobs:
           out-file-path: "."
       - name: Extract doxygen-awesome-css
         run: |
-          tar xvf *.tar.gz
-          rm -f *.tar.gz
-          mv *doxygen-awesome-css* doxygen-awesome-css/
+          tar xvf ./*.tar.gz
+          rm -f ./*.tar.gz
+          mv ./*doxygen-awesome-css* doxygen-awesome-css/
       - name: Create html docs
         run: |
           sudo apt install doxygen
           doxygen
-          sub=$(sed -n "/<a href=\"https:\/\/github.com\/andros21\/pgrank\">/,/<\/a>/p" README.md)
-          sed -i "s|<a href=\"https://github.com/andros21/pgrank\">\(.*\)</a>|$(echo ${sub})|" html/index.html
+          sub="$(sed -n "/<a href=\"https:\/\/github.com\/andros21\/pgrank\">/,/<\/a>/p" README.md)"
+          sed -i "s|<a href=\"https://github.com/andros21/pgrank\">\(.*\)</a>|${sub}|" html/index.html
       - name: Publish to gh-pages
         uses: peaceiris/actions-gh-pages@373f7f263a76c20808c831209c920827a82a2847
         with:
