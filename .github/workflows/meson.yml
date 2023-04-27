@@ -28,13 +28,10 @@ jobs:
     name: Prepare CI env
     if: ${{ github.event_name == 'push' }}
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
+    permissions: {}
     outputs:
       repo: ${{ steps.repo.outputs.repo }}
     steps:
-      - name: Checkout Project
-        uses: actions/checkout@8e5e7e5ab8b370d6c329ec480221332ada57f0ab
       - name: Get repo name
         id: repo
         run: |
