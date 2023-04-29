@@ -2,6 +2,37 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v0.1.5] - 2023-04-29
+
+### Build
+
+- bump actions/cache from 3.2.1 to 3.2.2 ([#53](https://github.com/andros21/pgrank/issues/53))
+- bump meson from 0.64.1 to 1.0.0 ([#54](https://github.com/andros21/pgrank/issues/54))
+- bump actions/checkout from 3.2.0 to 3.3.0 ([#56](https://github.com/andros21/pgrank/issues/56))
+- bump peaceiris/actions-gh-pages from 3.9.0 to 3.9.1 ([#55](https://github.com/andros21/pgrank/issues/55))
+- bump actions/cache from 3.2.2 to 3.2.3 ([#57](https://github.com/andros21/pgrank/issues/57))
+- bump peaceiris/actions-gh-pages from 3.9.1 to 3.9.2 ([#58](https://github.com/andros21/pgrank/issues/58))
+- bump actions/cache from 3.2.3 to 3.2.4 ([#59](https://github.com/andros21/pgrank/issues/59))
+- bump actions/cache from 3.2.4 to 3.2.5 ([#60](https://github.com/andros21/pgrank/issues/60))
+- bump marocchino/sticky-pull-request-comment ([#61](https://github.com/andros21/pgrank/issues/61))
+- bump actions/cache from 3.2.5 to 3.2.6 ([#62](https://github.com/andros21/pgrank/issues/62))
+- bump meson from 1.0.0 to 1.0.1 ([#63](https://github.com/andros21/pgrank/issues/63))
+- bump actions/cache from 3.2.6 to 3.3.1 ([#66](https://github.com/andros21/pgrank/issues/66))
+- bump actions/checkout from 3.3.0 to 3.4.0 ([#65](https://github.com/andros21/pgrank/issues/65))
+- bump actions/checkout from 3.4.0 to 3.5.0 ([#67](https://github.com/andros21/pgrank/issues/67))
+- bump peaceiris/actions-gh-pages from 3.9.2 to 3.9.3 ([#69](https://github.com/andros21/pgrank/issues/69))
+- bump gcovr from 5.1 to 6.0 ([#68](https://github.com/andros21/pgrank/issues/68))
+- bump actions/checkout from 3.5.0 to 3.5.2 ([#70](https://github.com/andros21/pgrank/issues/70))
+- bump marocchino/sticky-pull-request-comment ([#71](https://github.com/andros21/pgrank/issues/71))
+- fix shellcheck warnings/errors
+- pre_ci job no permission no checkout
+- add git-cliff changelog to releases
+- bump pgrank from v0.1.4 to v0.1.5
+
+### Miscellaneous Tasks
+
+- add `git-cliff` generated changelog
+
 ## [v0.1.4] - 2022-12-31
 
 ### Bug Fixes
