@@ -1,11 +1,13 @@
 """CaiBgRifugiCrawler class inherits from CrawlSpider"""
 
+import os
 import re
-import urllib.request
+from urllib.parse import urljoin
+from urllib.request import urlopen
 
 from scrapy.linkextractors import LinkExtractor
 from scrapy.spiders import CrawlSpider, Rule
-from w3lib.url import url_query_cleaner, urljoin
+from w3lib.url import url_query_cleaner
 
 
 def process_links(links):
@@ -17,16 +19,18 @@ def process_links(links):
 
 class CaiBgRifugiCrawler(CrawlSpider):
     name = "caibg_rifugi"
-    allowed_domains = ["geoportale.caibergamo.it"]
+    allowed_domains = ["www.caibergamo.it"]
     start_urls = [
-        "http://geoportale.caibergamo.it/it/rifugi-e-bivacchi/",
-        "http://geoportale.caibergamo.it/it/rifugi-e-bivacchi?page=1/",
-        "http://geoportale.caibergamo.it/it/rifugi-e-bivacchi?page=2/",
+        "https://www.caibergamo.it/geoportale/rifugi-bivacchi",
+        "https://www.caibergamo.it/geoportale/rifugi-bivacchi?q=/geoportale/rifugi-bivacchi&title=&field_zona_orobie_target_id=All&field_proprieta_value=CAIBG&field_tipo_rifugio_value=All&page=0",
+        "https://www.caibergamo.it/geoportale/rifugi-bivacchi?q=/geoportale/rifugi-bivacchi&title=&field_zona_orobie_target_id=All&field_proprieta_value=CAIBG&field_tipo_rifugio_value=All&page=1",
     ]
     rules = (
         Rule(
             LinkExtractor(
-                allow=(re.escape("http://geoportale.caibergamo.it/it/rifugio/"),)
+                allow=(
+                    re.escape("https://www.caibergamo.it/geoportale/rifugi-bivacchi/"),
+                )
             ),
             process_links=process_links,
             callback="parse_item",
@@ -37,14 +41,14 @@ class CaiBgRifugiCrawler(CrawlSpider):
     def parse_item(self, response):
         return {
             "url": response.url,
-            "name": response.xpath("//div[@class='section']//h1/text()")[0].get(),
+            "name": os.path.basename(response.url).replace("-", " ").title(),
             "zone": response.xpath(
-                "//div[@class='field field-name-field-zona-orobie field-type-taxonomy-term-reference field-label-inline clearfix']//a/text()"
+                "//div[@class='field field--name-field-zona-orobie field--type-entity-reference field--label-hidden field__items']//a/text()"
             ).get(),
             "urls": [
-                urllib.request.urlopen(urljoin(response.url, path)).geturl()
+                urlopen(urljoin(response.url, path)).geturl()
                 for path in response.xpath(
-                    "//div[@class='field field-name-field-accesso field-type-node-reference field-label-hidden']//a/@href"
+                    "//div[@class='field field--name-field-accesso field--type-entity-reference field--label-hidden field__items']//a/@href"
                 ).extract()
             ],
         }

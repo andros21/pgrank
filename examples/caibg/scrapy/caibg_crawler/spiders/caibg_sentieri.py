@@ -1,11 +1,12 @@
 """CaiBgSentieriCrawler class inherits from CrawlSpider"""
 
 import re
-import urllib.request
+from urllib.parse import urljoin
+from urllib.request import urlopen
 
 from scrapy.linkextractors import LinkExtractor
 from scrapy.spiders import CrawlSpider, Rule
-from w3lib.url import url_query_cleaner, urljoin
+from w3lib.url import url_query_cleaner
 
 
 def process_links(links):
@@ -17,34 +18,39 @@ def process_links(links):
 
 class CaiBgSentieriCrawler(CrawlSpider):
     name = "caibg_sentieri"
-    allowed_domains = ["geoportale.caibergamo.it"]
+    allowed_domains = ["www.caibergamo.it"]
     start_urls = [
-        "http://geoportale.caibergamo.it/it/sentieri",
-        "http://geoportale.caibergamo.it/it/sentieri?page=1",
-        "http://geoportale.caibergamo.it/it/sentieri?page=2",
-        "http://geoportale.caibergamo.it/it/sentieri?page=3",
-        "http://geoportale.caibergamo.it/it/sentieri?page=4",
-        "http://geoportale.caibergamo.it/it/sentieri?page=5",
-        "http://geoportale.caibergamo.it/it/sentieri?page=6",
-        "http://geoportale.caibergamo.it/it/sentieri?page=7",
-        "http://geoportale.caibergamo.it/it/sentieri?page=8",
-        "http://geoportale.caibergamo.it/it/sentieri?page=9",
-        "http://geoportale.caibergamo.it/it/sentieri?page=10",
-        "http://geoportale.caibergamo.it/it/sentieri?page=11",
-        "http://geoportale.caibergamo.it/it/sentieri?page=12",
-        "http://geoportale.caibergamo.it/it/sentieri?page=13",
-        "http://geoportale.caibergamo.it/it/sentieri?page=14",
-        "http://geoportale.caibergamo.it/it/sentieri?page=15",
-        "http://geoportale.caibergamo.it/it/sentieri?page=16",
-        "http://geoportale.caibergamo.it/it/sentieri?page=17",
+        "https://www.caibergamo.it/geoportale/sentieri",
+        "https://www.caibergamo.it/geoportale/sentieri?q=/geoportale/sentieri&title=&field_zona_orobie_target_id=All&field_difficolta_escursionistica_target_id=All&page=0",
+        "https://www.caibergamo.it/geoportale/sentieri?q=/geoportale/sentieri&title=&field_zona_orobie_target_id=All&field_difficolta_escursionistica_target_id=All&page=1",
+        "https://www.caibergamo.it/geoportale/sentieri?q=/geoportale/sentieri&title=&field_zona_orobie_target_id=All&field_difficolta_escursionistica_target_id=All&page=2",
+        "https://www.caibergamo.it/geoportale/sentieri?q=/geoportale/sentieri&title=&field_zona_orobie_target_id=All&field_difficolta_escursionistica_target_id=All&page=3",
+        "https://www.caibergamo.it/geoportale/sentieri?q=/geoportale/sentieri&title=&field_zona_orobie_target_id=All&field_difficolta_escursionistica_target_id=All&page=4",
+        "https://www.caibergamo.it/geoportale/sentieri?q=/geoportale/sentieri&title=&field_zona_orobie_target_id=All&field_difficolta_escursionistica_target_id=All&page=5",
+        "https://www.caibergamo.it/geoportale/sentieri?q=/geoportale/sentieri&title=&field_zona_orobie_target_id=All&field_difficolta_escursionistica_target_id=All&page=6",
+        "https://www.caibergamo.it/geoportale/sentieri?q=/geoportale/sentieri&title=&field_zona_orobie_target_id=All&field_difficolta_escursionistica_target_id=All&page=7",
+        "https://www.caibergamo.it/geoportale/sentieri?q=/geoportale/sentieri&title=&field_zona_orobie_target_id=All&field_difficolta_escursionistica_target_id=All&page=8",
+        "https://www.caibergamo.it/geoportale/sentieri?q=/geoportale/sentieri&title=&field_zona_orobie_target_id=All&field_difficolta_escursionistica_target_id=All&page=9",
+        "https://www.caibergamo.it/geoportale/sentieri?q=/geoportale/sentieri&title=&field_zona_orobie_target_id=All&field_difficolta_escursionistica_target_id=All&page=10",
+        "https://www.caibergamo.it/geoportale/sentieri?q=/geoportale/sentieri&title=&field_zona_orobie_target_id=All&field_difficolta_escursionistica_target_id=All&page=11",
+        "https://www.caibergamo.it/geoportale/sentieri?q=/geoportale/sentieri&title=&field_zona_orobie_target_id=All&field_difficolta_escursionistica_target_id=All&page=12",
+        "https://www.caibergamo.it/geoportale/sentieri?q=/geoportale/sentieri&title=&field_zona_orobie_target_id=All&field_difficolta_escursionistica_target_id=All&page=13",
+        "https://www.caibergamo.it/geoportale/sentieri?q=/geoportale/sentieri&title=&field_zona_orobie_target_id=All&field_difficolta_escursionistica_target_id=All&page=14",
+        "https://www.caibergamo.it/geoportale/sentieri?q=/geoportale/sentieri&title=&field_zona_orobie_target_id=All&field_difficolta_escursionistica_target_id=All&page=15",
+        "https://www.caibergamo.it/geoportale/sentieri?q=/geoportale/sentieri&title=&field_zona_orobie_target_id=All&field_difficolta_escursionistica_target_id=All&page=16",
+        "https://www.caibergamo.it/geoportale/sentieri?q=/geoportale/sentieri&title=&field_zona_orobie_target_id=All&field_difficolta_escursionistica_target_id=All&page=17",
+        "https://www.caibergamo.it/geoportale/sentieri?q=/geoportale/sentieri&title=&field_zona_orobie_target_id=All&field_difficolta_escursionistica_target_id=All&page=18",
+        "https://www.caibergamo.it/geoportale/sentieri?q=/geoportale/sentieri&title=&field_zona_orobie_target_id=All&field_difficolta_escursionistica_target_id=All&page=19",
+        "https://www.caibergamo.it/geoportale/sentieri?q=/geoportale/sentieri&title=&field_zona_orobie_target_id=All&field_difficolta_escursionistica_target_id=All&page=20",
+        "https://www.caibergamo.it/geoportale/sentieri?q=/geoportale/sentieri&title=&field_zona_orobie_target_id=All&field_difficolta_escursionistica_target_id=All&page=21",
+        "https://www.caibergamo.it/geoportale/sentieri?q=/geoportale/sentieri&title=&field_zona_orobie_target_id=All&field_difficolta_escursionistica_target_id=All&page=22",
+        "https://www.caibergamo.it/geoportale/sentieri?q=/geoportale/sentieri&title=&field_zona_orobie_target_id=All&field_difficolta_escursionistica_target_id=All&page=23",
+        "https://www.caibergamo.it/geoportale/sentieri?q=/geoportale/sentieri&title=&field_zona_orobie_target_id=All&field_difficolta_escursionistica_target_id=All&page=24",
     ]
     rules = (
         Rule(
             LinkExtractor(
-                allow=(
-                    re.escape("http://geoportale.caibergamo.it/it/sentiero/"),
-                    re.escape("http://geoportale.caibergamo.it/it/node/"),
-                )
+                allow=(re.escape("https://www.caibergamo.it/geoportale/sentieri/"),)
             ),
             process_links=process_links,
             callback="parse_item",
@@ -55,14 +61,17 @@ class CaiBgSentieriCrawler(CrawlSpider):
     def parse_item(self, response):
         return {
             "url": response.url,
-            "name": response.xpath("//div[@class='section']//h1/text()").get(),
+            "name": response.xpath(".//title/text()").get().split(" | ")[0],
             "zone": response.xpath(
-                "//div[@class='field field-name-field-zona-orobie field-type-taxonomy-term-reference field-label-inline clearfix']//a/text()"
+                "//div[@class='field field--name-field-zona-orobie field--type-entity-reference field--label-inline clearfix']//a/text()"
             ).get(),
             "urls": [
-                urllib.request.urlopen(urljoin(response.url, path)).geturl()
+                urlopen(urljoin(response.url, path))
+                .geturl()
+                .replace("/en/", "/")
+                .replace("/de/", "/")
                 for path in response.xpath(
-                    "//div[@class='field field-name-field-sentieri-vicini field-type-node-reference field-label-hidden']//a/@href"
+                    "//div[@class='field field--name-field-sentieri-vicini field--type-entity-reference field--label-hidden field__items']//a/@href"
                 ).extract()
             ],
         }
