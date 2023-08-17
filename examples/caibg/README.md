@@ -6,12 +6,12 @@ Using [`scrapy`](https://scrapy.org/) web crawl capabilities with two custom [sp
 
 ```shell
 pushd scrapy
-scrapy crawl caibg_rifugi   --nolog -O ../caibg-rifugi.json
-scrapy crawl caibg_sentieri --nolog -O ../caibg-sentieri.json
+scrapy crawl caibg_rifugi   --nolog -O ../data/caibg-rifugi.json
+scrapy crawl caibg_sentieri --nolog -O ../data/caibg-sentieri.json
 popd
-jq -s '.[0] + .[1]' caibg_rifugi.json caibg_sentieri.json \
+jq -s '.[0] + .[1]' data/caibg_rifugi.json data/caibg_sentieri.json \
    | jq '{"objects": .}' \
-   > caibg.json
+   > data/caibg.json
 ```
 
 And glue together the results in `caibg.json`, a perfect graph of links between these two sub domains, ready to be parsed by `pgrank`
@@ -19,7 +19,7 @@ And glue together the results in `caibg.json`, a perfect graph of links between 
 ### Output data
 
 ```shell
-pgrank caibg.json caibg.csv
+pgrank data/caibg.json data/caibg.csv
 ```
 
 The result is a `csv` file contains pageranks in the same order of the given input url nodes from `json` ... That's it. `pgrank` app only compute intensive tasks, future analysis can be delegated to more friendly framework, such as `pandas`

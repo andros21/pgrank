@@ -8,9 +8,9 @@ from pandas import read_csv
 
 if __name__ == "__main__":
     try:
-        df = read_csv("./caibg.csv", header=None, names=["pgrank"])
+        df = read_csv("./data/caibg.csv", header=None, names=["pgrank"])
         df["score"] = (df["pgrank"] / df["pgrank"].min()).round(1)
-        with open("./caibg.json", "r") as fs:
+        with open("./data/caibg.json", "r") as fs:
             caibg_dict = json.load(fs)
         name = [f"[{el['name']}]({el['url']})" for el in caibg_dict["objects"]]
         zone = [el["zone"] for el in caibg_dict["objects"]]
