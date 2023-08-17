@@ -61,7 +61,9 @@ jobs:
           doxygen
           sub="$(sed -n "/<a href=\"https:\/\/github.com\/andros21\/pgrank\">/,/<\/a>/p" README.md)"
           sed -i "s|<a href=\"https://github.com/andros21/pgrank\">\(.*\)</a>|$(echo ${sub})|" html/index.html
-      - name: Publish to gh-pages
+          # add cyto.js examples
+          cp -r examples/caibg/cyto/ html/caibg/
+      - name: Publish to gh-pages (main)
         uses: peaceiris/actions-gh-pages@373f7f263a76c20808c831209c920827a82a2847
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -93,5 +95,5 @@ jobs:
         uses: EndBug/add-and-commit@1bad3abcf0d6ec49a5857d124b0bfb52dc7bb081
         with:
           message: "chore(CHANGELOG): add pgrank ${{ env.TAG }} changes"
-          add: 'CHANGELOG.md'
+          add: "CHANGELOG.md"
           new_branch: master
