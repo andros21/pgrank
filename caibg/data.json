@@ -1,0 +1,7199 @@
+{
+  "data": [],
+  "directed": false,
+  "multigraph": false,
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "id": "0",
+          "value": 0.0009077604716523565,
+          "name": "BLN",
+          "full_name": "Baita Lago Nero",
+          "zone_color": "#9AAAB1",
+          "zone": "Alta Val Seriana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/rifugi-bivacchi/baita-lago-nero"
+        }
+      },
+      {
+        "data": {
+          "id": "395",
+          "value": 0.0026007732759362047,
+          "name": "268",
+          "full_name": "Valgoglio - Capanna Lago Nero - Lago d'Aviasco",
+          "zone_color": "#9AAAB1",
+          "zone": "Alta Val Seriana",
+          "rank": "2.9",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/268"
+        }
+      },
+      {
+        "data": {
+          "id": "396",
+          "value": 0.0012935589449572075,
+          "name": "267",
+          "full_name": "Lago Nero - Val Sanguigno - Valgoglio (centrale ENEL)",
+          "zone_color": "#9AAAB1",
+          "zone": "Alta Val Seriana",
+          "rank": "1.4",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/267"
+        }
+      },
+      {
+        "data": {
+          "id": "3",
+          "value": 0.0009077604716523565,
+          "name": "RCMC",
+          "full_name": "Rifugio Carlo Medici Cassinelli",
+          "zone_color": "#78A6E7",
+          "zone": "Val Seriana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/rifugi-bivacchi/rifugio-carlo-medici-cassinelli"
+        }
+      },
+      {
+        "data": {
+          "id": "42",
+          "value": 0.002541360107262281,
+          "name": "316",
+          "full_name": "Cantoniera della Presolana - Monte Visolo",
+          "zone_color": "#9AAAB1",
+          "zone": "Alta Val Seriana",
+          "rank": "2.8",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/316"
+        }
+      },
+      {
+        "data": {
+          "id": "45",
+          "value": 0.0016793574182620591,
+          "name": "315",
+          "full_name": "Passo della Presolana - Grotta dei Pagani",
+          "zone_color": "#9AAAB1",
+          "zone": "Alta Val Seriana",
+          "rank": "1.9",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/315"
+        }
+      },
+      {
+        "data": {
+          "id": "4",
+          "value": 0.0009077604716523565,
+          "name": "RB",
+          "full_name": "Rifugio Benigni",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/rifugi-bivacchi/rifugio-benigni"
+        }
+      },
+      {
+        "data": {
+          "id": "350",
+          "value": 0.005742905011070436,
+          "name": "108",
+          "full_name": "Cusio (Sciocc) - Rifugio Benigni",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "6.3",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/108"
+        }
+      },
+      {
+        "data": {
+          "id": "428",
+          "value": 0.0034896714450787496,
+          "name": "101_4",
+          "full_name": "Rifugio Grassi - Rifugio Benigni",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "3.8",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/101_4"
+        }
+      },
+      {
+        "data": {
+          "id": "416",
+          "value": 0.0029752734806722807,
+          "name": "107",
+          "full_name": "Ornica - Passo di Salmurano",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "3.3",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/107"
+        }
+      },
+      {
+        "data": {
+          "id": "426",
+          "value": 0.008001261544978874,
+          "name": "101_5",
+          "full_name": "Rifugio Benigni - Ca' San Marco",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "8.8",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/101_5"
+        }
+      },
+      {
+        "data": {
+          "id": "5",
+          "value": 0.0009077604716523565,
+          "name": "RLA",
+          "full_name": "Rifugio Luigi Albani",
+          "zone_color": "#D95562",
+          "zone": "Val di Scalve",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/rifugi-bivacchi/rifugio-luigi-albani"
+        }
+      },
+      {
+        "data": {
+          "id": "244",
+          "value": 0.0010620798609742967,
+          "name": "402",
+          "full_name": "Colere - Rifugio Albani",
+          "zone_color": "#D95562",
+          "zone": "Val di Scalve",
+          "rank": "1.2",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/402"
+        }
+      },
+      {
+        "data": {
+          "id": "245",
+          "value": 0.0028788859332316598,
+          "name": "403",
+          "full_name": "Colere (Carbonera) - Rifugio Albani",
+          "zone_color": "#D95562",
+          "zone": "Val di Scalve",
+          "rank": "3.2",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/403"
+        }
+      },
+      {
+        "data": {
+          "id": "294",
+          "value": 0.0017491870970873225,
+          "name": "311",
+          "full_name": "Rifugio Albani - Baite del M\u00f6schel - Colle Palazzo - Ardesio",
+          "zone_color": "#9AAAB1",
+          "zone": "Alta Val Seriana",
+          "rank": "1.9",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/311"
+        }
+      },
+      {
+        "data": {
+          "id": "173",
+          "value": 0.0013630027063993302,
+          "name": "326",
+          "full_name": "Rifugio Albani - Monte Visolo (ferrata della Porta)",
+          "zone_color": "#78A6E7",
+          "zone": "Val Seriana",
+          "rank": "1.5",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/326"
+        }
+      },
+      {
+        "data": {
+          "id": "247",
+          "value": 0.005763793761540337,
+          "name": "401",
+          "full_name": "Passo della Manina - Rifugio Albani - M. Visolo",
+          "zone_color": "#78A6E7",
+          "zone": "Val Seriana",
+          "rank": "6.3",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/401"
+        }
+      },
+      {
+        "data": {
+          "id": "7",
+          "value": 0.0009077604716523565,
+          "name": "RM",
+          "full_name": "Rifugio Magnolini",
+          "zone_color": "#78A6E7",
+          "zone": "Val Seriana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/rifugi-bivacchi/rifugio-magnolini"
+        }
+      },
+      {
+        "data": {
+          "id": "72",
+          "value": 0.0011649594538555906,
+          "name": "559",
+          "full_name": "San Vigilio (Rogno) - Rifugio Magnolini",
+          "zone_color": "#6F5F78",
+          "zone": "Monte Bronzone - Lago d'Iseo",
+          "rank": "1.3",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/559"
+        }
+      },
+      {
+        "data": {
+          "id": "98",
+          "value": 0.0011649594538555906,
+          "name": "551",
+          "full_name": "Lovere - Rifugio Magnolini",
+          "zone_color": "#6F5F78",
+          "zone": "Monte Bronzone - Lago d'Iseo",
+          "rank": "1.3",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/551"
+        }
+      },
+      {
+        "data": {
+          "id": "70",
+          "value": 0.0011649594538555906,
+          "name": "558",
+          "full_name": "Cascina Ai Ciar (Ceratello) - Rifugio Magnolini",
+          "zone_color": "#6F5F78",
+          "zone": "Monte Bronzone - Lago d'Iseo",
+          "rank": "1.3",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/558"
+        }
+      },
+      {
+        "data": {
+          "id": "9",
+          "value": 0.0009077604716523565,
+          "name": "RLG",
+          "full_name": "Rifugio Laghi Gemelli",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/rifugi-bivacchi/rifugio-laghi-gemelli"
+        }
+      },
+      {
+        "data": {
+          "id": "380",
+          "value": 0.005213053692856914,
+          "name": "211",
+          "full_name": "Carona - Rifugio Laghi Gemelli",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "5.7",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/211"
+        }
+      },
+      {
+        "data": {
+          "id": "375",
+          "value": 0.009109615687544812,
+          "name": "215",
+          "full_name": "Baite di Mezzeno - Rifugio Laghi Gemelli",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "10.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/215"
+        }
+      },
+      {
+        "data": {
+          "id": "376",
+          "value": 0.007040374650945462,
+          "name": "212",
+          "full_name": "Branzi - Rifugio Laghi Gemelli",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "7.8",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/212"
+        }
+      },
+      {
+        "data": {
+          "id": "11",
+          "value": 0.0009077604716523565,
+          "name": "RMMC",
+          "full_name": "Rifugio Mario Merelli Coca",
+          "zone_color": "#9AAAB1",
+          "zone": "Alta Val Seriana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/rifugi-bivacchi/rifugio-mario-merelli-coca"
+        }
+      },
+      {
+        "data": {
+          "id": "33",
+          "value": 0.001100659708304782,
+          "name": "301",
+          "full_name": "Valbondione - Rifugio Coca",
+          "zone_color": "#9AAAB1",
+          "zone": "Alta Val Seriana",
+          "rank": "1.2",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/301"
+        }
+      },
+      {
+        "data": {
+          "id": "37",
+          "value": 0.0046269781359709284,
+          "name": "302",
+          "full_name": "Rifugio Brunone - Rifugio Coca (sentiero alto)",
+          "zone_color": "#9AAAB1",
+          "zone": "Alta Val Seriana",
+          "rank": "5.1",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/302"
+        }
+      },
+      {
+        "data": {
+          "id": "308",
+          "value": 0.010621163006766044,
+          "name": "303",
+          "full_name": "Rifugio Coca - Rifugio Cur\u00f2",
+          "zone_color": "#9AAAB1",
+          "zone": "Alta Val Seriana",
+          "rank": "11.7",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/303"
+        }
+      },
+      {
+        "data": {
+          "id": "167",
+          "value": 0.0039060588784101753,
+          "name": "330",
+          "full_name": "Rifugio Baroni al Brunone - Rifugio Coca (sentiero basso)",
+          "zone_color": "#78A6E7",
+          "zone": "Val Seriana",
+          "rank": "4.3",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/330"
+        }
+      },
+      {
+        "data": {
+          "id": "12",
+          "value": 0.0009077604716523565,
+          "name": "RMB",
+          "full_name": "Rifugio Marco Balicco",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/rifugi-bivacchi/rifugio-marco-balicco"
+        }
+      },
+      {
+        "data": {
+          "id": "424",
+          "value": 0.004845801628159216,
+          "name": "101_6",
+          "full_name": "Ca' San Marco - San Simone (Baita Camoscio)",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "5.3",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/101_6"
+        }
+      },
+      {
+        "data": {
+          "id": "287",
+          "value": 0.003910559585674468,
+          "name": "124",
+          "full_name": "Rifugio Madonna delle Nevi - Bivacco Zamboni",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "4.3",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/124"
+        }
+      },
+      {
+        "data": {
+          "id": "283",
+          "value": 0.0023223548737701448,
+          "name": "124A",
+          "full_name": "Fraccia - Bivacco Zamboni - Rifugio Balicco",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "2.6",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/124a"
+        }
+      },
+      {
+        "data": {
+          "id": "13",
+          "value": 0.0009077604716523565,
+          "name": "RD0",
+          "full_name": "Rifugio Dordona 0",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/rifugi-bivacchi/rifugio-dordona-0"
+        }
+      },
+      {
+        "data": {
+          "id": "421",
+          "value": 0.0016793574182620591,
+          "name": "101_7",
+          "full_name": "San Simone (Baita Camoscio) - Passo di Tartano",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.9",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/101_7"
+        }
+      },
+      {
+        "data": {
+          "id": "14",
+          "value": 0.0009077604716523565,
+          "name": "RC",
+          "full_name": "Rifugio Cernello",
+          "zone_color": "#9AAAB1",
+          "zone": "Alta Val Seriana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/rifugi-bivacchi/rifugio-cernello"
+        }
+      },
+      {
+        "data": {
+          "id": "360",
+          "value": 0.0016793574182620591,
+          "name": "228",
+          "full_name": "Valgoglio - Baita Cernello",
+          "zone_color": "#9AAAB1",
+          "zone": "Alta Val Seriana",
+          "rank": "1.9",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/228"
+        }
+      },
+      {
+        "data": {
+          "id": "15",
+          "value": 0.0009077604716523565,
+          "name": "RFC",
+          "full_name": "Rifugio Fratelli Calvi",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/rifugi-bivacchi/rifugio-fratelli-calvi"
+        }
+      },
+      {
+        "data": {
+          "id": "382",
+          "value": 0.014026969466761404,
+          "name": "210",
+          "full_name": "Carona - Rifugio Calvi",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "15.5",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/210"
+        }
+      },
+      {
+        "data": {
+          "id": "253",
+          "value": 0.014677875430741486,
+          "name": "247",
+          "full_name": "Pagliari (Carona) - Baita della Capra",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "16.2",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/247"
+        }
+      },
+      {
+        "data": {
+          "id": "409",
+          "value": 0.015594941465372185,
+          "name": "213",
+          "full_name": "Rifugio Laghi Gemelli - Rifugio Calvi",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "17.2",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/213"
+        }
+      },
+      {
+        "data": {
+          "id": "19",
+          "value": 0.0009077604716523565,
+          "name": "BAZ",
+          "full_name": "Bivacco Alberto Zamboni",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/rifugi-bivacchi/bivacco-alberto-zamboni"
+        }
+      },
+      {
+        "data": {
+          "id": "20",
+          "value": 0.0009077604716523565,
+          "name": "RR",
+          "full_name": "Rifugio Resegone",
+          "zone_color": "#6C839B",
+          "zone": "Valle Imagna",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/rifugi-bivacchi/rifugio-resegone"
+        }
+      },
+      {
+        "data": {
+          "id": "73",
+          "value": 0.0016793574182620591,
+          "name": "587",
+          "full_name": "Brumano - incrocio sentiero 571",
+          "zone_color": "#6C839B",
+          "zone": "Valle Imagna",
+          "rank": "1.9",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/587"
+        }
+      },
+      {
+        "data": {
+          "id": "23",
+          "value": 0.0009077604716523565,
+          "name": "BMA",
+          "full_name": "Baita Monte Alto",
+          "zone_color": "#F6F6F2",
+          "zone": "Val Gandino",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/rifugi-bivacchi/baita-monte-alto"
+        }
+      },
+      {
+        "data": {
+          "id": "109",
+          "value": 0.0015134641291118468,
+          "name": "545A",
+          "full_name": "Monte di Sovere - Baita Monte Alto - Campo d'Avene",
+          "zone_color": "#F6F6F2",
+          "zone": "Val Gandino",
+          "rank": "1.7",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/545a"
+        }
+      },
+      {
+        "data": {
+          "id": "104",
+          "value": 0.0010620798609742967,
+          "name": "548",
+          "full_name": "Cirano (Gandino) - Campo d'Avene",
+          "zone_color": "#F6F6F2",
+          "zone": "Val Gandino",
+          "rank": "1.2",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/548"
+        }
+      },
+      {
+        "data": {
+          "id": "41",
+          "value": 0.0015817887503282765,
+          "name": "544",
+          "full_name": "Gandino - Valle Piana - Monte di Sovere",
+          "zone_color": "#F6F6F2",
+          "zone": "Val Gandino",
+          "rank": "1.7",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/544"
+        }
+      },
+      {
+        "data": {
+          "id": "115",
+          "value": 0.0030571086012734982,
+          "name": "545",
+          "full_name": "Barzizza (Gandino) - Monte di Sovere",
+          "zone_color": "#F6F6F2",
+          "zone": "Val Gandino",
+          "rank": "3.4",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/545"
+        }
+      },
+      {
+        "data": {
+          "id": "108",
+          "value": 0.0010620798609742967,
+          "name": "545B",
+          "full_name": "Campo d'Avene - Pozza del Fogarolo (sentiero 508)",
+          "zone_color": "#9F3251",
+          "zone": "Bassa e Media Val Seriana",
+          "rank": "1.2",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/545b"
+        }
+      },
+      {
+        "data": {
+          "id": "24",
+          "value": 0.0009077604716523565,
+          "name": "RAC",
+          "full_name": "Rifugio Antonio Curo",
+          "zone_color": "#9AAAB1",
+          "zone": "Alta Val Seriana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/rifugi-bivacchi/rifugio-antonio-curo"
+        }
+      },
+      {
+        "data": {
+          "id": "303",
+          "value": 0.004721708469773049,
+          "name": "305",
+          "full_name": "Valbondione - Rifugio Cur\u00f2",
+          "zone_color": "#9AAAB1",
+          "zone": "Alta Val Seriana",
+          "rank": "5.2",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/305"
+        }
+      },
+      {
+        "data": {
+          "id": "297",
+          "value": 0.004589826705983824,
+          "name": "306",
+          "full_name": "Lizzola - Rifugio Cur\u00f2",
+          "zone_color": "#9AAAB1",
+          "zone": "Alta Val Seriana",
+          "rank": "5.1",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/306"
+        }
+      },
+      {
+        "data": {
+          "id": "25",
+          "value": 0.0009077604716523565,
+          "name": "RAC",
+          "full_name": "Rifugio Alpe Corte",
+          "zone_color": "#E0AC82",
+          "zone": "Valcanale",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/rifugi-bivacchi/rifugio-alpe-corte"
+        }
+      },
+      {
+        "data": {
+          "id": "30",
+          "value": 0.004493108904606207,
+          "name": "220",
+          "full_name": "Ardesio - Valcanale - Rifugio Alpe Corte",
+          "zone_color": "#E0AC82",
+          "zone": "Valcanale",
+          "rank": "4.9",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/220"
+        }
+      },
+      {
+        "data": {
+          "id": "391",
+          "value": 0.004141878367579421,
+          "name": "270A",
+          "full_name": "Baite di Mezzeno - passo di Marogella - rifugio Alpe Corte",
+          "zone_color": "#E0AC82",
+          "zone": "Valcanale",
+          "rank": "4.6",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/270a"
+        }
+      },
+      {
+        "data": {
+          "id": "372",
+          "value": 0.006954595692241278,
+          "name": "216",
+          "full_name": "Rifugio Alpe Corte - Rifugio Laghi Gemelli",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "7.7",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/216"
+        }
+      },
+      {
+        "data": {
+          "id": "370",
+          "value": 0.004769890943962352,
+          "name": "218",
+          "full_name": "Rifugio Alpe Corte - Baita GAN",
+          "zone_color": "#E0AC82",
+          "zone": "Valcanale",
+          "rank": "5.3",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/218"
+        }
+      },
+      {
+        "data": {
+          "id": "26",
+          "value": 0.0009077604716523565,
+          "name": "413A",
+          "full_name": "La Paghera - Cascata del V\u00f2 - incrocio sent. 413",
+          "zone_color": "#D95562",
+          "zone": "Val di Scalve",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/413a"
+        }
+      },
+      {
+        "data": {
+          "id": "228",
+          "value": 0.0012935589449572075,
+          "name": "414",
+          "full_name": "Schilpario - Passo del Venerocolo",
+          "zone_color": "#D95562",
+          "zone": "Val di Scalve",
+          "rank": "1.4",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/414"
+        }
+      },
+      {
+        "data": {
+          "id": "229",
+          "value": 0.0016793574182620591,
+          "name": "413",
+          "full_name": "Schilpario - Rifugio Tagliaferri",
+          "zone_color": "#D95562",
+          "zone": "Val di Scalve",
+          "rank": "1.9",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/413"
+        }
+      },
+      {
+        "data": {
+          "id": "28",
+          "value": 0.0057714860185562895,
+          "name": "101_1",
+          "full_name": "Cassiglio - Rifugio Cazzaniga-Merlini",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "6.4",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/101_1"
+        }
+      },
+      {
+        "data": {
+          "id": "327",
+          "value": 0.003360644592572608,
+          "name": "120",
+          "full_name": "Pizzino - Rifugio Gherardi - Bocchetta di Regadur",
+          "zone_color": "#A7A5A8",
+          "zone": "Val Taleggio",
+          "rank": "3.7",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/120"
+        }
+      },
+      {
+        "data": {
+          "id": "314",
+          "value": 0.003360644592572608,
+          "name": "153",
+          "full_name": "Capofoppa (Pizzino) - Passo Baciamorti",
+          "zone_color": "#A7A5A8",
+          "zone": "Val Taleggio",
+          "rank": "3.7",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/153"
+        }
+      },
+      {
+        "data": {
+          "id": "29",
+          "value": 0.0009077604716523565,
+          "name": "245",
+          "full_name": "Bratte (Premolo) - Camplano (sentiero 240)",
+          "zone_color": "#78A6E7",
+          "zone": "Val Seriana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/245"
+        }
+      },
+      {
+        "data": {
+          "id": "263",
+          "value": 0.004042373746890196,
+          "name": "240",
+          "full_name": "Parre - Baita Camplano",
+          "zone_color": "#9AAAB1",
+          "zone": "Alta Val Seriana",
+          "rank": "4.5",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/240"
+        }
+      },
+      {
+        "data": {
+          "id": "174",
+          "value": 0.003505469814742134,
+          "name": "325",
+          "full_name": "Rifugio Coca - Passo di Coca",
+          "zone_color": "#78A6E7",
+          "zone": "Val Seriana",
+          "rank": "3.9",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/325"
+        }
+      },
+      {
+        "data": {
+          "id": "172",
+          "value": 0.005671987323565456,
+          "name": "323",
+          "full_name": "Rifugio Coca - bocchetta del Camoscio - Rifugio Cur\u00f2",
+          "zone_color": "#78A6E7",
+          "zone": "Val Seriana",
+          "rank": "6.2",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/323"
+        }
+      },
+      {
+        "data": {
+          "id": "34",
+          "value": 0.005294896660163225,
+          "name": "219",
+          "full_name": "Baite di Mezzeno - Passo Branchino (sentiero delle Farfalle)",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "5.8",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/219"
+        }
+      },
+      {
+        "data": {
+          "id": "35",
+          "value": 0.0009077604716523565,
+          "name": "218A",
+          "full_name": "Giro dell'Alpe Neel",
+          "zone_color": "#E0AC82",
+          "zone": "Valcanale",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/218a"
+        }
+      },
+      {
+        "data": {
+          "id": "393",
+          "value": 0.0017147224142421882,
+          "name": "266",
+          "full_name": "Valcanale - Baita Vaghetto bassa - Baita GAN (sentiero 218)",
+          "zone_color": "#E0AC82",
+          "zone": "Valcanale",
+          "rank": "1.9",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/266"
+        }
+      },
+      {
+        "data": {
+          "id": "36",
+          "value": 0.0009077604716523565,
+          "name": "218B",
+          "full_name": "Rif. Lago Branchino - B.ta di Piazza alta (vicinanze della)",
+          "zone_color": "#E0AC82",
+          "zone": "Valcanale",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/218b"
+        }
+      },
+      {
+        "data": {
+          "id": "362",
+          "value": 0.0024116381495925994,
+          "name": "225",
+          "full_name": "Rifugio Calvi - Rifugio Brunone",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "2.7",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/225"
+        }
+      },
+      {
+        "data": {
+          "id": "257",
+          "value": 0.0037354355222535183,
+          "name": "251",
+          "full_name": "Rifugio Brunone - Passo della Scaletta",
+          "zone_color": "#9AAAB1",
+          "zone": "Alta Val Seriana",
+          "rank": "4.1",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/251"
+        }
+      },
+      {
+        "data": {
+          "id": "365",
+          "value": 0.007103458204341584,
+          "name": "227",
+          "full_name": "Fiumenero - Rifugio Baroni al Brunone",
+          "zone_color": "#9AAAB1",
+          "zone": "Alta Val Seriana",
+          "rank": "7.8",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/227"
+        }
+      },
+      {
+        "data": {
+          "id": "38",
+          "value": 0.018177793673579405,
+          "name": "204",
+          "full_name": "Foppolo - Lago Moro",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "20.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/204"
+        }
+      },
+      {
+        "data": {
+          "id": "315",
+          "value": 0.01897414781290996,
+          "name": "201",
+          "full_name": "Passo di Tartano - Foppolo",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "20.9",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/201"
+        }
+      },
+      {
+        "data": {
+          "id": "40",
+          "value": 0.010940219686560284,
+          "name": "203",
+          "full_name": "Passo della Croce - Passo di Dordona",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "12.1",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/203"
+        }
+      },
+      {
+        "data": {
+          "id": "182",
+          "value": 0.004435092466824671,
+          "name": "319",
+          "full_name": "Passo della Presolana - Colle della Presolana - Malga della Presolana",
+          "zone_color": "#9AAAB1",
+          "zone": "Alta Val Seriana",
+          "rank": "4.9",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/319"
+        }
+      },
+      {
+        "data": {
+          "id": "43",
+          "value": 0.001100659708304782,
+          "name": "256",
+          "full_name": "Baita Bassa Grabiasca - Cardeto (sentiero 233)",
+          "zone_color": "#9AAAB1",
+          "zone": "Alta Val Seriana",
+          "rank": "1.2",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/256"
+        }
+      },
+      {
+        "data": {
+          "id": "250",
+          "value": 0.002253300783791544,
+          "name": "255",
+          "full_name": "Grabiasca (Gandellino) - Passo di Valsecca",
+          "zone_color": "#9AAAB1",
+          "zone": "Alta Val Seriana",
+          "rank": "2.5",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/255"
+        }
+      },
+      {
+        "data": {
+          "id": "183",
+          "value": 0.0020973062174329286,
+          "name": "318",
+          "full_name": "Castione della Presolana - Grotta dei Pagani",
+          "zone_color": "#9AAAB1",
+          "zone": "Alta Val Seriana",
+          "rank": "2.3",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/318"
+        }
+      },
+      {
+        "data": {
+          "id": "67",
+          "value": 0.0009077604716523565,
+          "name": "204A",
+          "full_name": "Lago Moro - Montebello",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/204A"
+        }
+      },
+      {
+        "data": {
+          "id": "384",
+          "value": 0.01855585088876022,
+          "name": "208",
+          "full_name": "Passo della Croce - Rifugio Calvi",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "20.4",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/208"
+        }
+      },
+      {
+        "data": {
+          "id": "71",
+          "value": 0.0009077604716523565,
+          "name": "561",
+          "full_name": "Santa Croce - M. Corno - P.zo Rabbioso - Santa Croce",
+          "zone_color": "#27212D",
+          "zone": "Bassa e Media Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/561"
+        }
+      },
+      {
+        "data": {
+          "id": "107",
+          "value": 0.0011649594538555906,
+          "name": "594",
+          "full_name": "Pregalleno (San Pellegrino Terme) - Pizzo di Spino - Spino - Pregalleno",
+          "zone_color": "#27212D",
+          "zone": "Bassa e Media Valle Brembana",
+          "rank": "1.3",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/594"
+        }
+      },
+      {
+        "data": {
+          "id": "102",
+          "value": 0.0011649594538555906,
+          "name": "597",
+          "full_name": "Frerola (Algua) - Bracca",
+          "zone_color": "#51B698",
+          "zone": "Val Serina",
+          "rank": "1.3",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/597"
+        }
+      },
+      {
+        "data": {
+          "id": "99",
+          "value": 0.0011649594538555906,
+          "name": "598",
+          "full_name": "Lepreno (Serina) - Lepreno",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.3",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/598"
+        }
+      },
+      {
+        "data": {
+          "id": "105",
+          "value": 0.0009077604716523565,
+          "name": "547A",
+          "full_name": "Leffe (campo sportivo) - Monte Croce (incrocio con sentiero 513)",
+          "zone_color": "#F6F6F2",
+          "zone": "Val Gandino",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/547a"
+        }
+      },
+      {
+        "data": {
+          "id": "193",
+          "value": 0.0016793574182620591,
+          "name": "513",
+          "full_name": "Tribulina di Gavarno - Valle Rossa - Monticelli",
+          "zone_color": "#9F3251",
+          "zone": "Bassa e Media Val Seriana",
+          "rank": "1.9",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/513"
+        }
+      },
+      {
+        "data": {
+          "id": "113",
+          "value": 0.0009077604716523565,
+          "name": "549",
+          "full_name": "Barzizza (Gandino) - Pizzo Formico",
+          "zone_color": "#F6F6F2",
+          "zone": "Val Gandino",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/549"
+        }
+      },
+      {
+        "data": {
+          "id": "195",
+          "value": 0.0016846683432095702,
+          "name": "508",
+          "full_name": "San Lucio (Clusone) - Forcella Larga - Fogarolo - San Lucio (giro ad anello)",
+          "zone_color": "#9F3251",
+          "zone": "Bassa e Media Val Seriana",
+          "rank": "1.9",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/508"
+        }
+      },
+      {
+        "data": {
+          "id": "124",
+          "value": 0.0016846683432095702,
+          "name": "542",
+          "full_name": "Casnigo (SS. Trinit\u00e0) - Pizzo Formico",
+          "zone_color": "#F6F6F2",
+          "zone": "Val Gandino",
+          "rank": "1.9",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/542"
+        }
+      },
+      {
+        "data": {
+          "id": "114",
+          "value": 0.001427469361006336,
+          "name": "543",
+          "full_name": "Casnigo (SS. Trinit\u00e0) - Monte Farno",
+          "zone_color": "#F6F6F2",
+          "zone": "Val Gandino",
+          "rank": "1.6",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/543"
+        }
+      },
+      {
+        "data": {
+          "id": "126",
+          "value": 0.0009077604716523565,
+          "name": "537A",
+          "full_name": "Cantul (Aviatico) - Monte Cornagera",
+          "zone_color": "#9F3251",
+          "zone": "Bassa e Media Val Seriana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/537a"
+        }
+      },
+      {
+        "data": {
+          "id": "129",
+          "value": 0.0012935589449572075,
+          "name": "537",
+          "full_name": "Comenduno (Albino) - Monte Poieto",
+          "zone_color": "#9F3251",
+          "zone": "Bassa e Media Val Seriana",
+          "rank": "1.4",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/537"
+        }
+      },
+      {
+        "data": {
+          "id": "158",
+          "value": 0.0012935589449572075,
+          "name": "521",
+          "full_name": "Rova (Gazzaniga) - Monte Cornagera",
+          "zone_color": "#9F3251",
+          "zone": "Bassa e Media Val Seriana",
+          "rank": "1.4",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/521"
+        }
+      },
+      {
+        "data": {
+          "id": "127",
+          "value": 0.0009077604716523565,
+          "name": "536A",
+          "full_name": "Nembro - Monte Cereto",
+          "zone_color": "#9F3251",
+          "zone": "Bassa e Media Val Seriana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/536a"
+        }
+      },
+      {
+        "data": {
+          "id": "191",
+          "value": 0.0016793574182620591,
+          "name": "515",
+          "full_name": "Albino - Selvino (Masu)",
+          "zone_color": "#9F3251",
+          "zone": "Bassa e Media Val Seriana",
+          "rank": "1.9",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/515"
+        }
+      },
+      {
+        "data": {
+          "id": "136",
+          "value": 0.0009077604716523565,
+          "name": "533B",
+          "full_name": "Canto Basso - Forcella di Monte di Nese",
+          "zone_color": "#27212D",
+          "zone": "Bassa e Media Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/533b"
+        }
+      },
+      {
+        "data": {
+          "id": "196",
+          "value": 0.0014221584360588249,
+          "name": "507",
+          "full_name": "Cler (Sedrina) - Canto Alto - Canto Basso - Ripa (Poscante)",
+          "zone_color": "#27212D",
+          "zone": "Bassa e Media Valle Brembana",
+          "rank": "1.6",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/507"
+        }
+      },
+      {
+        "data": {
+          "id": "138",
+          "value": 0.0014221584360588249,
+          "name": "531",
+          "full_name": "Nese (Alzano L.) - Salmezza (Selvino)",
+          "zone_color": "#9F3251",
+          "zone": "Bassa e Media Val Seriana",
+          "rank": "1.6",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/531"
+        }
+      },
+      {
+        "data": {
+          "id": "135",
+          "value": 0.0014221584360588249,
+          "name": "533",
+          "full_name": "Bergamo (Monterosso) - Selvino",
+          "zone_color": "#9F3251",
+          "zone": "Bassa e Media Val Seriana",
+          "rank": "1.6",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/533"
+        }
+      },
+      {
+        "data": {
+          "id": "139",
+          "value": 0.0009077604716523565,
+          "name": "530",
+          "full_name": "Vertova - Cavlera - Monte Alben",
+          "zone_color": "#7D93B2",
+          "zone": "Val Vertova",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/530"
+        }
+      },
+      {
+        "data": {
+          "id": "208",
+          "value": 0.0043220772322546605,
+          "name": "501",
+          "full_name": "Passo Colle di Zambla - Monte Alben",
+          "zone_color": "#51B698",
+          "zone": "Val Serina",
+          "rank": "4.8",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/501"
+        }
+      },
+      {
+        "data": {
+          "id": "147",
+          "value": 0.0009077604716523565,
+          "name": "526A",
+          "full_name": "Colzate - Bondo - Barbata - Biv. La Plana",
+          "zone_color": "#9F3251",
+          "zone": "Bassa e Media Val Seriana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/526a"
+        }
+      },
+      {
+        "data": {
+          "id": "152",
+          "value": 0.0016793574182620591,
+          "name": "526",
+          "full_name": "Chignolo (Oneta) - Bivacco Testa",
+          "zone_color": "#7D93B2",
+          "zone": "Val Vertova",
+          "rank": "1.9",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/526"
+        }
+      },
+      {
+        "data": {
+          "id": "149",
+          "value": 0.0009077604716523565,
+          "name": "525A",
+          "full_name": "Val Vertova - colle di Barbata",
+          "zone_color": "#7D93B2",
+          "zone": "Val Vertova",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/525a"
+        }
+      },
+      {
+        "data": {
+          "id": "153",
+          "value": 0.0012935589449572075,
+          "name": "525",
+          "full_name": "Ca' de Spi' (Gazzaniga) - Monte Alben",
+          "zone_color": "#51B698",
+          "zone": "Val Serina",
+          "rank": "1.4",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/525"
+        }
+      },
+      {
+        "data": {
+          "id": "148",
+          "value": 0.0012935589449572075,
+          "name": "527",
+          "full_name": "Vertova - Bivacco Testa",
+          "zone_color": "#7D93B2",
+          "zone": "Val Vertova",
+          "rank": "1.4",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/527"
+        }
+      },
+      {
+        "data": {
+          "id": "156",
+          "value": 0.0009077604716523565,
+          "name": "533B",
+          "full_name": "Canto Basso - Forcella di Monte di Nese",
+          "zone_color": "#27212D",
+          "zone": "Bassa e Media Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/533B"
+        }
+      },
+      {
+        "data": {
+          "id": "161",
+          "value": 0.0009077604716523565,
+          "name": "340",
+          "full_name": "Spinelli - sentiero n\u00b0320 e Rifugio Olmo",
+          "zone_color": "#78A6E7",
+          "zone": "Val Seriana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/340"
+        }
+      },
+      {
+        "data": {
+          "id": "180",
+          "value": 0.00540822605207111,
+          "name": "320",
+          "full_name": "Baite del M\u00f6schel - Grotta dei Pagani",
+          "zone_color": "#9AAAB1",
+          "zone": "Alta Val Seriana",
+          "rank": "6.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/320"
+        }
+      },
+      {
+        "data": {
+          "id": "163",
+          "value": 0.0010363599627539737,
+          "name": "332",
+          "full_name": "Valbondione - Maslana - Rifugio Cur\u00f2 (sentiero invernale)",
+          "zone_color": "#78A6E7",
+          "zone": "Val Seriana",
+          "rank": "1.1",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/332"
+        }
+      },
+      {
+        "data": {
+          "id": "176",
+          "value": 0.002183467713358392,
+          "name": "321",
+          "full_name": "Rifugio Cur\u00f2 - Rifugio Tagliaferri",
+          "zone_color": "#9AAAB1",
+          "zone": "Alta Val Seriana",
+          "rank": "2.4",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/321"
+        }
+      },
+      {
+        "data": {
+          "id": "307",
+          "value": 0.009263393454259297,
+          "name": "304",
+          "full_name": "Rifugio Cur\u00f2 - passo della Manina",
+          "zone_color": "#9AAAB1",
+          "zone": "Alta Val Seriana",
+          "rank": "10.2",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/304"
+        }
+      },
+      {
+        "data": {
+          "id": "177",
+          "value": 0.0010839417925851964,
+          "name": "324",
+          "full_name": "Rifugio Cur\u00f2 - passo Grasso di Pila - Rifugio Tagliaferri",
+          "zone_color": "#78A6E7",
+          "zone": "Val Seriana",
+          "rank": "1.2",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/324"
+        }
+      },
+      {
+        "data": {
+          "id": "165",
+          "value": 0.0012935589449572075,
+          "name": "334",
+          "full_name": "Pozzo Enel - lago di Avert - Ol Sim\u00e0l (zona)",
+          "zone_color": "#78A6E7",
+          "zone": "Val Seriana",
+          "rank": "1.4",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/334"
+        }
+      },
+      {
+        "data": {
+          "id": "168",
+          "value": 0.0009077604716523565,
+          "name": "331",
+          "full_name": "Valbondione - Pozzo Enel",
+          "zone_color": "#78A6E7",
+          "zone": "Val Seriana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/331"
+        }
+      },
+      {
+        "data": {
+          "id": "169",
+          "value": 0.0009077604716523565,
+          "name": "328",
+          "full_name": "Monte Visolo - bivacco Citt\u00e0 di Clusone (sentiero 315)",
+          "zone_color": "#9AAAB1",
+          "zone": "Alta Val Seriana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/328"
+        }
+      },
+      {
+        "data": {
+          "id": "170",
+          "value": 0.0016214879191207,
+          "name": "327",
+          "full_name": "Malga di Campo - Rifugio Olmo",
+          "zone_color": "#78A6E7",
+          "zone": "Val Seriana",
+          "rank": "1.8",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/327"
+        }
+      },
+      {
+        "data": {
+          "id": "171",
+          "value": 0.001100659708304782,
+          "name": "322",
+          "full_name": "Lizzola - Passo di Bondione (incrocio sentiero 321)",
+          "zone_color": "#9AAAB1",
+          "zone": "Alta Val Seriana",
+          "rank": "1.2",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/322"
+        }
+      },
+      {
+        "data": {
+          "id": "301",
+          "value": 0.0019719213964454227,
+          "name": "308",
+          "full_name": "Rifugio Cur\u00f2 - Passo di Caronella",
+          "zone_color": "#9AAAB1",
+          "zone": "Alta Val Seriana",
+          "rank": "2.2",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/308"
+        }
+      },
+      {
+        "data": {
+          "id": "178",
+          "value": 0.0009077604716523565,
+          "name": "317B",
+          "full_name": "Clusone - sentiero 317",
+          "zone_color": "#78A6E7",
+          "zone": "Val Seriana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/317b"
+        }
+      },
+      {
+        "data": {
+          "id": "248",
+          "value": 0.0016793574182620591,
+          "name": "317",
+          "full_name": "Castione della Presolana - Monte Valsacco - Clusone",
+          "zone_color": "#9AAAB1",
+          "zone": "Alta Val Seriana",
+          "rank": "1.9",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/317"
+        }
+      },
+      {
+        "data": {
+          "id": "291",
+          "value": 0.006958838368015428,
+          "name": "314",
+          "full_name": "Baite del M\u00f6schel - Passo degli Omini - Val Sedornia (sentiero 309)",
+          "zone_color": "#9AAAB1",
+          "zone": "Alta Val Seriana",
+          "rank": "7.7",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/314"
+        }
+      },
+      {
+        "data": {
+          "id": "184",
+          "value": 0.0009077604716523565,
+          "name": "519",
+          "full_name": "Aviatico - Forca d'Aviatico - Monte Suchello - Conca Sedernello",
+          "zone_color": "#51B698",
+          "zone": "Val Serina",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/519"
+        }
+      },
+      {
+        "data": {
+          "id": "186",
+          "value": 0.0016793574182620591,
+          "name": "516",
+          "full_name": "Val Vertova - Forca d'Aviatico - Monte Poieto",
+          "zone_color": "#7D93B2",
+          "zone": "Val Vertova",
+          "rank": "1.9",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/516"
+        }
+      },
+      {
+        "data": {
+          "id": "194",
+          "value": 0.0024509543648717626,
+          "name": "506B",
+          "full_name": "Sussia - C\u00e0 Boffelli",
+          "zone_color": "#27212D",
+          "zone": "Bassa e Media Valle Brembana",
+          "rank": "2.7",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/506b"
+        }
+      },
+      {
+        "data": {
+          "id": "199",
+          "value": 0.0041484687348305824,
+          "name": "506",
+          "full_name": "San Pellegrino - Rifugio Gesp Monte Zucco - Sussia - Frasnito - San Pellegrino",
+          "zone_color": "#27212D",
+          "zone": "Bassa e Media Valle Brembana",
+          "rank": "4.6",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/506"
+        }
+      },
+      {
+        "data": {
+          "id": "197",
+          "value": 0.0009077604716523565,
+          "name": "506C",
+          "full_name": "San Pellegrino - Alino - C\u00e0 Boffelli - Monte Molinasco",
+          "zone_color": "#27212D",
+          "zone": "Bassa e Media Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/506c"
+        }
+      },
+      {
+        "data": {
+          "id": "198",
+          "value": 0.0009077604716523565,
+          "name": "506A",
+          "full_name": "San Pellegrino - Monte Zucco (sentiero panoramico)",
+          "zone_color": "#27212D",
+          "zone": "Bassa e Media Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/506a"
+        }
+      },
+      {
+        "data": {
+          "id": "204",
+          "value": 0.00602730843702513,
+          "name": "505",
+          "full_name": "Zogno - Pernice - M. Zucco (Baita GESP) - S. Antonio Abbandonato",
+          "zone_color": "#27212D",
+          "zone": "Bassa e Media Valle Brembana",
+          "rank": "6.6",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/505"
+        }
+      },
+      {
+        "data": {
+          "id": "225",
+          "value": 0.002670861175564186,
+          "name": "595",
+          "full_name": "Catremerio (Brembilla) - Monte Foldone - Forcella di Bura",
+          "zone_color": "#7E82A5",
+          "zone": "Val Brembilla",
+          "rank": "2.9",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/595"
+        }
+      },
+      {
+        "data": {
+          "id": "200",
+          "value": 0.0016793574182620591,
+          "name": "505A",
+          "full_name": "Zogno - Tiglio - S. Antonio Abbandonato - Castignola (Strada Taverna)",
+          "zone_color": "#27212D",
+          "zone": "Bassa e Media Valle Brembana",
+          "rank": "1.9",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/505a"
+        }
+      },
+      {
+        "data": {
+          "id": "201",
+          "value": 0.0009077604716523565,
+          "name": "505B",
+          "full_name": "Zogno (via Sottocorna) - contrada Casarielli - S. Antonio Abbandonato",
+          "zone_color": "#27212D",
+          "zone": "Bassa e Media Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/505b"
+        }
+      },
+      {
+        "data": {
+          "id": "202",
+          "value": 0.0009077604716523565,
+          "name": "503",
+          "full_name": "Cornalba - Baita Sura - Cornalba",
+          "zone_color": "#51B698",
+          "zone": "Val Serina",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/503"
+        }
+      },
+      {
+        "data": {
+          "id": "203",
+          "value": 0.0009077604716523565,
+          "name": "430",
+          "full_name": "Rifugio Tagliaferri - Pizzo Tornello",
+          "zone_color": "#D95562",
+          "zone": "Val di Scalve",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/430"
+        }
+      },
+      {
+        "data": {
+          "id": "205",
+          "value": 0.0011649594538555906,
+          "name": "431",
+          "full_name": "Teveno - Malga di Conchetta - Pizzo di Petto",
+          "zone_color": "#D95562",
+          "zone": "Val di Scalve",
+          "rank": "1.3",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/431"
+        }
+      },
+      {
+        "data": {
+          "id": "242",
+          "value": 0.00149503154142849,
+          "name": "406",
+          "full_name": "Teveno - Malga Polzone - Rifugio Albani (sentiero 403)",
+          "zone_color": "#D95562",
+          "zone": "Val di Scalve",
+          "rank": "1.6",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/406"
+        }
+      },
+      {
+        "data": {
+          "id": "239",
+          "value": 0.005091611027465839,
+          "name": "407",
+          "full_name": "Teveno - Passo della Manina",
+          "zone_color": "#D95562",
+          "zone": "Val di Scalve",
+          "rank": "5.6",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/407"
+        }
+      },
+      {
+        "data": {
+          "id": "241",
+          "value": 0.0016614251519899768,
+          "name": "404",
+          "full_name": "Colere - Passo di Fontanamora",
+          "zone_color": "#D95562",
+          "zone": "Val di Scalve",
+          "rank": "1.8",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/404"
+        }
+      },
+      {
+        "data": {
+          "id": "207",
+          "value": 0.0009077604716523565,
+          "name": "502",
+          "full_name": "Serina - Monte Alben",
+          "zone_color": "#51B698",
+          "zone": "Val Serina",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/502"
+        }
+      },
+      {
+        "data": {
+          "id": "210",
+          "value": 0.0009077604716523565,
+          "name": "426",
+          "full_name": "Schilpario (Fondi) Sentiero delle Miniere",
+          "zone_color": "#D95562",
+          "zone": "Val di Scalve",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/426"
+        }
+      },
+      {
+        "data": {
+          "id": "212",
+          "value": 0.002045866058519791,
+          "name": "427",
+          "full_name": "Schilpario - Malga Gaffione (Sentiero delle torbiere)",
+          "zone_color": "#D95562",
+          "zone": "Val di Scalve",
+          "rank": "2.3",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/427"
+        }
+      },
+      {
+        "data": {
+          "id": "211",
+          "value": 0.0014221584360588249,
+          "name": "425A",
+          "full_name": "Segherie (Azzone) - Le Some",
+          "zone_color": "#D95562",
+          "zone": "Val di Scalve",
+          "rank": "1.6",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/425a"
+        }
+      },
+      {
+        "data": {
+          "id": "222",
+          "value": 0.0038234332348594208,
+          "name": "419",
+          "full_name": "Malghe Lifretto (Schilpario) - Giovetto di Paline - Azzone (sentiero lungo)",
+          "zone_color": "#D95562",
+          "zone": "Val di Scalve",
+          "rank": "4.2",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/419"
+        }
+      },
+      {
+        "data": {
+          "id": "213",
+          "value": 0.0024123746987775225,
+          "name": "425",
+          "full_name": "Azzone - Passo di Corna Busa",
+          "zone_color": "#D95562",
+          "zone": "Val di Scalve",
+          "rank": "2.7",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/425"
+        }
+      },
+      {
+        "data": {
+          "id": "46",
+          "value": 0.008625691773066126,
+          "name": "416",
+          "full_name": "Passo del Vivione - Laghi del Venerocolo - Rifugio Tagliaferri",
+          "zone_color": "#D95562",
+          "zone": "Val di Scalve",
+          "rank": "9.5",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/416"
+        }
+      },
+      {
+        "data": {
+          "id": "218",
+          "value": 0.004172955670059631,
+          "name": "423",
+          "full_name": "Schilpario - Pizzo Camino",
+          "zone_color": "#D95562",
+          "zone": "Val di Scalve",
+          "rank": "4.6",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/423"
+        }
+      },
+      {
+        "data": {
+          "id": "214",
+          "value": 0.004015741719127886,
+          "name": "428",
+          "full_name": "i Fondi (Schilpario) - Passo del Vivione",
+          "zone_color": "#D95562",
+          "zone": "Val di Scalve",
+          "rank": "4.4",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/428"
+        }
+      },
+      {
+        "data": {
+          "id": "215",
+          "value": 0.0009077604716523565,
+          "name": "422",
+          "full_name": "Schilpario - Malga Epolo - passo di Varicla",
+          "zone_color": "#D95562",
+          "zone": "Val di Scalve",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/422"
+        }
+      },
+      {
+        "data": {
+          "id": "216",
+          "value": 0.0016793574182620591,
+          "name": "424",
+          "full_name": "Schilpario - Malga alta di Voia",
+          "zone_color": "#D95562",
+          "zone": "Val di Scalve",
+          "rank": "1.9",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/424"
+        }
+      },
+      {
+        "data": {
+          "id": "217",
+          "value": 0.0009077604716523565,
+          "name": "419A",
+          "full_name": "Azzone (segheria) - Giovetto di Paline - il Costone",
+          "zone_color": "#D95562",
+          "zone": "Val di Scalve",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/419a"
+        }
+      },
+      {
+        "data": {
+          "id": "219",
+          "value": 0.0009077604716523565,
+          "name": "506C",
+          "full_name": "San Pellegrino - Alino - C\u00e0 Boffelli - Monte Molinasco",
+          "zone_color": "#27212D",
+          "zone": "Bassa e Media Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/506C"
+        }
+      },
+      {
+        "data": {
+          "id": "221",
+          "value": 0.0009077604716523565,
+          "name": "420",
+          "full_name": "i Fondi - Passo del Lifretto",
+          "zone_color": "#D95562",
+          "zone": "Val di Scalve",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/420"
+        }
+      },
+      {
+        "data": {
+          "id": "220",
+          "value": 0.0017202407123458974,
+          "name": "421",
+          "full_name": "Schilpario - Passo di Ezendola",
+          "zone_color": "#D95562",
+          "zone": "Val di Scalve",
+          "rank": "1.9",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/421"
+        }
+      },
+      {
+        "data": {
+          "id": "206",
+          "value": 0.0017202407123458974,
+          "name": "429",
+          "full_name": "Prato Grande (Schilpario) - Fienile del Colle",
+          "zone_color": "#D95562",
+          "zone": "Val di Scalve",
+          "rank": "1.9",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/429"
+        }
+      },
+      {
+        "data": {
+          "id": "223",
+          "value": 0.0009077604716523565,
+          "name": "418",
+          "full_name": "Piani di Rena (Schilpario) - Passo di Valzellazzo",
+          "zone_color": "#D95562",
+          "zone": "Val di Scalve",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/418"
+        }
+      },
+      {
+        "data": {
+          "id": "224",
+          "value": 0.0009077604716523565,
+          "name": "415A",
+          "full_name": "Laghetti delle Valli - Laghetti di Valle Asinina - Lago di Valbona",
+          "zone_color": "#D95562",
+          "zone": "Val di Scalve",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/415a"
+        }
+      },
+      {
+        "data": {
+          "id": "227",
+          "value": 0.0012935589449572075,
+          "name": "415",
+          "full_name": "Schilpario - Laghetti delle Valli - Passo del Vivione",
+          "zone_color": "#D95562",
+          "zone": "Val di Scalve",
+          "rank": "1.4",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/415"
+        }
+      },
+      {
+        "data": {
+          "id": "226",
+          "value": 0.0009077604716523565,
+          "name": "506B",
+          "full_name": "Sussia - C\u00e0 Boffelli",
+          "zone_color": "#27212D",
+          "zone": "Bassa e Media Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/506B"
+        }
+      },
+      {
+        "data": {
+          "id": "230",
+          "value": 0.0009077604716523565,
+          "name": "505B",
+          "full_name": "Zogno (via Sottocorna) - contrada Casarielli - S. Antonio Abbandonato",
+          "zone_color": "#27212D",
+          "zone": "Bassa e Media Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/505B"
+        }
+      },
+      {
+        "data": {
+          "id": "231",
+          "value": 0.0009077604716523565,
+          "name": "505A",
+          "full_name": "Zogno - Tiglio - S. Antonio Abbandonato - Castignola (Strada Taverna)",
+          "zone_color": "#27212D",
+          "zone": "Bassa e Media Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/505A"
+        }
+      },
+      {
+        "data": {
+          "id": "233",
+          "value": 0.0009077604716523565,
+          "name": "425A",
+          "full_name": "Segherie (Azzone) - Le Some",
+          "zone_color": "#D95562",
+          "zone": "Val di Scalve",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/425A"
+        }
+      },
+      {
+        "data": {
+          "id": "236",
+          "value": 0.0009077604716523565,
+          "name": "410",
+          "full_name": "Bueggio - Lago del Gleno - Passo di Belviso",
+          "zone_color": "#D95562",
+          "zone": "Val di Scalve",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/410"
+        }
+      },
+      {
+        "data": {
+          "id": "235",
+          "value": 0.0016793574182620591,
+          "name": "411",
+          "full_name": "Vilminore - Lago del Gleno",
+          "zone_color": "#D95562",
+          "zone": "Val di Scalve",
+          "rank": "1.9",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/411"
+        }
+      },
+      {
+        "data": {
+          "id": "237",
+          "value": 0.0009077604716523565,
+          "name": "409",
+          "full_name": "Nona - giro degli alpeggi - Monte Sasna",
+          "zone_color": "#D95562",
+          "zone": "Val di Scalve",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/409"
+        }
+      },
+      {
+        "data": {
+          "id": "238",
+          "value": 0.0018722566549144847,
+          "name": "408",
+          "full_name": "Nona - Manina (Chiesetta)",
+          "zone_color": "#D95562",
+          "zone": "Val di Scalve",
+          "rank": "2.1",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/408"
+        }
+      },
+      {
+        "data": {
+          "id": "240",
+          "value": 0.0009077604716523565,
+          "name": "405",
+          "full_name": "Colere - Teveno",
+          "zone_color": "#D95562",
+          "zone": "Val di Scalve",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/405"
+        }
+      },
+      {
+        "data": {
+          "id": "243",
+          "value": 0.0009077604716523565,
+          "name": "419A",
+          "full_name": "Azzone (segheria) - Giovetto di Paline - il Costone",
+          "zone_color": "#D95562",
+          "zone": "Val di Scalve",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/419A"
+        }
+      },
+      {
+        "data": {
+          "id": "249",
+          "value": 0.0009077604716523565,
+          "name": "417",
+          "full_name": "Schilpario - Cimone della Bagozza",
+          "zone_color": "#D95562",
+          "zone": "Val di Scalve",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/417"
+        }
+      },
+      {
+        "data": {
+          "id": "251",
+          "value": 0.002007286392425552,
+          "name": "249",
+          "full_name": "Gorno - Rifugio Baita Grem",
+          "zone_color": "#4A7296",
+          "zone": "Valle del Riso",
+          "rank": "2.2",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/249"
+        }
+      },
+      {
+        "data": {
+          "id": "407",
+          "value": 0.004542004585992184,
+          "name": "263",
+          "full_name": "Alpe Grina (Gorno) - Bivacco Telini - Il Pulpito - Cima di Grem - Cima Foppazzi",
+          "zone_color": "#4A7296",
+          "zone": "Valle del Riso",
+          "rank": "5.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/263"
+        }
+      },
+      {
+        "data": {
+          "id": "252",
+          "value": 0.0009077604716523565,
+          "name": "252",
+          "full_name": "Rifugio Brunone - Vedretta del Redorta",
+          "zone_color": "#9AAAB1",
+          "zone": "Alta Val Seriana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/252"
+        }
+      },
+      {
+        "data": {
+          "id": "254",
+          "value": 0.0023035823676871878,
+          "name": "254",
+          "full_name": "Rifugio Longo - Passo di Venina",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "2.5",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/254"
+        }
+      },
+      {
+        "data": {
+          "id": "363",
+          "value": 0.00860245186771588,
+          "name": "224",
+          "full_name": "Lago del Prato - Rifugio Longo",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "9.5",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/224"
+        }
+      },
+      {
+        "data": {
+          "id": "255",
+          "value": 0.0012935589449572075,
+          "name": "253",
+          "full_name": "Rifugio Longo - Passo di Cigola",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.4",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/253"
+        }
+      },
+      {
+        "data": {
+          "id": "258",
+          "value": 0.0021614519892801526,
+          "name": "248",
+          "full_name": "Rifugio Longo - passo di Valsecca (sentiero 255)",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "2.4",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/248"
+        }
+      },
+      {
+        "data": {
+          "id": "259",
+          "value": 0.0016842479903578262,
+          "name": "246",
+          "full_name": "Rifugio Longo - Rifugio Calvi (sentiero 225)",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.9",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/246"
+        }
+      },
+      {
+        "data": {
+          "id": "256",
+          "value": 0.006564374244612719,
+          "name": "250",
+          "full_name": "Rifugio Laghi Gemelli - L. delle Casere - L. Marcio - L. del Becco - L. Colombo - Rifugio Laghi Gemelli",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "7.2",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/250"
+        }
+      },
+      {
+        "data": {
+          "id": "260",
+          "value": 0.0009077604716523565,
+          "name": "244",
+          "full_name": "Rifugio Capanna 2000 - Periplo del Pizzo Arera",
+          "zone_color": "#51B698",
+          "zone": "Val Serina",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/244"
+        }
+      },
+      {
+        "data": {
+          "id": "367",
+          "value": 0.0021413721790351503,
+          "name": "221",
+          "full_name": "Zambla - Rifugio Capanna 2000",
+          "zone_color": "#51B698",
+          "zone": "Val Serina",
+          "rank": "2.4",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/221"
+        }
+      },
+      {
+        "data": {
+          "id": "261",
+          "value": 0.0009077604716523565,
+          "name": "242",
+          "full_name": "Ponte Nossa - Baita Santamaria in Leten",
+          "zone_color": "#9AAAB1",
+          "zone": "Alta Val Seriana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/242"
+        }
+      },
+      {
+        "data": {
+          "id": "265",
+          "value": 0.0012935589449572075,
+          "name": "243",
+          "full_name": "Valcanale - Baita Santamaria in Leten",
+          "zone_color": "#9AAAB1",
+          "zone": "Alta Val Seriana",
+          "rank": "1.4",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/243"
+        }
+      },
+      {
+        "data": {
+          "id": "262",
+          "value": 0.0016793574182620591,
+          "name": "241",
+          "full_name": "Parre - Monte Vaccaro",
+          "zone_color": "#9AAAB1",
+          "zone": "Alta Val Seriana",
+          "rank": "1.9",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/241"
+        }
+      },
+      {
+        "data": {
+          "id": "304",
+          "value": 0.002992279379704321,
+          "name": "237",
+          "full_name": "Rifugio SABA - Cima di Grem",
+          "zone_color": "#51B698",
+          "zone": "Val Serina",
+          "rank": "3.3",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/237"
+        }
+      },
+      {
+        "data": {
+          "id": "267",
+          "value": 0.003840092613782263,
+          "name": "238",
+          "full_name": "Colle di Zambla \u2013 La Santella \u2013 Cascine Sinelli \u2013 Baita Camplano \u2013 (Rif. Capanna 2000)",
+          "zone_color": "#51B698",
+          "zone": "Val Serina",
+          "rank": "4.2",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/238"
+        }
+      },
+      {
+        "data": {
+          "id": "264",
+          "value": 0.0009077604716523565,
+          "name": "239",
+          "full_name": "Oneta - Rifugio Baita Grem - Baita di Mezzo di Grem",
+          "zone_color": "#4A7296",
+          "zone": "Valle del Riso",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/239"
+        }
+      },
+      {
+        "data": {
+          "id": "368",
+          "value": 0.0012935589449572075,
+          "name": "223",
+          "full_name": "Col di Zambla - La Santella - B.ta di mezzo e alta di Grem - biv. Mistri - Cima di Grem (e C. Foppazzi)",
+          "zone_color": "#4A7296",
+          "zone": "Valle del Riso",
+          "rank": "1.4",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/223"
+        }
+      },
+      {
+        "data": {
+          "id": "266",
+          "value": 0.0009077604716523565,
+          "name": "133B",
+          "full_name": "Valmoresca - Piazza Selva - Tegge di Mezzo (incrocio 133A)",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/133b"
+        }
+      },
+      {
+        "data": {
+          "id": "268",
+          "value": 0.0012935589449572075,
+          "name": "133A",
+          "full_name": "Averara - Casera Gambetta (incrocio 113)",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.4",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/133a"
+        }
+      },
+      {
+        "data": {
+          "id": "269",
+          "value": 0.0019172665674181736,
+          "name": "133",
+          "full_name": "Valmoresca (Averara) - Cantedoldo (sentiero 113)",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "2.1",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/133"
+        }
+      },
+      {
+        "data": {
+          "id": "335",
+          "value": 0.005324511595948696,
+          "name": "113",
+          "full_name": "Mezzoldo (Soliva) - Ca' San Marco",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "5.9",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/113"
+        }
+      },
+      {
+        "data": {
+          "id": "322",
+          "value": 0.0017886670763165565,
+          "name": "135",
+          "full_name": "Ponte dell'Acqua (Mezzoldo) - Dosso Gambetta (incrocio sent. 113)",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "2.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/135"
+        }
+      },
+      {
+        "data": {
+          "id": "270",
+          "value": 0.0009077604716523565,
+          "name": "132",
+          "full_name": "Redivo (Averara) - Mezzoldo (Soliva)",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/132"
+        }
+      },
+      {
+        "data": {
+          "id": "418",
+          "value": 0.0012935589449572075,
+          "name": "105B",
+          "full_name": "Olmo al Brembo - localit\u00e0 Redivo (Averara)",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.4",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/105b"
+        }
+      },
+      {
+        "data": {
+          "id": "271",
+          "value": 0.0009077604716523565,
+          "name": "129A",
+          "full_name": "Olmo al Brembo - Piazza Brembana",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/129a"
+        }
+      },
+      {
+        "data": {
+          "id": "272",
+          "value": 0.0012935589449572075,
+          "name": "129",
+          "full_name": "Olmo al Brembo - Roccolo di Calche (incrocio 119)",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.4",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/129"
+        }
+      },
+      {
+        "data": {
+          "id": "281",
+          "value": 0.001550757927160442,
+          "name": "123",
+          "full_name": "Piazza Brembana - Roccolo di Calche (sentiero 119)",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.7",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/123"
+        }
+      },
+      {
+        "data": {
+          "id": "273",
+          "value": 0.0009077604716523565,
+          "name": "129",
+          "full_name": "Olmo al Brembo - Roccolo di Calche (incrocio 119)",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/129-0"
+        }
+      },
+      {
+        "data": {
+          "id": "325",
+          "value": 0.004518192045202424,
+          "name": "119",
+          "full_name": "Valnegra - Monte Torcola - Forcolino di Torcola",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "5.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/119"
+        }
+      },
+      {
+        "data": {
+          "id": "282",
+          "value": 0.0011649594538555906,
+          "name": "122",
+          "full_name": "Piazzolo - Roccolo di Calche (sentiero 119)",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.3",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/122"
+        }
+      },
+      {
+        "data": {
+          "id": "274",
+          "value": 0.0009077604716523565,
+          "name": "131",
+          "full_name": "Pianca (San Giovanni Bianco) - Cantiglio",
+          "zone_color": "#A7A5A8",
+          "zone": "Val Taleggio",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/131"
+        }
+      },
+      {
+        "data": {
+          "id": "275",
+          "value": 0.0016793574182620591,
+          "name": "130",
+          "full_name": "Taleggio (Ponte del Becco) - Baita Cancervo",
+          "zone_color": "#A7A5A8",
+          "zone": "Val Taleggio",
+          "rank": "1.9",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/130"
+        }
+      },
+      {
+        "data": {
+          "id": "425",
+          "value": 0.005963363287528542,
+          "name": "102",
+          "full_name": "S. Giovanni Bianco (Pianca) - Passo Baciamorti",
+          "zone_color": "#27212D",
+          "zone": "Bassa e Media Valle Brembana",
+          "rank": "6.6",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/102"
+        }
+      },
+      {
+        "data": {
+          "id": "277",
+          "value": 0.0009077604716523565,
+          "name": "127A",
+          "full_name": "Piazza Brembana (loc. i Fondi) - Olmo al Brembo (fraz. Cugno)",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/127a"
+        }
+      },
+      {
+        "data": {
+          "id": "278",
+          "value": 0.0016793574182620591,
+          "name": "127",
+          "full_name": "Cugno di Sotto (Olmo al Brembo) - Baita Maffenoli",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.9",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/127"
+        }
+      },
+      {
+        "data": {
+          "id": "276",
+          "value": 0.002335215366589044,
+          "name": "128",
+          "full_name": "Piazza Brembana - Cespedosio",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "2.6",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/128"
+        }
+      },
+      {
+        "data": {
+          "id": "279",
+          "value": 0.0009077604716523565,
+          "name": "124B",
+          "full_name": "Madonna delle Nevi \u2013 incrocio sentiero 124A",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/124b"
+        }
+      },
+      {
+        "data": {
+          "id": "284",
+          "value": 0.007831400038073933,
+          "name": "125",
+          "full_name": "Fondra - Pusdosso - Torcola Soliva (sentiero 119)",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "8.6",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/125"
+        }
+      },
+      {
+        "data": {
+          "id": "285",
+          "value": 0.0011649594538555906,
+          "name": "314B",
+          "full_name": "Foppana - Passo di Fontanamora",
+          "zone_color": "#9AAAB1",
+          "zone": "Alta Val Seriana",
+          "rank": "1.3",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/314b"
+        }
+      },
+      {
+        "data": {
+          "id": "286",
+          "value": 0.0009077604716523565,
+          "name": "314A",
+          "full_name": "Foppana - Lago Spigorel",
+          "zone_color": "#9AAAB1",
+          "zone": "Alta Val Seriana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/314a"
+        }
+      },
+      {
+        "data": {
+          "id": "298",
+          "value": 0.0011649594538555906,
+          "name": "309",
+          "full_name": "Gandellino - Lago Spigorel",
+          "zone_color": "#9AAAB1",
+          "zone": "Alta Val Seriana",
+          "rank": "1.3",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/309"
+        }
+      },
+      {
+        "data": {
+          "id": "288",
+          "value": 0.0009077604716523565,
+          "name": "264B",
+          "full_name": "Baita inferiore di Monte Secco - Monte Vaccaro (incrocio sent. 241)",
+          "zone_color": "#78A6E7",
+          "zone": "Val Seriana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/264B"
+        }
+      },
+      {
+        "data": {
+          "id": "403",
+          "value": 0.0016793574182620591,
+          "name": "264",
+          "full_name": "Cerete (Ardesio) - Baite di Monte Secco - Cerete",
+          "zone_color": "#9AAAB1",
+          "zone": "Alta Val Seriana",
+          "rank": "1.9",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/264"
+        }
+      },
+      {
+        "data": {
+          "id": "289",
+          "value": 0.0012794630199120065,
+          "name": "311A",
+          "full_name": "Baita Bassa di Pagherola - Baita Bruseda",
+          "zone_color": "#9AAAB1",
+          "zone": "Alta Val Seriana",
+          "rank": "1.4",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/311a"
+        }
+      },
+      {
+        "data": {
+          "id": "292",
+          "value": 0.0009077604716523565,
+          "name": "133A",
+          "full_name": "Averara - Casera Gambetta (incrocio 113)",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/133A"
+        }
+      },
+      {
+        "data": {
+          "id": "295",
+          "value": 0.0009077604716523565,
+          "name": "305A",
+          "full_name": "variante per il rifugio Cur\u00f2",
+          "zone_color": "#9AAAB1",
+          "zone": "Alta Val Seriana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/305a"
+        }
+      },
+      {
+        "data": {
+          "id": "296",
+          "value": 0.0009077604716523565,
+          "name": "305B",
+          "full_name": "variante da Grumetti per il rifugio Cur\u00f2",
+          "zone_color": "#9AAAB1",
+          "zone": "Alta Val Seriana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/305b"
+        }
+      },
+      {
+        "data": {
+          "id": "290",
+          "value": 0.0012378325592252554,
+          "name": "313",
+          "full_name": "Spiazzi di Boario - Val Sedornia (sentiero 309)",
+          "zone_color": "#9AAAB1",
+          "zone": "Alta Val Seriana",
+          "rank": "1.4",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/313"
+        }
+      },
+      {
+        "data": {
+          "id": "299",
+          "value": 0.0009077604716523565,
+          "name": "307",
+          "full_name": "Lizzola - Passo della Manina",
+          "zone_color": "#9AAAB1",
+          "zone": "Alta Val Seriana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/307"
+        }
+      },
+      {
+        "data": {
+          "id": "300",
+          "value": 0.0009077604716523565,
+          "name": "310",
+          "full_name": "Rifugio Cur\u00f2 - Lago della Malgina - Passo di Caronella",
+          "zone_color": "#9AAAB1",
+          "zone": "Alta Val Seriana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/310"
+        }
+      },
+      {
+        "data": {
+          "id": "302",
+          "value": 0.0009077604716523565,
+          "name": "201B",
+          "full_name": "Foppolo (Loc. Rocky) - Passo di Tartano",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/201b"
+        }
+      },
+      {
+        "data": {
+          "id": "306",
+          "value": 0.0011649594538555906,
+          "name": "202",
+          "full_name": "Foppolo - Passo di Dordona",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.3",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/202"
+        }
+      },
+      {
+        "data": {
+          "id": "336",
+          "value": 0.0015218231775897624,
+          "name": "112",
+          "full_name": "Valleve (Cambrembo) - Passo di Tartano",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.7",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/112"
+        }
+      },
+      {
+        "data": {
+          "id": "305",
+          "value": 0.0009077604716523565,
+          "name": "121",
+          "full_name": "Piazzatorre (Piazzo) - Torcola Vaga (sentiero 119)",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/121"
+        }
+      },
+      {
+        "data": {
+          "id": "309",
+          "value": 0.0011553145373320306,
+          "name": "201A",
+          "full_name": "Passo di Dordona - Laghi di Porcile",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.3",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/201a"
+        }
+      },
+      {
+        "data": {
+          "id": "319",
+          "value": 0.0009077604716523565,
+          "name": "137",
+          "full_name": "Giro delle contrade di Fondra",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/137"
+        }
+      },
+      {
+        "data": {
+          "id": "320",
+          "value": 0.0009077604716523565,
+          "name": "150",
+          "full_name": "Reggetto (Vedeseta) - Piani di Artavaggio",
+          "zone_color": "#A7A5A8",
+          "zone": "Val Taleggio",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/150"
+        }
+      },
+      {
+        "data": {
+          "id": "316",
+          "value": 0.0011649594538555906,
+          "name": "152",
+          "full_name": "Reggetto - Corno Zuccone",
+          "zone_color": "#A7A5A8",
+          "zone": "Val Taleggio",
+          "rank": "1.3",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/152"
+        }
+      },
+      {
+        "data": {
+          "id": "312",
+          "value": 0.0011649594538555906,
+          "name": "155",
+          "full_name": "Sottochiesa - Fraggio",
+          "zone_color": "#A7A5A8",
+          "zone": "Val Taleggio",
+          "rank": "1.3",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/155"
+        }
+      },
+      {
+        "data": {
+          "id": "317",
+          "value": 0.0011649594538555906,
+          "name": "151",
+          "full_name": "Avolasio (Vedeseta) - Piani di Artavaggio",
+          "zone_color": "#A7A5A8",
+          "zone": "Val Taleggio",
+          "rank": "1.3",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/151"
+        }
+      },
+      {
+        "data": {
+          "id": "321",
+          "value": 0.0009077604716523565,
+          "name": "137",
+          "full_name": "Giro delle contrade di Fondra",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/137-0"
+        }
+      },
+      {
+        "data": {
+          "id": "323",
+          "value": 0.0009077604716523565,
+          "name": "119A",
+          "full_name": "Moio de' Calvi - sentiero 119",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/119a"
+        }
+      },
+      {
+        "data": {
+          "id": "324",
+          "value": 0.0009077604716523565,
+          "name": "136",
+          "full_name": "Foppelle (Camerata Cornello) - Passo di Grialeggio",
+          "zone_color": "#27212D",
+          "zone": "Bassa e Media Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/136"
+        }
+      },
+      {
+        "data": {
+          "id": "328",
+          "value": 0.0009077604716523565,
+          "name": "305A",
+          "full_name": "variante per il rifugio Cur\u00f2",
+          "zone_color": "#9AAAB1",
+          "zone": "Alta Val Seriana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/305A"
+        }
+      },
+      {
+        "data": {
+          "id": "329",
+          "value": 0.0009077604716523565,
+          "name": "117A",
+          "full_name": "Branzi (San Rocco) - sentiero 117",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/117a"
+        }
+      },
+      {
+        "data": {
+          "id": "330",
+          "value": 0.0024509543648717626,
+          "name": "117",
+          "full_name": "Valleve (fraz. Valrob\u00e0) - Forcolino di Torcola",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "2.7",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/117"
+        }
+      },
+      {
+        "data": {
+          "id": "326",
+          "value": 0.0019494168932841923,
+          "name": "118",
+          "full_name": "Piazzatorre (Piazzo) - Passo e Casera di Monte Colle",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "2.1",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/118"
+        }
+      },
+      {
+        "data": {
+          "id": "332",
+          "value": 0.0009077604716523565,
+          "name": "111A",
+          "full_name": "Giro delle Casere",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/111a"
+        }
+      },
+      {
+        "data": {
+          "id": "341",
+          "value": 0.003353026523738676,
+          "name": "111",
+          "full_name": "Mezzoldo (Madonna delle Nevi) - Forcella Rossa",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "3.7",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/111"
+        }
+      },
+      {
+        "data": {
+          "id": "333",
+          "value": 0.0009077604716523565,
+          "name": "115",
+          "full_name": "Mezzoldo (Ponte dell'Acqua) - Passo di S. Simone",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/115"
+        }
+      },
+      {
+        "data": {
+          "id": "348",
+          "value": 0.0016793574182620591,
+          "name": "134",
+          "full_name": "Le Piazzole (Piazzatorre) - Val Terzera (sentiero 115)",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.9",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/134"
+        }
+      },
+      {
+        "data": {
+          "id": "334",
+          "value": 0.0009077604716523565,
+          "name": "114",
+          "full_name": "Mezzoldo (Ponte dell'Acqua) - Ca' San Marco (Via Priula)",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/114"
+        }
+      },
+      {
+        "data": {
+          "id": "343",
+          "value": 0.008365025942209807,
+          "name": "110",
+          "full_name": "Averara (Caprile inferiore) - Ca' San Marco",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "9.2",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/110"
+        }
+      },
+      {
+        "data": {
+          "id": "337",
+          "value": 0.0009077604716523565,
+          "name": "110A",
+          "full_name": "Lago Valmora - Passo di Verrobbio",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/110A"
+        }
+      },
+      {
+        "data": {
+          "id": "313",
+          "value": 0.007602006004047723,
+          "name": "161",
+          "full_name": "Rifugio Ca' San Marco - Lago di Pescegallo - Passo di Salmurano",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "8.4",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/161"
+        }
+      },
+      {
+        "data": {
+          "id": "338",
+          "value": 0.0009077604716523565,
+          "name": "109B",
+          "full_name": "Colle Maddalena - Piani dell'Avaro",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/109b"
+        }
+      },
+      {
+        "data": {
+          "id": "345",
+          "value": 0.0034253716995279408,
+          "name": "109",
+          "full_name": "Piani dell'Avaro - Laghi di Ponteranica",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "3.8",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/109"
+        }
+      },
+      {
+        "data": {
+          "id": "413",
+          "value": 0.00254097418987914,
+          "name": "105",
+          "full_name": "Colle Maddalena (Cusio) - Caprile Superiore - Losc - Averara - Olmo al Brembo",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "2.8",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/105"
+        }
+      },
+      {
+        "data": {
+          "id": "339",
+          "value": 0.0009077604716523565,
+          "name": "109A",
+          "full_name": "Raccordo con sentiero 101",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/109a"
+        }
+      },
+      {
+        "data": {
+          "id": "340",
+          "value": 0.0009077604716523565,
+          "name": "110A",
+          "full_name": "Lago Valmora - Passo di Verrobbio",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/110a"
+        }
+      },
+      {
+        "data": {
+          "id": "342",
+          "value": 0.0009077604716523565,
+          "name": "108A",
+          "full_name": "variante del sentiero 108",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/108a"
+        }
+      },
+      {
+        "data": {
+          "id": "344",
+          "value": 0.0009077604716523565,
+          "name": "201A",
+          "full_name": "Passo di Dordona - Laghi di Porcile",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/201A"
+        }
+      },
+      {
+        "data": {
+          "id": "347",
+          "value": 0.0009077604716523565,
+          "name": "235",
+          "full_name": "Costa (Roncobello) - Cima di Menna",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/235"
+        }
+      },
+      {
+        "data": {
+          "id": "392",
+          "value": 0.0012935589449572075,
+          "name": "270",
+          "full_name": "Costa (Roncobello) - Baite di Mezzeno",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.4",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/270"
+        }
+      },
+      {
+        "data": {
+          "id": "352",
+          "value": 0.0012935589449572075,
+          "name": "234",
+          "full_name": "Zorzone - Bivacco MAGA - Monte Menna",
+          "zone_color": "#51B698",
+          "zone": "Val Serina",
+          "rank": "1.4",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/234"
+        }
+      },
+      {
+        "data": {
+          "id": "349",
+          "value": 0.0009077604716523565,
+          "name": "236",
+          "full_name": "Valle dei Frati - Passo d'Aviasco",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/236"
+        }
+      },
+      {
+        "data": {
+          "id": "359",
+          "value": 0.0016407777521678195,
+          "name": "229",
+          "full_name": "Rifugio Baita Cernello - Passo d'Aviasco",
+          "zone_color": "#9AAAB1",
+          "zone": "Alta Val Seriana",
+          "rank": "1.8",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/229"
+        }
+      },
+      {
+        "data": {
+          "id": "374",
+          "value": 0.005677121558353481,
+          "name": "214",
+          "full_name": "Rifugio Laghi Gemelli - Passo d'Aviasco",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "6.3",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/214"
+        }
+      },
+      {
+        "data": {
+          "id": "353",
+          "value": 0.0009077604716523565,
+          "name": "233",
+          "full_name": "Gromo - Passo Portula",
+          "zone_color": "#9AAAB1",
+          "zone": "Alta Val Seriana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/233"
+        }
+      },
+      {
+        "data": {
+          "id": "402",
+          "value": 0.001100659708304782,
+          "name": "261",
+          "full_name": "Gromo San Marino - Cardeto (sentiero 233)",
+          "zone_color": "#9AAAB1",
+          "zone": "Alta Val Seriana",
+          "rank": "1.2",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/261"
+        }
+      },
+      {
+        "data": {
+          "id": "351",
+          "value": 0.001100659708304782,
+          "name": "233A",
+          "full_name": "Cardeto - Giro dei Laghi",
+          "zone_color": "#9AAAB1",
+          "zone": "Alta Val Seriana",
+          "rank": "1.2",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/233a"
+        }
+      },
+      {
+        "data": {
+          "id": "354",
+          "value": 0.0020413653990260477,
+          "name": "230",
+          "full_name": "Rifugio Baita Cernello - Passo Portula",
+          "zone_color": "#9AAAB1",
+          "zone": "Alta Val Seriana",
+          "rank": "2.2",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/230"
+        }
+      },
+      {
+        "data": {
+          "id": "361",
+          "value": 0.003028720936795372,
+          "name": "226",
+          "full_name": "Rifugio Calvi - Passo Portula",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "3.3",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/226"
+        }
+      },
+      {
+        "data": {
+          "id": "355",
+          "value": 0.0009077604716523565,
+          "name": "231",
+          "full_name": "Zorzone - Passo Branchino",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/231"
+        }
+      },
+      {
+        "data": {
+          "id": "366",
+          "value": 0.0029851273582975507,
+          "name": "222",
+          "full_name": "Rifugio Capanna 2000 - Passo Branchino",
+          "zone_color": "#51B698",
+          "zone": "Val Serina",
+          "rank": "3.3",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/222"
+        }
+      },
+      {
+        "data": {
+          "id": "357",
+          "value": 0.00480754779427089,
+          "name": "232",
+          "full_name": "Valgoglio - Rifugio Laghi Gemelli",
+          "zone_color": "#9AAAB1",
+          "zone": "Alta Val Seriana",
+          "rank": "5.3",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/232"
+        }
+      },
+      {
+        "data": {
+          "id": "358",
+          "value": 0.0009077604716523565,
+          "name": "117A",
+          "full_name": "Branzi (San Rocco) - sentiero 117",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/117A"
+        }
+      },
+      {
+        "data": {
+          "id": "364",
+          "value": 0.0009077604716523565,
+          "name": "109A",
+          "full_name": "Raccordo con sentiero 101",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/109A"
+        }
+      },
+      {
+        "data": {
+          "id": "371",
+          "value": 0.0030538589249373125,
+          "name": "217",
+          "full_name": "Baite di Mezzeno - Tre Pizzi",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "3.4",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/217"
+        }
+      },
+      {
+        "data": {
+          "id": "373",
+          "value": 0.0009077604716523565,
+          "name": "108A",
+          "full_name": "variante del sentiero 108",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/108A"
+        }
+      },
+      {
+        "data": {
+          "id": "377",
+          "value": 0.0009077604716523565,
+          "name": "209A",
+          "full_name": "Giro dei laghetti di Caldirolo",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/209a"
+        }
+      },
+      {
+        "data": {
+          "id": "383",
+          "value": 0.00642526847344207,
+          "name": "209",
+          "full_name": "Carona - Passo di Publino",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "7.1",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/209"
+        }
+      },
+      {
+        "data": {
+          "id": "379",
+          "value": 0.0009077604716523565,
+          "name": "210A",
+          "full_name": "Rifugio Calvi - Lago dei Curiosi - Lago Cabianca - Lago Fregabolgia",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/210a"
+        }
+      },
+      {
+        "data": {
+          "id": "381",
+          "value": 0.004850885048815322,
+          "name": "207",
+          "full_name": "Carona - Carisole - Passo della Croce",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "5.3",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/207"
+        }
+      },
+      {
+        "data": {
+          "id": "387",
+          "value": 0.007684111616431752,
+          "name": "205",
+          "full_name": "Foppolo - Passo della Croce",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "8.5",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/205"
+        }
+      },
+      {
+        "data": {
+          "id": "388",
+          "value": 0.0009077604716523565,
+          "name": "206",
+          "full_name": "Foppolo - Pizzo del Vescovo",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/206"
+        }
+      },
+      {
+        "data": {
+          "id": "389",
+          "value": 0.0009077604716523565,
+          "name": "204A",
+          "full_name": "Lago Moro - Montebello",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/204a"
+        }
+      },
+      {
+        "data": {
+          "id": "390",
+          "value": 0.0009077604716523565,
+          "name": "272",
+          "full_name": "Sentiero dei Roccoli (Baite di Mezzeno)",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/272"
+        }
+      },
+      {
+        "data": {
+          "id": "394",
+          "value": 0.0016793574182620591,
+          "name": "269",
+          "full_name": "Lenna (Cantone San Francesco) - Roncobello",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.9",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/269"
+        }
+      },
+      {
+        "data": {
+          "id": "401",
+          "value": 0.0017886670763165565,
+          "name": "265",
+          "full_name": "Valcanale - Forcella di Zulino - Val Sanguigno (incr. sentieri 232 - 267)",
+          "zone_color": "#9AAAB1",
+          "zone": "Alta Val Seriana",
+          "rank": "2.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/265"
+        }
+      },
+      {
+        "data": {
+          "id": "397",
+          "value": 0.0009077604716523565,
+          "name": "265A",
+          "full_name": "Rifugio Alpe Corte - Baite di Zulino - Baite Campagano - Rifugio Alpe Corte",
+          "zone_color": "#E0AC82",
+          "zone": "Valcanale",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/265a"
+        }
+      },
+      {
+        "data": {
+          "id": "398",
+          "value": 0.0009077604716523565,
+          "name": "264B",
+          "full_name": "Baita inferiore di Monte Secco - Monte Vaccaro (incrocio sent. 241)",
+          "zone_color": "#78A6E7",
+          "zone": "Val Seriana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/264b"
+        }
+      },
+      {
+        "data": {
+          "id": "399",
+          "value": 0.0009077604716523565,
+          "name": "265A",
+          "full_name": "Rifugio Alpe Corte - Baite di Zulino - Baite Campagano - Rifugio Alpe Corte",
+          "zone_color": "#E0AC82",
+          "zone": "Valcanale",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/265A"
+        }
+      },
+      {
+        "data": {
+          "id": "400",
+          "value": 0.0009077604716523565,
+          "name": "270A",
+          "full_name": "Baite di Mezzeno - passo di Marogella - rifugio Alpe Corte",
+          "zone_color": "#E0AC82",
+          "zone": "Valcanale",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/270A"
+        }
+      },
+      {
+        "data": {
+          "id": "405",
+          "value": 0.0016793574182620591,
+          "name": "262",
+          "full_name": "Premolo \u2013 Loc. Belloro \u2013 Piazza Golla \u2013 B.ta Corna \u2013 M. Golla \u2013 (Matto di Golla) \u2013 Rif. Baita Golla",
+          "zone_color": "#4A7296",
+          "zone": "Valle del Riso",
+          "rank": "1.9",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/262"
+        }
+      },
+      {
+        "data": {
+          "id": "406",
+          "value": 0.0009077604716523565,
+          "name": "209A",
+          "full_name": "Giro dei laghetti di Caldirolo",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/209A"
+        }
+      },
+      {
+        "data": {
+          "id": "408",
+          "value": 0.0009077604716523565,
+          "name": "258",
+          "full_name": "Rifugio Longo - Rifugio Baita Armentarga (incr. sentiero 208)",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/258"
+        }
+      },
+      {
+        "data": {
+          "id": "410",
+          "value": 0.0009077604716523565,
+          "name": "260",
+          "full_name": "Alpe Grina (Gorno) - Rifugio Baita Golla",
+          "zone_color": "#4A7296",
+          "zone": "Valle del Riso",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/260"
+        }
+      },
+      {
+        "data": {
+          "id": "411",
+          "value": 0.0009077604716523565,
+          "name": "107A",
+          "full_name": "casera Valletto - Val Pianella - incrocio sentiero 101",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/107a"
+        }
+      },
+      {
+        "data": {
+          "id": "412",
+          "value": 0.0011649594538555906,
+          "name": "105A",
+          "full_name": "Giro del Pizzo di Cusio",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.3",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/105a"
+        }
+      },
+      {
+        "data": {
+          "id": "414",
+          "value": 0.0009077604716523565,
+          "name": "104B",
+          "full_name": "loc. Ceresola (Valtorta) - Passo del Gandazzo - incrocio sentiero 101",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/104b"
+        }
+      },
+      {
+        "data": {
+          "id": "427",
+          "value": 0.002668098571102332,
+          "name": "101_3",
+          "full_name": "Piani di Bobbio - Rifugio Grassi",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "2.9",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/101_3"
+        }
+      },
+      {
+        "data": {
+          "id": "415",
+          "value": 0.0009077604716523565,
+          "name": "105C",
+          "full_name": "Ornica (loc. Rasega) - Santa Brigida (loc. Val di Guei)",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/105c"
+        }
+      },
+      {
+        "data": {
+          "id": "419",
+          "value": 0.0009077604716523565,
+          "name": "103A",
+          "full_name": "Piani di Valtorta \u2013 incrocio sentiero 101 (Rif. Cazzaniga)",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/103a"
+        }
+      },
+      {
+        "data": {
+          "id": "429",
+          "value": 0.005204607635018771,
+          "name": "101_2",
+          "full_name": "Rifugio Cazzaniga-Merlini - Piani di Bobbio",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "5.7",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/101_2"
+        }
+      },
+      {
+        "data": {
+          "id": "420",
+          "value": 0.0009077604716523565,
+          "name": "104A",
+          "full_name": "loc. Gualtieri (Valtorta) - incrocio sentiero 104",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/104a"
+        }
+      },
+      {
+        "data": {
+          "id": "422",
+          "value": 0.0028133003045262275,
+          "name": "104",
+          "full_name": "Valtorta (Costa) - Rifugio Grassi",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "3.1",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/104"
+        }
+      },
+      {
+        "data": {
+          "id": "331",
+          "value": 0.001264624195386528,
+          "name": "116",
+          "full_name": "San Simone (Baita Camoscio) - Passo di Lemma",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "1.4",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/116"
+        }
+      },
+      {
+        "data": {
+          "id": "423",
+          "value": 0.0031197207772944656,
+          "name": "103",
+          "full_name": "Valtorta (Piani Bassi) - Rifugio Cazzaniga-Merlini",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "3.4",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/103"
+        }
+      },
+      {
+        "data": {
+          "id": "417",
+          "value": 0.0018965016244926287,
+          "name": "106",
+          "full_name": "Ornica - Valle d'Inferno - Pizzo dei Tre Signori",
+          "zone_color": "#F2BC53",
+          "zone": "Alta Valle Brembana",
+          "rank": "2.1",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/106"
+        }
+      },
+      {
+        "data": {
+          "id": "435",
+          "value": 0.0009077604716523565,
+          "name": "599",
+          "full_name": "Dossena (Villa) - Lavaggio - Val Parina (incrocio sentiero n\u00b0 259)",
+          "zone_color": "#27212D",
+          "zone": "Bassa e Media Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/599"
+        }
+      },
+      {
+        "data": {
+          "id": "404",
+          "value": 0.0016793574182620591,
+          "name": "259",
+          "full_name": "Valparina - Scalvino (Lenna)",
+          "zone_color": "#27212D",
+          "zone": "Bassa e Media Valle Brembana",
+          "rank": "1.9",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/259"
+        }
+      },
+      {
+        "data": {
+          "id": "439",
+          "value": 0.0009077604716523565,
+          "name": "599B",
+          "full_name": "Dossena (Villa) - M.te Vaccareggio (sentiero delle creste)",
+          "zone_color": "#27212D",
+          "zone": "Bassa e Media Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/599b"
+        }
+      },
+      {
+        "data": {
+          "id": "437",
+          "value": 0.0024509543648717626,
+          "name": "599A",
+          "full_name": "Dossena (Costa) - M.te Vaccareggio (sentiero panoramico)",
+          "zone_color": "#27212D",
+          "zone": "Bassa e Media Valle Brembana",
+          "rank": "2.7",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/599a"
+        }
+      },
+      {
+        "data": {
+          "id": "446",
+          "value": 0.0009077604716523565,
+          "name": "592E",
+          "full_name": "Cadelfoglia - Bocchetta di Piazzacava",
+          "zone_color": "#7E82A5",
+          "zone": "Val Brembilla",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/592e"
+        }
+      },
+      {
+        "data": {
+          "id": "59",
+          "value": 0.0038784092598084497,
+          "name": "571",
+          "full_name": "Periplo della Valle Imagna - da Almenno S.S. a Clanezzo seguendo lo spartiacque",
+          "zone_color": "#6C839B",
+          "zone": "Valle Imagna",
+          "rank": "4.3",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/571"
+        }
+      },
+      {
+        "data": {
+          "id": "447",
+          "value": 0.0009077604716523565,
+          "name": "592D",
+          "full_name": "Gerosa - Tre Faggi",
+          "zone_color": "#7E82A5",
+          "zone": "Val Brembilla",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/592d"
+        }
+      },
+      {
+        "data": {
+          "id": "450",
+          "value": 0.0009077604716523565,
+          "name": "XXIII",
+          "full_name": "Sentiero Papa Giovanni - Sotto il Monte - Celana - San Gregorio",
+          "zone_color": "#6090CF",
+          "zone": "Val San Martino",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/xxiii"
+        }
+      },
+      {
+        "data": {
+          "id": "464",
+          "value": 0.002155175716574288,
+          "name": "891",
+          "full_name": "Mapello (Mad. Prada) - Il Canto - Villa d'Adda (traghetto)",
+          "zone_color": "#6090CF",
+          "zone": "Val San Martino",
+          "rank": "2.4",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/891"
+        }
+      },
+      {
+        "data": {
+          "id": "456",
+          "value": 0.0011649594538555906,
+          "name": "895",
+          "full_name": "Carvico - Canto (incrocio 891)",
+          "zone_color": "#6090CF",
+          "zone": "Val San Martino",
+          "rank": "1.3",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/895"
+        }
+      },
+      {
+        "data": {
+          "id": "455",
+          "value": 0.0011649594538555906,
+          "name": "896",
+          "full_name": "C\u00e0 de Rizzi (Pontida) - Canto Ruderi (incrocio 897)",
+          "zone_color": "#6090CF",
+          "zone": "Val San Martino",
+          "rank": "1.3",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/896"
+        }
+      },
+      {
+        "data": {
+          "id": "459",
+          "value": 0.0009077604716523565,
+          "name": "862",
+          "full_name": "Palazzago - Beita",
+          "zone_color": "#6090CF",
+          "zone": "Val San Martino",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/862"
+        }
+      },
+      {
+        "data": {
+          "id": "460",
+          "value": 0.0016793574182620591,
+          "name": "861",
+          "full_name": "Barzana - Palazzago - Monte Albenza (Sentiero del crinale)",
+          "zone_color": "#6090CF",
+          "zone": "Val San Martino",
+          "rank": "1.9",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/861"
+        }
+      },
+      {
+        "data": {
+          "id": "461",
+          "value": 0.0009077604716523565,
+          "name": "599B",
+          "full_name": "Dossena (Villa) - M.te Vaccareggio (sentiero delle creste)",
+          "zone_color": "#27212D",
+          "zone": "Bassa e Media Valle Brembana",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/599B"
+        }
+      },
+      {
+        "data": {
+          "id": "481",
+          "value": 0.0009077604716523565,
+          "name": "736",
+          "full_name": "Col del Giogo - incrocio sentiero 708",
+          "zone_color": "#6F5F78",
+          "zone": "Monte Bronzone - Lago d'Iseo",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/736"
+        }
+      },
+      {
+        "data": {
+          "id": "546",
+          "value": 0.0012935589449572075,
+          "name": "708",
+          "full_name": "Predore - Colle di Oregia",
+          "zone_color": "#6F5F78",
+          "zone": "Monte Bronzone - Lago d'Iseo",
+          "rank": "1.4",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/708"
+        }
+      },
+      {
+        "data": {
+          "id": "543",
+          "value": 0.0020651558915669114,
+          "name": "707",
+          "full_name": "Gallinarga - Colle del Giogo",
+          "zone_color": "#6F5F78",
+          "zone": "Monte Bronzone - Lago d'Iseo",
+          "rank": "2.3",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/707"
+        }
+      },
+      {
+        "data": {
+          "id": "484",
+          "value": 0.0009077604716523565,
+          "name": "733",
+          "full_name": "Sentiero dei Fiori",
+          "zone_color": "#6F5F78",
+          "zone": "Monte Bronzone - Lago d'Iseo",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/733"
+        }
+      },
+      {
+        "data": {
+          "id": "500",
+          "value": 0.0009077604716523565,
+          "name": "757",
+          "full_name": "Campolerone (Vigolo) - Gombo alto",
+          "zone_color": "#6F5F78",
+          "zone": "Monte Bronzone - Lago d'Iseo",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/757"
+        }
+      },
+      {
+        "data": {
+          "id": "31",
+          "value": 0.0016793574182620591,
+          "name": "701",
+          "full_name": "sentiero tra i monti e il lago",
+          "zone_color": "#6F5F78",
+          "zone": "Monte Bronzone - Lago d'Iseo",
+          "rank": "1.9",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/701"
+        }
+      },
+      {
+        "data": {
+          "id": "482",
+          "value": 0.0012935589449572075,
+          "name": "727",
+          "full_name": "Valle delle Tombe - Gombo Alto",
+          "zone_color": "#6F5F78",
+          "zone": "Monte Bronzone - Lago d'Iseo",
+          "rank": "1.4",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/727"
+        }
+      },
+      {
+        "data": {
+          "id": "511",
+          "value": 0.0009077604716523565,
+          "name": "748A",
+          "full_name": "Bione - Percorso didattico - Morti di Bondo",
+          "zone_color": "#6F5F78",
+          "zone": "Monte Bronzone - Lago d'Iseo",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/748a"
+        }
+      },
+      {
+        "data": {
+          "id": "474",
+          "value": 0.0016793574182620591,
+          "name": "748",
+          "full_name": "Bione (Adrara San Martino) - Colle Dedine - Monte Bronzone",
+          "zone_color": "#6F5F78",
+          "zone": "Monte Bronzone - Lago d'Iseo",
+          "rank": "1.9",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/748"
+        }
+      },
+      {
+        "data": {
+          "id": "528",
+          "value": 0.0009077604716523565,
+          "name": "719A",
+          "full_name": "Madonna del Monte Uliveto (Adrara San Martino) - Incrocio sentiero 701",
+          "zone_color": "#6F5F78",
+          "zone": "Monte Bronzone - Lago d'Iseo",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/719a"
+        }
+      },
+      {
+        "data": {
+          "id": "529",
+          "value": 0.0012935589449572075,
+          "name": "719",
+          "full_name": "Canzanica (Adrara San Martino) - Monte Bronzone",
+          "zone_color": "#6F5F78",
+          "zone": "Monte Bronzone - Lago d'Iseo",
+          "rank": "1.4",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/719"
+        }
+      },
+      {
+        "data": {
+          "id": "552",
+          "value": 0.002393084865730403,
+          "name": "701C",
+          "full_name": "Vigolo - Castione di Sarnico",
+          "zone_color": "#6F5F78",
+          "zone": "Monte Bronzone - Lago d'Iseo",
+          "rank": "2.6",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/701c"
+        }
+      },
+      {
+        "data": {
+          "id": "533",
+          "value": 0.0009077604716523565,
+          "name": "717A",
+          "full_name": "Fagiolo (Adrara San Martino) - Passo Colle Forca",
+          "zone_color": "#6F5F78",
+          "zone": "Monte Bronzone - Lago d'Iseo",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/717a"
+        }
+      },
+      {
+        "data": {
+          "id": "535",
+          "value": 0.0020651558915669114,
+          "name": "717",
+          "full_name": "Adrara San Martino - Colle Croce - Colli di S. Fermo",
+          "zone_color": "#6F5F78",
+          "zone": "Monte Bronzone - Lago d'Iseo",
+          "rank": "2.3",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/717"
+        }
+      },
+      {
+        "data": {
+          "id": "534",
+          "value": 0.0009077604716523565,
+          "name": "717B",
+          "full_name": "Malga Adrara (Adrara San Martino) - San Fermo",
+          "zone_color": "#6F5F78",
+          "zone": "Monte Bronzone - Lago d'Iseo",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/717b"
+        }
+      },
+      {
+        "data": {
+          "id": "514",
+          "value": 0.0012935589449572075,
+          "name": "614",
+          "full_name": "Grone - Foppelle",
+          "zone_color": "#413F53",
+          "zone": "Val Cavallina",
+          "rank": "1.4",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/614"
+        }
+      },
+      {
+        "data": {
+          "id": "537",
+          "value": 0.0009077604716523565,
+          "name": "714A",
+          "full_name": "Sca\u00f9cla - Sella - Colle Dedine - Adrara San Rocco (giro ad anello)",
+          "zone_color": "#6F5F78",
+          "zone": "Monte Bronzone - Lago d'Iseo",
+          "rank": "1.0",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/714a"
+        }
+      },
+      {
+        "data": {
+          "id": "470",
+          "value": 0.0012935589449572075,
+          "name": "744",
+          "full_name": "Adrara San Rocco - Cucche",
+          "zone_color": "#6F5F78",
+          "zone": "Monte Bronzone - Lago d'Iseo",
+          "rank": "1.4",
+          "url": "https://www.caibergamo.it/geoportale/sentieri/744"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "source": "0",
+          "target": "395"
+        }
+      },
+      {
+        "data": {
+          "source": "0",
+          "target": "396"
+        }
+      },
+      {
+        "data": {
+          "source": "395",
+          "target": "359"
+        }
+      },
+      {
+        "data": {
+          "source": "395",
+          "target": "360"
+        }
+      },
+      {
+        "data": {
+          "source": "395",
+          "target": "396"
+        }
+      },
+      {
+        "data": {
+          "source": "396",
+          "target": "357"
+        }
+      },
+      {
+        "data": {
+          "source": "396",
+          "target": "401"
+        }
+      },
+      {
+        "data": {
+          "source": "3",
+          "target": "42"
+        }
+      },
+      {
+        "data": {
+          "source": "3",
+          "target": "45"
+        }
+      },
+      {
+        "data": {
+          "source": "42",
+          "target": "182"
+        }
+      },
+      {
+        "data": {
+          "source": "42",
+          "target": "45"
+        }
+      },
+      {
+        "data": {
+          "source": "42",
+          "target": "169"
+        }
+      },
+      {
+        "data": {
+          "source": "42",
+          "target": "173"
+        }
+      },
+      {
+        "data": {
+          "source": "45",
+          "target": "182"
+        }
+      },
+      {
+        "data": {
+          "source": "45",
+          "target": "183"
+        }
+      },
+      {
+        "data": {
+          "source": "45",
+          "target": "169"
+        }
+      },
+      {
+        "data": {
+          "source": "4",
+          "target": "350"
+        }
+      },
+      {
+        "data": {
+          "source": "4",
+          "target": "428"
+        }
+      },
+      {
+        "data": {
+          "source": "4",
+          "target": "416"
+        }
+      },
+      {
+        "data": {
+          "source": "4",
+          "target": "426"
+        }
+      },
+      {
+        "data": {
+          "source": "350",
+          "target": "342"
+        }
+      },
+      {
+        "data": {
+          "source": "350",
+          "target": "373"
+        }
+      },
+      {
+        "data": {
+          "source": "350",
+          "target": "411"
+        }
+      },
+      {
+        "data": {
+          "source": "350",
+          "target": "416"
+        }
+      },
+      {
+        "data": {
+          "source": "350",
+          "target": "426"
+        }
+      },
+      {
+        "data": {
+          "source": "350",
+          "target": "428"
+        }
+      },
+      {
+        "data": {
+          "source": "428",
+          "target": "342"
+        }
+      },
+      {
+        "data": {
+          "source": "428",
+          "target": "373"
+        }
+      },
+      {
+        "data": {
+          "source": "428",
+          "target": "411"
+        }
+      },
+      {
+        "data": {
+          "source": "428",
+          "target": "426"
+        }
+      },
+      {
+        "data": {
+          "source": "428",
+          "target": "427"
+        }
+      },
+      {
+        "data": {
+          "source": "428",
+          "target": "417"
+        }
+      },
+      {
+        "data": {
+          "source": "416",
+          "target": "411"
+        }
+      },
+      {
+        "data": {
+          "source": "416",
+          "target": "415"
+        }
+      },
+      {
+        "data": {
+          "source": "416",
+          "target": "313"
+        }
+      },
+      {
+        "data": {
+          "source": "416",
+          "target": "426"
+        }
+      },
+      {
+        "data": {
+          "source": "426",
+          "target": "337"
+        }
+      },
+      {
+        "data": {
+          "source": "426",
+          "target": "339"
+        }
+      },
+      {
+        "data": {
+          "source": "426",
+          "target": "340"
+        }
+      },
+      {
+        "data": {
+          "source": "426",
+          "target": "343"
+        }
+      },
+      {
+        "data": {
+          "source": "426",
+          "target": "364"
+        }
+      },
+      {
+        "data": {
+          "source": "426",
+          "target": "424"
+        }
+      },
+      {
+        "data": {
+          "source": "426",
+          "target": "313"
+        }
+      },
+      {
+        "data": {
+          "source": "426",
+          "target": "345"
+        }
+      },
+      {
+        "data": {
+          "source": "5",
+          "target": "244"
+        }
+      },
+      {
+        "data": {
+          "source": "5",
+          "target": "245"
+        }
+      },
+      {
+        "data": {
+          "source": "5",
+          "target": "294"
+        }
+      },
+      {
+        "data": {
+          "source": "5",
+          "target": "173"
+        }
+      },
+      {
+        "data": {
+          "source": "5",
+          "target": "247"
+        }
+      },
+      {
+        "data": {
+          "source": "244",
+          "target": "245"
+        }
+      },
+      {
+        "data": {
+          "source": "244",
+          "target": "173"
+        }
+      },
+      {
+        "data": {
+          "source": "244",
+          "target": "294"
+        }
+      },
+      {
+        "data": {
+          "source": "245",
+          "target": "173"
+        }
+      },
+      {
+        "data": {
+          "source": "245",
+          "target": "241"
+        }
+      },
+      {
+        "data": {
+          "source": "245",
+          "target": "242"
+        }
+      },
+      {
+        "data": {
+          "source": "245",
+          "target": "247"
+        }
+      },
+      {
+        "data": {
+          "source": "294",
+          "target": "173"
+        }
+      },
+      {
+        "data": {
+          "source": "294",
+          "target": "291"
+        }
+      },
+      {
+        "data": {
+          "source": "294",
+          "target": "180"
+        }
+      },
+      {
+        "data": {
+          "source": "294",
+          "target": "289"
+        }
+      },
+      {
+        "data": {
+          "source": "294",
+          "target": "30"
+        }
+      },
+      {
+        "data": {
+          "source": "247",
+          "target": "238"
+        }
+      },
+      {
+        "data": {
+          "source": "247",
+          "target": "241"
+        }
+      },
+      {
+        "data": {
+          "source": "247",
+          "target": "307"
+        }
+      },
+      {
+        "data": {
+          "source": "247",
+          "target": "239"
+        }
+      },
+      {
+        "data": {
+          "source": "247",
+          "target": "285"
+        }
+      },
+      {
+        "data": {
+          "source": "247",
+          "target": "298"
+        }
+      },
+      {
+        "data": {
+          "source": "247",
+          "target": "299"
+        }
+      },
+      {
+        "data": {
+          "source": "7",
+          "target": "72"
+        }
+      },
+      {
+        "data": {
+          "source": "7",
+          "target": "98"
+        }
+      },
+      {
+        "data": {
+          "source": "7",
+          "target": "70"
+        }
+      },
+      {
+        "data": {
+          "source": "9",
+          "target": "380"
+        }
+      },
+      {
+        "data": {
+          "source": "9",
+          "target": "375"
+        }
+      },
+      {
+        "data": {
+          "source": "9",
+          "target": "376"
+        }
+      },
+      {
+        "data": {
+          "source": "380",
+          "target": "357"
+        }
+      },
+      {
+        "data": {
+          "source": "380",
+          "target": "372"
+        }
+      },
+      {
+        "data": {
+          "source": "380",
+          "target": "375"
+        }
+      },
+      {
+        "data": {
+          "source": "380",
+          "target": "376"
+        }
+      },
+      {
+        "data": {
+          "source": "380",
+          "target": "374"
+        }
+      },
+      {
+        "data": {
+          "source": "380",
+          "target": "409"
+        }
+      },
+      {
+        "data": {
+          "source": "375",
+          "target": "34"
+        }
+      },
+      {
+        "data": {
+          "source": "375",
+          "target": "371"
+        }
+      },
+      {
+        "data": {
+          "source": "375",
+          "target": "256"
+        }
+      },
+      {
+        "data": {
+          "source": "375",
+          "target": "409"
+        }
+      },
+      {
+        "data": {
+          "source": "375",
+          "target": "374"
+        }
+      },
+      {
+        "data": {
+          "source": "375",
+          "target": "357"
+        }
+      },
+      {
+        "data": {
+          "source": "375",
+          "target": "391"
+        }
+      },
+      {
+        "data": {
+          "source": "375",
+          "target": "400"
+        }
+      },
+      {
+        "data": {
+          "source": "376",
+          "target": "256"
+        }
+      },
+      {
+        "data": {
+          "source": "376",
+          "target": "374"
+        }
+      },
+      {
+        "data": {
+          "source": "376",
+          "target": "409"
+        }
+      },
+      {
+        "data": {
+          "source": "11",
+          "target": "33"
+        }
+      },
+      {
+        "data": {
+          "source": "11",
+          "target": "37"
+        }
+      },
+      {
+        "data": {
+          "source": "11",
+          "target": "308"
+        }
+      },
+      {
+        "data": {
+          "source": "11",
+          "target": "167"
+        }
+      },
+      {
+        "data": {
+          "source": "33",
+          "target": "174"
+        }
+      },
+      {
+        "data": {
+          "source": "33",
+          "target": "308"
+        }
+      },
+      {
+        "data": {
+          "source": "33",
+          "target": "37"
+        }
+      },
+      {
+        "data": {
+          "source": "33",
+          "target": "167"
+        }
+      },
+      {
+        "data": {
+          "source": "33",
+          "target": "172"
+        }
+      },
+      {
+        "data": {
+          "source": "37",
+          "target": "362"
+        }
+      },
+      {
+        "data": {
+          "source": "37",
+          "target": "257"
+        }
+      },
+      {
+        "data": {
+          "source": "37",
+          "target": "365"
+        }
+      },
+      {
+        "data": {
+          "source": "37",
+          "target": "165"
+        }
+      },
+      {
+        "data": {
+          "source": "37",
+          "target": "167"
+        }
+      },
+      {
+        "data": {
+          "source": "37",
+          "target": "174"
+        }
+      },
+      {
+        "data": {
+          "source": "37",
+          "target": "252"
+        }
+      },
+      {
+        "data": {
+          "source": "308",
+          "target": "24"
+        }
+      },
+      {
+        "data": {
+          "source": "308",
+          "target": "172"
+        }
+      },
+      {
+        "data": {
+          "source": "308",
+          "target": "177"
+        }
+      },
+      {
+        "data": {
+          "source": "308",
+          "target": "297"
+        }
+      },
+      {
+        "data": {
+          "source": "308",
+          "target": "300"
+        }
+      },
+      {
+        "data": {
+          "source": "308",
+          "target": "301"
+        }
+      },
+      {
+        "data": {
+          "source": "308",
+          "target": "307"
+        }
+      },
+      {
+        "data": {
+          "source": "167",
+          "target": "165"
+        }
+      },
+      {
+        "data": {
+          "source": "167",
+          "target": "257"
+        }
+      },
+      {
+        "data": {
+          "source": "167",
+          "target": "365"
+        }
+      },
+      {
+        "data": {
+          "source": "167",
+          "target": "168"
+        }
+      },
+      {
+        "data": {
+          "source": "167",
+          "target": "174"
+        }
+      },
+      {
+        "data": {
+          "source": "167",
+          "target": "252"
+        }
+      },
+      {
+        "data": {
+          "source": "12",
+          "target": "424"
+        }
+      },
+      {
+        "data": {
+          "source": "12",
+          "target": "287"
+        }
+      },
+      {
+        "data": {
+          "source": "12",
+          "target": "283"
+        }
+      },
+      {
+        "data": {
+          "source": "424",
+          "target": "287"
+        }
+      },
+      {
+        "data": {
+          "source": "424",
+          "target": "421"
+        }
+      },
+      {
+        "data": {
+          "source": "424",
+          "target": "341"
+        }
+      },
+      {
+        "data": {
+          "source": "287",
+          "target": "19"
+        }
+      },
+      {
+        "data": {
+          "source": "287",
+          "target": "283"
+        }
+      },
+      {
+        "data": {
+          "source": "287",
+          "target": "332"
+        }
+      },
+      {
+        "data": {
+          "source": "283",
+          "target": "19"
+        }
+      },
+      {
+        "data": {
+          "source": "283",
+          "target": "279"
+        }
+      },
+      {
+        "data": {
+          "source": "13",
+          "target": "421"
+        }
+      },
+      {
+        "data": {
+          "source": "421",
+          "target": "315"
+        }
+      },
+      {
+        "data": {
+          "source": "421",
+          "target": "331"
+        }
+      },
+      {
+        "data": {
+          "source": "421",
+          "target": "336"
+        }
+      },
+      {
+        "data": {
+          "source": "14",
+          "target": "360"
+        }
+      },
+      {
+        "data": {
+          "source": "360",
+          "target": "354"
+        }
+      },
+      {
+        "data": {
+          "source": "360",
+          "target": "359"
+        }
+      },
+      {
+        "data": {
+          "source": "15",
+          "target": "382"
+        }
+      },
+      {
+        "data": {
+          "source": "15",
+          "target": "253"
+        }
+      },
+      {
+        "data": {
+          "source": "15",
+          "target": "409"
+        }
+      },
+      {
+        "data": {
+          "source": "382",
+          "target": "253"
+        }
+      },
+      {
+        "data": {
+          "source": "382",
+          "target": "379"
+        }
+      },
+      {
+        "data": {
+          "source": "382",
+          "target": "383"
+        }
+      },
+      {
+        "data": {
+          "source": "382",
+          "target": "384"
+        }
+      },
+      {
+        "data": {
+          "source": "382",
+          "target": "363"
+        }
+      },
+      {
+        "data": {
+          "source": "253",
+          "target": "349"
+        }
+      },
+      {
+        "data": {
+          "source": "253",
+          "target": "409"
+        }
+      },
+      {
+        "data": {
+          "source": "409",
+          "target": "256"
+        }
+      },
+      {
+        "data": {
+          "source": "409",
+          "target": "357"
+        }
+      },
+      {
+        "data": {
+          "source": "409",
+          "target": "374"
+        }
+      },
+      {
+        "data": {
+          "source": "20",
+          "target": "73"
+        }
+      },
+      {
+        "data": {
+          "source": "23",
+          "target": "109"
+        }
+      },
+      {
+        "data": {
+          "source": "23",
+          "target": "104"
+        }
+      },
+      {
+        "data": {
+          "source": "23",
+          "target": "41"
+        }
+      },
+      {
+        "data": {
+          "source": "23",
+          "target": "115"
+        }
+      },
+      {
+        "data": {
+          "source": "23",
+          "target": "108"
+        }
+      },
+      {
+        "data": {
+          "source": "109",
+          "target": "108"
+        }
+      },
+      {
+        "data": {
+          "source": "109",
+          "target": "115"
+        }
+      },
+      {
+        "data": {
+          "source": "41",
+          "target": "115"
+        }
+      },
+      {
+        "data": {
+          "source": "115",
+          "target": "108"
+        }
+      },
+      {
+        "data": {
+          "source": "115",
+          "target": "113"
+        }
+      },
+      {
+        "data": {
+          "source": "115",
+          "target": "124"
+        }
+      },
+      {
+        "data": {
+          "source": "115",
+          "target": "114"
+        }
+      },
+      {
+        "data": {
+          "source": "115",
+          "target": "195"
+        }
+      },
+      {
+        "data": {
+          "source": "24",
+          "target": "303"
+        }
+      },
+      {
+        "data": {
+          "source": "24",
+          "target": "297"
+        }
+      },
+      {
+        "data": {
+          "source": "303",
+          "target": "176"
+        }
+      },
+      {
+        "data": {
+          "source": "303",
+          "target": "177"
+        }
+      },
+      {
+        "data": {
+          "source": "303",
+          "target": "295"
+        }
+      },
+      {
+        "data": {
+          "source": "303",
+          "target": "296"
+        }
+      },
+      {
+        "data": {
+          "source": "303",
+          "target": "300"
+        }
+      },
+      {
+        "data": {
+          "source": "303",
+          "target": "301"
+        }
+      },
+      {
+        "data": {
+          "source": "303",
+          "target": "307"
+        }
+      },
+      {
+        "data": {
+          "source": "303",
+          "target": "297"
+        }
+      },
+      {
+        "data": {
+          "source": "303",
+          "target": "328"
+        }
+      },
+      {
+        "data": {
+          "source": "297",
+          "target": "163"
+        }
+      },
+      {
+        "data": {
+          "source": "297",
+          "target": "176"
+        }
+      },
+      {
+        "data": {
+          "source": "297",
+          "target": "177"
+        }
+      },
+      {
+        "data": {
+          "source": "297",
+          "target": "307"
+        }
+      },
+      {
+        "data": {
+          "source": "297",
+          "target": "300"
+        }
+      },
+      {
+        "data": {
+          "source": "297",
+          "target": "301"
+        }
+      },
+      {
+        "data": {
+          "source": "25",
+          "target": "30"
+        }
+      },
+      {
+        "data": {
+          "source": "25",
+          "target": "391"
+        }
+      },
+      {
+        "data": {
+          "source": "25",
+          "target": "372"
+        }
+      },
+      {
+        "data": {
+          "source": "25",
+          "target": "370"
+        }
+      },
+      {
+        "data": {
+          "source": "30",
+          "target": "372"
+        }
+      },
+      {
+        "data": {
+          "source": "30",
+          "target": "35"
+        }
+      },
+      {
+        "data": {
+          "source": "30",
+          "target": "370"
+        }
+      },
+      {
+        "data": {
+          "source": "30",
+          "target": "393"
+        }
+      },
+      {
+        "data": {
+          "source": "30",
+          "target": "397"
+        }
+      },
+      {
+        "data": {
+          "source": "30",
+          "target": "399"
+        }
+      },
+      {
+        "data": {
+          "source": "30",
+          "target": "401"
+        }
+      },
+      {
+        "data": {
+          "source": "391",
+          "target": "370"
+        }
+      },
+      {
+        "data": {
+          "source": "391",
+          "target": "372"
+        }
+      },
+      {
+        "data": {
+          "source": "391",
+          "target": "371"
+        }
+      },
+      {
+        "data": {
+          "source": "391",
+          "target": "392"
+        }
+      },
+      {
+        "data": {
+          "source": "372",
+          "target": "370"
+        }
+      },
+      {
+        "data": {
+          "source": "372",
+          "target": "256"
+        }
+      },
+      {
+        "data": {
+          "source": "372",
+          "target": "357"
+        }
+      },
+      {
+        "data": {
+          "source": "372",
+          "target": "397"
+        }
+      },
+      {
+        "data": {
+          "source": "372",
+          "target": "399"
+        }
+      },
+      {
+        "data": {
+          "source": "372",
+          "target": "401"
+        }
+      },
+      {
+        "data": {
+          "source": "370",
+          "target": "35"
+        }
+      },
+      {
+        "data": {
+          "source": "370",
+          "target": "36"
+        }
+      },
+      {
+        "data": {
+          "source": "370",
+          "target": "260"
+        }
+      },
+      {
+        "data": {
+          "source": "370",
+          "target": "355"
+        }
+      },
+      {
+        "data": {
+          "source": "370",
+          "target": "366"
+        }
+      },
+      {
+        "data": {
+          "source": "370",
+          "target": "34"
+        }
+      },
+      {
+        "data": {
+          "source": "370",
+          "target": "393"
+        }
+      },
+      {
+        "data": {
+          "source": "26",
+          "target": "228"
+        }
+      },
+      {
+        "data": {
+          "source": "26",
+          "target": "229"
+        }
+      },
+      {
+        "data": {
+          "source": "228",
+          "target": "46"
+        }
+      },
+      {
+        "data": {
+          "source": "229",
+          "target": "203"
+        }
+      },
+      {
+        "data": {
+          "source": "229",
+          "target": "176"
+        }
+      },
+      {
+        "data": {
+          "source": "229",
+          "target": "46"
+        }
+      },
+      {
+        "data": {
+          "source": "28",
+          "target": "327"
+        }
+      },
+      {
+        "data": {
+          "source": "28",
+          "target": "314"
+        }
+      },
+      {
+        "data": {
+          "source": "28",
+          "target": "423"
+        }
+      },
+      {
+        "data": {
+          "source": "28",
+          "target": "429"
+        }
+      },
+      {
+        "data": {
+          "source": "314",
+          "target": "425"
+        }
+      },
+      {
+        "data": {
+          "source": "29",
+          "target": "263"
+        }
+      },
+      {
+        "data": {
+          "source": "263",
+          "target": "261"
+        }
+      },
+      {
+        "data": {
+          "source": "263",
+          "target": "262"
+        }
+      },
+      {
+        "data": {
+          "source": "263",
+          "target": "304"
+        }
+      },
+      {
+        "data": {
+          "source": "263",
+          "target": "267"
+        }
+      },
+      {
+        "data": {
+          "source": "263",
+          "target": "265"
+        }
+      },
+      {
+        "data": {
+          "source": "174",
+          "target": "172"
+        }
+      },
+      {
+        "data": {
+          "source": "172",
+          "target": "163"
+        }
+      },
+      {
+        "data": {
+          "source": "172",
+          "target": "176"
+        }
+      },
+      {
+        "data": {
+          "source": "172",
+          "target": "307"
+        }
+      },
+      {
+        "data": {
+          "source": "34",
+          "target": "355"
+        }
+      },
+      {
+        "data": {
+          "source": "34",
+          "target": "366"
+        }
+      },
+      {
+        "data": {
+          "source": "34",
+          "target": "371"
+        }
+      },
+      {
+        "data": {
+          "source": "34",
+          "target": "392"
+        }
+      },
+      {
+        "data": {
+          "source": "35",
+          "target": "393"
+        }
+      },
+      {
+        "data": {
+          "source": "393",
+          "target": "265"
+        }
+      },
+      {
+        "data": {
+          "source": "362",
+          "target": "252"
+        }
+      },
+      {
+        "data": {
+          "source": "362",
+          "target": "259"
+        }
+      },
+      {
+        "data": {
+          "source": "362",
+          "target": "258"
+        }
+      },
+      {
+        "data": {
+          "source": "362",
+          "target": "250"
+        }
+      },
+      {
+        "data": {
+          "source": "362",
+          "target": "365"
+        }
+      },
+      {
+        "data": {
+          "source": "362",
+          "target": "257"
+        }
+      },
+      {
+        "data": {
+          "source": "257",
+          "target": "365"
+        }
+      },
+      {
+        "data": {
+          "source": "365",
+          "target": "252"
+        }
+      },
+      {
+        "data": {
+          "source": "38",
+          "target": "315"
+        }
+      },
+      {
+        "data": {
+          "source": "38",
+          "target": "40"
+        }
+      },
+      {
+        "data": {
+          "source": "38",
+          "target": "67"
+        }
+      },
+      {
+        "data": {
+          "source": "38",
+          "target": "306"
+        }
+      },
+      {
+        "data": {
+          "source": "38",
+          "target": "384"
+        }
+      },
+      {
+        "data": {
+          "source": "38",
+          "target": "387"
+        }
+      },
+      {
+        "data": {
+          "source": "38",
+          "target": "389"
+        }
+      },
+      {
+        "data": {
+          "source": "315",
+          "target": "302"
+        }
+      },
+      {
+        "data": {
+          "source": "315",
+          "target": "306"
+        }
+      },
+      {
+        "data": {
+          "source": "315",
+          "target": "309"
+        }
+      },
+      {
+        "data": {
+          "source": "315",
+          "target": "344"
+        }
+      },
+      {
+        "data": {
+          "source": "40",
+          "target": "67"
+        }
+      },
+      {
+        "data": {
+          "source": "40",
+          "target": "306"
+        }
+      },
+      {
+        "data": {
+          "source": "40",
+          "target": "381"
+        }
+      },
+      {
+        "data": {
+          "source": "40",
+          "target": "384"
+        }
+      },
+      {
+        "data": {
+          "source": "40",
+          "target": "387"
+        }
+      },
+      {
+        "data": {
+          "source": "40",
+          "target": "389"
+        }
+      },
+      {
+        "data": {
+          "source": "182",
+          "target": "183"
+        }
+      },
+      {
+        "data": {
+          "source": "43",
+          "target": "250"
+        }
+      },
+      {
+        "data": {
+          "source": "43",
+          "target": "353"
+        }
+      },
+      {
+        "data": {
+          "source": "183",
+          "target": "180"
+        }
+      },
+      {
+        "data": {
+          "source": "183",
+          "target": "248"
+        }
+      },
+      {
+        "data": {
+          "source": "67",
+          "target": "384"
+        }
+      },
+      {
+        "data": {
+          "source": "384",
+          "target": "363"
+        }
+      },
+      {
+        "data": {
+          "source": "384",
+          "target": "383"
+        }
+      },
+      {
+        "data": {
+          "source": "384",
+          "target": "387"
+        }
+      },
+      {
+        "data": {
+          "source": "384",
+          "target": "381"
+        }
+      },
+      {
+        "data": {
+          "source": "384",
+          "target": "389"
+        }
+      },
+      {
+        "data": {
+          "source": "384",
+          "target": "408"
+        }
+      },
+      {
+        "data": {
+          "source": "71",
+          "target": "107"
+        }
+      },
+      {
+        "data": {
+          "source": "71",
+          "target": "102"
+        }
+      },
+      {
+        "data": {
+          "source": "71",
+          "target": "99"
+        }
+      },
+      {
+        "data": {
+          "source": "105",
+          "target": "193"
+        }
+      },
+      {
+        "data": {
+          "source": "113",
+          "target": "195"
+        }
+      },
+      {
+        "data": {
+          "source": "113",
+          "target": "124"
+        }
+      },
+      {
+        "data": {
+          "source": "126",
+          "target": "129"
+        }
+      },
+      {
+        "data": {
+          "source": "126",
+          "target": "158"
+        }
+      },
+      {
+        "data": {
+          "source": "127",
+          "target": "191"
+        }
+      },
+      {
+        "data": {
+          "source": "136",
+          "target": "196"
+        }
+      },
+      {
+        "data": {
+          "source": "136",
+          "target": "138"
+        }
+      },
+      {
+        "data": {
+          "source": "136",
+          "target": "135"
+        }
+      },
+      {
+        "data": {
+          "source": "196",
+          "target": "156"
+        }
+      },
+      {
+        "data": {
+          "source": "138",
+          "target": "156"
+        }
+      },
+      {
+        "data": {
+          "source": "135",
+          "target": "156"
+        }
+      },
+      {
+        "data": {
+          "source": "139",
+          "target": "208"
+        }
+      },
+      {
+        "data": {
+          "source": "208",
+          "target": "153"
+        }
+      },
+      {
+        "data": {
+          "source": "208",
+          "target": "202"
+        }
+      },
+      {
+        "data": {
+          "source": "208",
+          "target": "207"
+        }
+      },
+      {
+        "data": {
+          "source": "147",
+          "target": "152"
+        }
+      },
+      {
+        "data": {
+          "source": "149",
+          "target": "153"
+        }
+      },
+      {
+        "data": {
+          "source": "149",
+          "target": "148"
+        }
+      },
+      {
+        "data": {
+          "source": "161",
+          "target": "180"
+        }
+      },
+      {
+        "data": {
+          "source": "180",
+          "target": "170"
+        }
+      },
+      {
+        "data": {
+          "source": "180",
+          "target": "291"
+        }
+      },
+      {
+        "data": {
+          "source": "180",
+          "target": "289"
+        }
+      },
+      {
+        "data": {
+          "source": "163",
+          "target": "176"
+        }
+      },
+      {
+        "data": {
+          "source": "163",
+          "target": "307"
+        }
+      },
+      {
+        "data": {
+          "source": "163",
+          "target": "177"
+        }
+      },
+      {
+        "data": {
+          "source": "163",
+          "target": "300"
+        }
+      },
+      {
+        "data": {
+          "source": "176",
+          "target": "307"
+        }
+      },
+      {
+        "data": {
+          "source": "176",
+          "target": "203"
+        }
+      },
+      {
+        "data": {
+          "source": "307",
+          "target": "177"
+        }
+      },
+      {
+        "data": {
+          "source": "307",
+          "target": "238"
+        }
+      },
+      {
+        "data": {
+          "source": "307",
+          "target": "300"
+        }
+      },
+      {
+        "data": {
+          "source": "307",
+          "target": "301"
+        }
+      },
+      {
+        "data": {
+          "source": "165",
+          "target": "168"
+        }
+      },
+      {
+        "data": {
+          "source": "170",
+          "target": "248"
+        }
+      },
+      {
+        "data": {
+          "source": "171",
+          "target": "301"
+        }
+      },
+      {
+        "data": {
+          "source": "171",
+          "target": "299"
+        }
+      },
+      {
+        "data": {
+          "source": "301",
+          "target": "300"
+        }
+      },
+      {
+        "data": {
+          "source": "178",
+          "target": "248"
+        }
+      },
+      {
+        "data": {
+          "source": "291",
+          "target": "285"
+        }
+      },
+      {
+        "data": {
+          "source": "291",
+          "target": "286"
+        }
+      },
+      {
+        "data": {
+          "source": "291",
+          "target": "298"
+        }
+      },
+      {
+        "data": {
+          "source": "184",
+          "target": "186"
+        }
+      },
+      {
+        "data": {
+          "source": "194",
+          "target": "199"
+        }
+      },
+      {
+        "data": {
+          "source": "194",
+          "target": "197"
+        }
+      },
+      {
+        "data": {
+          "source": "194",
+          "target": "219"
+        }
+      },
+      {
+        "data": {
+          "source": "199",
+          "target": "198"
+        }
+      },
+      {
+        "data": {
+          "source": "199",
+          "target": "204"
+        }
+      },
+      {
+        "data": {
+          "source": "199",
+          "target": "225"
+        }
+      },
+      {
+        "data": {
+          "source": "199",
+          "target": "226"
+        }
+      },
+      {
+        "data": {
+          "source": "198",
+          "target": "204"
+        }
+      },
+      {
+        "data": {
+          "source": "204",
+          "target": "200"
+        }
+      },
+      {
+        "data": {
+          "source": "204",
+          "target": "201"
+        }
+      },
+      {
+        "data": {
+          "source": "204",
+          "target": "230"
+        }
+      },
+      {
+        "data": {
+          "source": "204",
+          "target": "231"
+        }
+      },
+      {
+        "data": {
+          "source": "200",
+          "target": "201"
+        }
+      },
+      {
+        "data": {
+          "source": "200",
+          "target": "230"
+        }
+      },
+      {
+        "data": {
+          "source": "205",
+          "target": "242"
+        }
+      },
+      {
+        "data": {
+          "source": "205",
+          "target": "239"
+        }
+      },
+      {
+        "data": {
+          "source": "205",
+          "target": "241"
+        }
+      },
+      {
+        "data": {
+          "source": "205",
+          "target": "240"
+        }
+      },
+      {
+        "data": {
+          "source": "242",
+          "target": "240"
+        }
+      },
+      {
+        "data": {
+          "source": "242",
+          "target": "239"
+        }
+      },
+      {
+        "data": {
+          "source": "242",
+          "target": "241"
+        }
+      },
+      {
+        "data": {
+          "source": "239",
+          "target": "238"
+        }
+      },
+      {
+        "data": {
+          "source": "239",
+          "target": "240"
+        }
+      },
+      {
+        "data": {
+          "source": "239",
+          "target": "299"
+        }
+      },
+      {
+        "data": {
+          "source": "210",
+          "target": "212"
+        }
+      },
+      {
+        "data": {
+          "source": "212",
+          "target": "46"
+        }
+      },
+      {
+        "data": {
+          "source": "212",
+          "target": "227"
+        }
+      },
+      {
+        "data": {
+          "source": "211",
+          "target": "222"
+        }
+      },
+      {
+        "data": {
+          "source": "211",
+          "target": "213"
+        }
+      },
+      {
+        "data": {
+          "source": "211",
+          "target": "217"
+        }
+      },
+      {
+        "data": {
+          "source": "211",
+          "target": "243"
+        }
+      },
+      {
+        "data": {
+          "source": "222",
+          "target": "213"
+        }
+      },
+      {
+        "data": {
+          "source": "222",
+          "target": "217"
+        }
+      },
+      {
+        "data": {
+          "source": "222",
+          "target": "221"
+        }
+      },
+      {
+        "data": {
+          "source": "222",
+          "target": "214"
+        }
+      },
+      {
+        "data": {
+          "source": "222",
+          "target": "220"
+        }
+      },
+      {
+        "data": {
+          "source": "222",
+          "target": "218"
+        }
+      },
+      {
+        "data": {
+          "source": "222",
+          "target": "206"
+        }
+      },
+      {
+        "data": {
+          "source": "222",
+          "target": "233"
+        }
+      },
+      {
+        "data": {
+          "source": "222",
+          "target": "243"
+        }
+      },
+      {
+        "data": {
+          "source": "213",
+          "target": "218"
+        }
+      },
+      {
+        "data": {
+          "source": "213",
+          "target": "217"
+        }
+      },
+      {
+        "data": {
+          "source": "213",
+          "target": "233"
+        }
+      },
+      {
+        "data": {
+          "source": "213",
+          "target": "243"
+        }
+      },
+      {
+        "data": {
+          "source": "46",
+          "target": "214"
+        }
+      },
+      {
+        "data": {
+          "source": "46",
+          "target": "224"
+        }
+      },
+      {
+        "data": {
+          "source": "46",
+          "target": "227"
+        }
+      },
+      {
+        "data": {
+          "source": "218",
+          "target": "216"
+        }
+      },
+      {
+        "data": {
+          "source": "214",
+          "target": "221"
+        }
+      },
+      {
+        "data": {
+          "source": "214",
+          "target": "223"
+        }
+      },
+      {
+        "data": {
+          "source": "214",
+          "target": "227"
+        }
+      },
+      {
+        "data": {
+          "source": "214",
+          "target": "249"
+        }
+      },
+      {
+        "data": {
+          "source": "215",
+          "target": "216"
+        }
+      },
+      {
+        "data": {
+          "source": "224",
+          "target": "227"
+        }
+      },
+      {
+        "data": {
+          "source": "236",
+          "target": "235"
+        }
+      },
+      {
+        "data": {
+          "source": "237",
+          "target": "238"
+        }
+      },
+      {
+        "data": {
+          "source": "238",
+          "target": "299"
+        }
+      },
+      {
+        "data": {
+          "source": "251",
+          "target": "407"
+        }
+      },
+      {
+        "data": {
+          "source": "251",
+          "target": "264"
+        }
+      },
+      {
+        "data": {
+          "source": "251",
+          "target": "405"
+        }
+      },
+      {
+        "data": {
+          "source": "407",
+          "target": "304"
+        }
+      },
+      {
+        "data": {
+          "source": "407",
+          "target": "368"
+        }
+      },
+      {
+        "data": {
+          "source": "407",
+          "target": "405"
+        }
+      },
+      {
+        "data": {
+          "source": "254",
+          "target": "363"
+        }
+      },
+      {
+        "data": {
+          "source": "254",
+          "target": "258"
+        }
+      },
+      {
+        "data": {
+          "source": "254",
+          "target": "259"
+        }
+      },
+      {
+        "data": {
+          "source": "363",
+          "target": "255"
+        }
+      },
+      {
+        "data": {
+          "source": "363",
+          "target": "258"
+        }
+      },
+      {
+        "data": {
+          "source": "363",
+          "target": "259"
+        }
+      },
+      {
+        "data": {
+          "source": "255",
+          "target": "258"
+        }
+      },
+      {
+        "data": {
+          "source": "255",
+          "target": "259"
+        }
+      },
+      {
+        "data": {
+          "source": "255",
+          "target": "408"
+        }
+      },
+      {
+        "data": {
+          "source": "258",
+          "target": "259"
+        }
+      },
+      {
+        "data": {
+          "source": "256",
+          "target": "357"
+        }
+      },
+      {
+        "data": {
+          "source": "256",
+          "target": "374"
+        }
+      },
+      {
+        "data": {
+          "source": "260",
+          "target": "367"
+        }
+      },
+      {
+        "data": {
+          "source": "367",
+          "target": "304"
+        }
+      },
+      {
+        "data": {
+          "source": "367",
+          "target": "366"
+        }
+      },
+      {
+        "data": {
+          "source": "261",
+          "target": "265"
+        }
+      },
+      {
+        "data": {
+          "source": "262",
+          "target": "288"
+        }
+      },
+      {
+        "data": {
+          "source": "262",
+          "target": "398"
+        }
+      },
+      {
+        "data": {
+          "source": "304",
+          "target": "267"
+        }
+      },
+      {
+        "data": {
+          "source": "304",
+          "target": "368"
+        }
+      },
+      {
+        "data": {
+          "source": "267",
+          "target": "368"
+        }
+      },
+      {
+        "data": {
+          "source": "264",
+          "target": "368"
+        }
+      },
+      {
+        "data": {
+          "source": "266",
+          "target": "268"
+        }
+      },
+      {
+        "data": {
+          "source": "266",
+          "target": "269"
+        }
+      },
+      {
+        "data": {
+          "source": "268",
+          "target": "269"
+        }
+      },
+      {
+        "data": {
+          "source": "268",
+          "target": "335"
+        }
+      },
+      {
+        "data": {
+          "source": "268",
+          "target": "322"
+        }
+      },
+      {
+        "data": {
+          "source": "269",
+          "target": "335"
+        }
+      },
+      {
+        "data": {
+          "source": "269",
+          "target": "292"
+        }
+      },
+      {
+        "data": {
+          "source": "335",
+          "target": "270"
+        }
+      },
+      {
+        "data": {
+          "source": "335",
+          "target": "292"
+        }
+      },
+      {
+        "data": {
+          "source": "335",
+          "target": "322"
+        }
+      },
+      {
+        "data": {
+          "source": "335",
+          "target": "334"
+        }
+      },
+      {
+        "data": {
+          "source": "335",
+          "target": "343"
+        }
+      },
+      {
+        "data": {
+          "source": "322",
+          "target": "292"
+        }
+      },
+      {
+        "data": {
+          "source": "322",
+          "target": "334"
+        }
+      },
+      {
+        "data": {
+          "source": "270",
+          "target": "418"
+        }
+      },
+      {
+        "data": {
+          "source": "271",
+          "target": "272"
+        }
+      },
+      {
+        "data": {
+          "source": "271",
+          "target": "281"
+        }
+      },
+      {
+        "data": {
+          "source": "281",
+          "target": "273"
+        }
+      },
+      {
+        "data": {
+          "source": "281",
+          "target": "325"
+        }
+      },
+      {
+        "data": {
+          "source": "281",
+          "target": "284"
+        }
+      },
+      {
+        "data": {
+          "source": "273",
+          "target": "325"
+        }
+      },
+      {
+        "data": {
+          "source": "273",
+          "target": "282"
+        }
+      },
+      {
+        "data": {
+          "source": "325",
+          "target": "282"
+        }
+      },
+      {
+        "data": {
+          "source": "325",
+          "target": "305"
+        }
+      },
+      {
+        "data": {
+          "source": "325",
+          "target": "323"
+        }
+      },
+      {
+        "data": {
+          "source": "325",
+          "target": "284"
+        }
+      },
+      {
+        "data": {
+          "source": "325",
+          "target": "330"
+        }
+      },
+      {
+        "data": {
+          "source": "282",
+          "target": "284"
+        }
+      },
+      {
+        "data": {
+          "source": "274",
+          "target": "275"
+        }
+      },
+      {
+        "data": {
+          "source": "275",
+          "target": "425"
+        }
+      },
+      {
+        "data": {
+          "source": "425",
+          "target": "324"
+        }
+      },
+      {
+        "data": {
+          "source": "277",
+          "target": "278"
+        }
+      },
+      {
+        "data": {
+          "source": "278",
+          "target": "276"
+        }
+      },
+      {
+        "data": {
+          "source": "284",
+          "target": "305"
+        }
+      },
+      {
+        "data": {
+          "source": "284",
+          "target": "319"
+        }
+      },
+      {
+        "data": {
+          "source": "284",
+          "target": "321"
+        }
+      },
+      {
+        "data": {
+          "source": "285",
+          "target": "286"
+        }
+      },
+      {
+        "data": {
+          "source": "286",
+          "target": "298"
+        }
+      },
+      {
+        "data": {
+          "source": "298",
+          "target": "290"
+        }
+      },
+      {
+        "data": {
+          "source": "288",
+          "target": "403"
+        }
+      },
+      {
+        "data": {
+          "source": "403",
+          "target": "398"
+        }
+      },
+      {
+        "data": {
+          "source": "302",
+          "target": "306"
+        }
+      },
+      {
+        "data": {
+          "source": "302",
+          "target": "336"
+        }
+      },
+      {
+        "data": {
+          "source": "306",
+          "target": "309"
+        }
+      },
+      {
+        "data": {
+          "source": "320",
+          "target": "316"
+        }
+      },
+      {
+        "data": {
+          "source": "320",
+          "target": "312"
+        }
+      },
+      {
+        "data": {
+          "source": "320",
+          "target": "317"
+        }
+      },
+      {
+        "data": {
+          "source": "329",
+          "target": "330"
+        }
+      },
+      {
+        "data": {
+          "source": "330",
+          "target": "326"
+        }
+      },
+      {
+        "data": {
+          "source": "330",
+          "target": "358"
+        }
+      },
+      {
+        "data": {
+          "source": "332",
+          "target": "341"
+        }
+      },
+      {
+        "data": {
+          "source": "333",
+          "target": "348"
+        }
+      },
+      {
+        "data": {
+          "source": "334",
+          "target": "343"
+        }
+      },
+      {
+        "data": {
+          "source": "343",
+          "target": "337"
+        }
+      },
+      {
+        "data": {
+          "source": "343",
+          "target": "340"
+        }
+      },
+      {
+        "data": {
+          "source": "343",
+          "target": "313"
+        }
+      },
+      {
+        "data": {
+          "source": "343",
+          "target": "413"
+        }
+      },
+      {
+        "data": {
+          "source": "337",
+          "target": "313"
+        }
+      },
+      {
+        "data": {
+          "source": "313",
+          "target": "340"
+        }
+      },
+      {
+        "data": {
+          "source": "338",
+          "target": "345"
+        }
+      },
+      {
+        "data": {
+          "source": "338",
+          "target": "413"
+        }
+      },
+      {
+        "data": {
+          "source": "345",
+          "target": "339"
+        }
+      },
+      {
+        "data": {
+          "source": "345",
+          "target": "364"
+        }
+      },
+      {
+        "data": {
+          "source": "413",
+          "target": "412"
+        }
+      },
+      {
+        "data": {
+          "source": "413",
+          "target": "415"
+        }
+      },
+      {
+        "data": {
+          "source": "347",
+          "target": "392"
+        }
+      },
+      {
+        "data": {
+          "source": "347",
+          "target": "352"
+        }
+      },
+      {
+        "data": {
+          "source": "349",
+          "target": "359"
+        }
+      },
+      {
+        "data": {
+          "source": "349",
+          "target": "374"
+        }
+      },
+      {
+        "data": {
+          "source": "359",
+          "target": "354"
+        }
+      },
+      {
+        "data": {
+          "source": "359",
+          "target": "374"
+        }
+      },
+      {
+        "data": {
+          "source": "374",
+          "target": "357"
+        }
+      },
+      {
+        "data": {
+          "source": "353",
+          "target": "402"
+        }
+      },
+      {
+        "data": {
+          "source": "353",
+          "target": "351"
+        }
+      },
+      {
+        "data": {
+          "source": "353",
+          "target": "354"
+        }
+      },
+      {
+        "data": {
+          "source": "354",
+          "target": "361"
+        }
+      },
+      {
+        "data": {
+          "source": "361",
+          "target": "379"
+        }
+      },
+      {
+        "data": {
+          "source": "355",
+          "target": "366"
+        }
+      },
+      {
+        "data": {
+          "source": "357",
+          "target": "401"
+        }
+      },
+      {
+        "data": {
+          "source": "371",
+          "target": "400"
+        }
+      },
+      {
+        "data": {
+          "source": "377",
+          "target": "383"
+        }
+      },
+      {
+        "data": {
+          "source": "383",
+          "target": "406"
+        }
+      },
+      {
+        "data": {
+          "source": "381",
+          "target": "387"
+        }
+      },
+      {
+        "data": {
+          "source": "387",
+          "target": "388"
+        }
+      },
+      {
+        "data": {
+          "source": "390",
+          "target": "394"
+        }
+      },
+      {
+        "data": {
+          "source": "401",
+          "target": "397"
+        }
+      },
+      {
+        "data": {
+          "source": "401",
+          "target": "399"
+        }
+      },
+      {
+        "data": {
+          "source": "405",
+          "target": "410"
+        }
+      },
+      {
+        "data": {
+          "source": "412",
+          "target": "415"
+        }
+      },
+      {
+        "data": {
+          "source": "414",
+          "target": "427"
+        }
+      },
+      {
+        "data": {
+          "source": "427",
+          "target": "429"
+        }
+      },
+      {
+        "data": {
+          "source": "427",
+          "target": "422"
+        }
+      },
+      {
+        "data": {
+          "source": "419",
+          "target": "429"
+        }
+      },
+      {
+        "data": {
+          "source": "429",
+          "target": "422"
+        }
+      },
+      {
+        "data": {
+          "source": "429",
+          "target": "423"
+        }
+      },
+      {
+        "data": {
+          "source": "420",
+          "target": "422"
+        }
+      },
+      {
+        "data": {
+          "source": "435",
+          "target": "404"
+        }
+      },
+      {
+        "data": {
+          "source": "439",
+          "target": "437"
+        }
+      },
+      {
+        "data": {
+          "source": "437",
+          "target": "461"
+        }
+      },
+      {
+        "data": {
+          "source": "446",
+          "target": "59"
+        }
+      },
+      {
+        "data": {
+          "source": "59",
+          "target": "447"
+        }
+      },
+      {
+        "data": {
+          "source": "59",
+          "target": "460"
+        }
+      },
+      {
+        "data": {
+          "source": "450",
+          "target": "464"
+        }
+      },
+      {
+        "data": {
+          "source": "450",
+          "target": "456"
+        }
+      },
+      {
+        "data": {
+          "source": "450",
+          "target": "455"
+        }
+      },
+      {
+        "data": {
+          "source": "464",
+          "target": "456"
+        }
+      },
+      {
+        "data": {
+          "source": "459",
+          "target": "460"
+        }
+      },
+      {
+        "data": {
+          "source": "481",
+          "target": "546"
+        }
+      },
+      {
+        "data": {
+          "source": "481",
+          "target": "543"
+        }
+      },
+      {
+        "data": {
+          "source": "543",
+          "target": "484"
+        }
+      },
+      {
+        "data": {
+          "source": "500",
+          "target": "31"
+        }
+      },
+      {
+        "data": {
+          "source": "500",
+          "target": "482"
+        }
+      },
+      {
+        "data": {
+          "source": "31",
+          "target": "537"
+        }
+      },
+      {
+        "data": {
+          "source": "511",
+          "target": "474"
+        }
+      },
+      {
+        "data": {
+          "source": "528",
+          "target": "529"
+        }
+      },
+      {
+        "data": {
+          "source": "528",
+          "target": "552"
+        }
+      },
+      {
+        "data": {
+          "source": "529",
+          "target": "552"
+        }
+      },
+      {
+        "data": {
+          "source": "533",
+          "target": "535"
+        }
+      },
+      {
+        "data": {
+          "source": "535",
+          "target": "534"
+        }
+      },
+      {
+        "data": {
+          "source": "534",
+          "target": "514"
+        }
+      },
+      {
+        "data": {
+          "source": "537",
+          "target": "470"
+        }
+      }
+    ]
+  }
+}
