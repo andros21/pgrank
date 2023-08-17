@@ -27,3 +27,14 @@ h1 {
 .tippy-box a {
   color: lightskyblue;
 }
+
+p.copyright {
+  position: absolute;
+  width: 100%;
+  color: #333;
+  line-height: 10px;
+  font-size: 0.7em;
+  text-align: right;
+  bottom: 0;
+  right: 1%;
+}
