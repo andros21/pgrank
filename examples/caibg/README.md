@@ -1,4 +1,4 @@
-# :mountain: caibg
+# :mountain: [caibg](https://andros21.github.io/pgrank/caibg/)
 
 ### Input data
 
@@ -24,6 +24,13 @@ pgrank data/caibg.json data/caibg.csv
 
 The result is a `csv` file contains pageranks in the same order of the given input url nodes from `json` ... That's it. `pgrank` app only compute intensive tasks, future analysis can be delegated to more friendly framework, such as `pandas`
 
-### Results
+To make the results more readable `caibg.py` creates a summing up markdown table [`caibg.md`](caibg.md)
 
-To make the results more readable `caibg.py` creates a summing up markdown table [`caibg.md`](caibg.md) (prerequisites for running `caibg.py` are `pandas` and `tabulate` python packages)
+> [!NOTE]
+> requirements: `pandas` `tabulate`
+
+Interactive [cytoscape.js](https://js.cytoscape.org/) network version is available at https://andros21.github.io/pgrank/caibg/
+
+> [!NOTE]
+> `cyto/data.json` can be created using `cyto.py`\
+> requirements: `pandas` `networkx`
