@@ -1,0 +1,29 @@
+body {
+  font-family: helvetica;
+  font-size: 14px;
+  background-color: aliceblue;
+}
+
+#cy {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 999;
+}
+
+h1 {
+  font-size: 1.3em;
+  white-space: nowrap;
+  display: inline;
+}
+
+.tippy-box {
+  border-radius: 13px;
+  opacity: 0.8;
+}
+
+.tippy-box a {
+  color: lightskyblue;
+}
