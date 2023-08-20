@@ -119,7 +119,7 @@ jobs:
           hide_complexity: true
           output: both
       - name: Add coverage PR comment
-        uses: marocchino/sticky-pull-request-comment@f6a2580ed520ae15da6076e7410b088d1c5dddd9
+        uses: marocchino/sticky-pull-request-comment@efaaab3fd41a9c3de579aba759d2552635e590fd
         if: ${{ github.event_name == 'pull_request' }}
         with:
           recreate: true
