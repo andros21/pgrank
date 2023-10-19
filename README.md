@@ -10,21 +10,16 @@
   <br>
   <br>
   <a href="https://github.com/andros21/pgrank/actions/workflows/meson.yml">
-    <img src="https://img.shields.io/github/actions/workflow/status/andros21/pgrank/meson.yml?branch=master&label=Meson%20CI&logo=github&style=flat-square" alt="Meson CI">
-  </a>
+    <img src="https://img.shields.io/github/actions/workflow/status/andros21/pgrank/meson.yml?branch=master&label=Meson%20CI&logo=github&style=flat-square" alt="Meson CI"></a>
   <a href="https://github.com/andros21/pgrank/actions/workflows/meson.yml">
-    <img src="https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/andros21/0e20cd331d0800e3299298a3868aab7a/raw/pgrank__master.json" alt="Coverage">
-  </a>
+    <img src="https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/andros21/0e20cd331d0800e3299298a3868aab7a/raw/pgrank__master.json" alt="Coverage"></a>
   <a href="https://github.com/andros21/pgrank/actions/workflows/releaser.yml">
-    <img src="https://img.shields.io/github/actions/workflow/status/andros21/pgrank/releaser.yml?label=Releaser%20CD&logo=github&style=flat-square" alt="Releaser CD">
-  </a>
+    <img src="https://img.shields.io/github/actions/workflow/status/andros21/pgrank/releaser.yml?label=Releaser%20CD&logo=github&style=flat-square" alt="Releaser CD"></a>
   <br>
   <a href="https://github.com/andros21/pgrank/releases">
-    <img src="https://img.shields.io/github/v/release/andros21/pgrank?color=blue&label=Release&sort=semver&style=flat-square" alt="Version">
-  </a>
+    <img src="https://img.shields.io/github/v/release/andros21/pgrank?color=blue&label=Release&sort=semver&style=flat-square" alt="Version"></a>
   <a href="https://github.com/andros21/pgrank/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/andros21/pgrank?color=blue&label=License&style=flat-square" alt="License">
-  </a>
+    <img src="https://img.shields.io/github/license/andros21/pgrank?color=blue&label=License&style=flat-square" alt="License"></a>
 
   <h3 align="center">cpp app for computing <a href="https://en.wikipedia.org/wiki/PageRank">pagerank</a></h3>
   <div align="center">
@@ -60,10 +55,10 @@ If Meson is not available on your system, it can be installed with `pip` or `con
 
 `pgrank` requires the following packages to be installed on the system:
 
-* [`armadillo`](http://arma.sourceforge.net) - a high quality linear algebra library (matrix maths) C++-native
-* [`OpenBLAS`](https://github.com/xianyi/OpenBLAS) - linked with `armadillo`, multi-threading on intensive tasks
-* [`rapidJSON`](https://github.com/Tencent/rapidjson/) - a fast JSON parser and generator for C++
-* [`argparse`](https://github.com/p-ranav/argparse) - argument parser for modern C++
+- [`armadillo`](http://arma.sourceforge.net) - a high quality linear algebra library (matrix maths) C++-native
+- [`OpenBLAS`](https://github.com/xianyi/OpenBLAS) - linked with `armadillo`, multi-threading on intensive tasks
+- [`rapidJSON`](https://github.com/Tencent/rapidjson/) - a fast JSON parser and generator for C++
+- [`argparse`](https://github.com/p-ranav/argparse) - argument parser for modern C++
 
 `argparse` (header only library), if not available on your system, is automatically built and installed as subprojects with the `Meson` build system, so in this sense are "optional" because provided by `Meson` itself
 
@@ -86,8 +81,8 @@ Where `build` is the build directory. Specifying the installation prefix with `-
 
 For **testing purpose** (developers only) working inside a conda env is probably the best way to build and use this project. Additional dependencies:
 
-* [`catch2`](https://github.com/catchorg/Catch2) - a modern, C++-native, header-only, test framework for unit-tests
-* [`gcovr`](https://gcovr.com/en/stable/) - extensions of GCOV, for code coverage
+- [`catch2`](https://github.com/catchorg/Catch2) - a modern, C++-native, header-only, test framework for unit-tests
+- [`gcovr`](https://gcovr.com/en/stable/) - extensions of GCOV, for code coverage
 
 `catch2` (header only library), if not available on your system, are automatically built and installed as subprojects with the `Meson` build system, so in this sense are "optional" because provided by `Meson` itself
 
