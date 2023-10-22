@@ -144,7 +144,7 @@ jobs:
       # note: Use the output from `coverage` id of `meson` job
       #       Use the output from `repo` ids of `pre_ci` job
       - name: Generate dynamic badge
-        uses: schneegans/dynamic-badges-action@5d424ad4060f866e4d1dab8f8da0456e6b1c4f56
+        uses: schneegans/dynamic-badges-action@e9a478b16159b4d31420099ba146cdc50f134483
         with:
           auth: ${{ secrets.GIST_TOKEN }}
           filename: ${{ needs.pre_ci.outputs.repo }}__${{ github.ref_name }}.json
