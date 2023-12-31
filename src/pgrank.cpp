@@ -1,6 +1,6 @@
 /**
  * @authors Andrea Rossoni
- * @version 0.1.5
+ * @version 0.1.6
  * @subsubsection Description
  *
  * CLI for calculate rank
@@ -17,7 +17,7 @@
 int
 main(int argc, char* argv[])
 {
-   argparse::ArgumentParser program("pgrank", "0.1.5");
+   argparse::ArgumentParser program("pgrank", "0.1.6");
    program.add_argument("input").help("input json file");
    program.add_argument("output").help("output csv file");
    program.add_argument("-a", "--alpha")
