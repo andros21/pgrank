@@ -2,6 +2,63 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v0.1.6] - 2023-12-31
+
+**Full Changelog**: [`fa3f75c...b7f3b1a`](https://github.com/andros21/pgrank/compare/fa3f75c71bcd0e7f551c5f0f7badc96b9daf24d8...b7f3b1a49edb08d3de9c554be66729134d55bbee)
+
+### Bug Fixes
+
+- [`044d4e5`](https://github.com/andros21/pgrank/commit/044d4e56916e47db7dee6fcd2bb5c64054998e32) modify scrapers cause caibg replatform
+
+### Build
+
+- [`d8d6057`](https://github.com/andros21/pgrank/commit/d8d6057699c044aa6ba31230adecfbad5183d144) bump orhun/git-cliff-action from 2.0.5 to 2.0.6 ([#73](https://github.com/andros21/pgrank/issues/73))
+- [`8aa1a90`](https://github.com/andros21/pgrank/commit/8aa1a9081a2e17bb5f8ecaa49ab06908e713bbb9) bump EndBug/add-and-commit from 9.1.1 to 9.1.2 ([#72](https://github.com/andros21/pgrank/issues/72))
+- [`51b90b2`](https://github.com/andros21/pgrank/commit/51b90b281bb05c4667def3c9e757555c9f00f490) bump meson from 1.0.1 to 1.1.0 ([#74](https://github.com/andros21/pgrank/issues/74))
+- [`5310223`](https://github.com/andros21/pgrank/commit/53102234d7df7bd94d36ff1c9ea5e2969c9ce9e1) bump robinraju/release-downloader from 1.7 to 1.8 ([#75](https://github.com/andros21/pgrank/issues/75))
+- [`53333e6`](https://github.com/andros21/pgrank/commit/53333e60ab66e4434fa7905686e5136b1a31f345) extract css theme using robinraju/release-downloader
+- [`19df4cc`](https://github.com/andros21/pgrank/commit/19df4cc5615e9d456f5bc23679fe477b5e85aeeb) bump EndBug/add-and-commit from 9.1.2 to 9.1.3 ([#76](https://github.com/andros21/pgrank/issues/76))
+- [`8f2395e`](https://github.com/andros21/pgrank/commit/8f2395e6fb5e31a2aa012ef4471bcff65c6f477b) bump meson from 1.1.0 to 1.1.1 ([#77](https://github.com/andros21/pgrank/issues/77))
+- [`ae12024`](https://github.com/andros21/pgrank/commit/ae120241c9313afe627946a070f3de3e74eb97df) bump actions/checkout from 3.5.2 to 3.5.3 ([#78](https://github.com/andros21/pgrank/issues/78))
+- [`a2ab19f`](https://github.com/andros21/pgrank/commit/a2ab19f49598df2fc69a0e2e854c3a0e414dc5db) bump marocchino/sticky-pull-request-comment ([#79](https://github.com/andros21/pgrank/issues/79))
+- [`05af5d6`](https://github.com/andros21/pgrank/commit/05af5d6ac526393920ee0216b3871dd01a502b52) bump meson from 1.1.1 to 1.2.0 ([#80](https://github.com/andros21/pgrank/issues/80))
+- [`c5a9afe`](https://github.com/andros21/pgrank/commit/c5a9afe1587ad74a2986c06f7709fba6622d9879) bump marocchino/sticky-pull-request-comment ([#81](https://github.com/andros21/pgrank/issues/81))
+- [`e552733`](https://github.com/andros21/pgrank/commit/e5527339560266acc8c1c1b0683e5f9a6f8458fa) bump actions/checkout from 3.5.3 to 3.6.0 ([#82](https://github.com/andros21/pgrank/issues/82))
+- [`0958104`](https://github.com/andros21/pgrank/commit/095810404bfd11043f58fe20c6f8092b91664417) bump meson from 1.2.0 to 1.2.1 ([#83](https://github.com/andros21/pgrank/issues/83))
+- [`36b7b84`](https://github.com/andros21/pgrank/commit/36b7b84a8f90a1e685cd9ae666cb387ece5ce88d) bump orhun/git-cliff-action from 2.0.6 to 2.1.0 ([#84](https://github.com/andros21/pgrank/issues/84))
+- [`256f7b9`](https://github.com/andros21/pgrank/commit/256f7b927f7dbcef5d554b17bb030590b652950e) bump actions/cache from 3.3.1 to 3.3.2 ([#86](https://github.com/andros21/pgrank/issues/86))
+- [`ea8367e`](https://github.com/andros21/pgrank/commit/ea8367e32c3905d14f074b2da2adff91014a9b59) bump actions/checkout from 3.6.0 to 4.0.0 ([#85](https://github.com/andros21/pgrank/issues/85))
+- [`12b3591`](https://github.com/andros21/pgrank/commit/12b35917398004d2ba407fd28485b3a19ed3e203) bump actions/checkout from 4.0.0 to 4.1.0 ([#87](https://github.com/andros21/pgrank/issues/87))
+- [`6fbc8f9`](https://github.com/andros21/pgrank/commit/6fbc8f9545fdf78723f4319574be4b0d13cbe6c2) bump meson from 1.2.1 to 1.2.2 ([#88](https://github.com/andros21/pgrank/issues/88))
+- [`58c9c73`](https://github.com/andros21/pgrank/commit/58c9c73f39c87b0c0133b7e91b2c1bd7d5bfea69) bump orhun/git-cliff-action from 2.1.0 to 2.1.1 ([#89](https://github.com/andros21/pgrank/issues/89))
+- [`651ce8a`](https://github.com/andros21/pgrank/commit/651ce8af2c23f3555ee9fb76690c921fec8589c8) bump actions/checkout from 4.1.0 to 4.1.1 ([#91](https://github.com/andros21/pgrank/issues/91))
+- [`41d5161`](https://github.com/andros21/pgrank/commit/41d5161a5bfde36a10edfb47f88351feb3f405d1) bump schneegans/dynamic-badges-action from 1.6.0 to 1.7.0 ([#90](https://github.com/andros21/pgrank/issues/90))
+- [`5f0eeb7`](https://github.com/andros21/pgrank/commit/5f0eeb77070bfe6da7c7fa4215f6c7234a56ac3c) bump ninja from 1.11.1 to 1.11.1.1 ([#92](https://github.com/andros21/pgrank/issues/92))
+- [`c590b41`](https://github.com/andros21/pgrank/commit/c590b41a22ed41e9fd1b54f2bab7c6f8c8c695fe) bump meson from 1.2.2 to 1.2.3 ([#93](https://github.com/andros21/pgrank/issues/93))
+- [`d30bbb5`](https://github.com/andros21/pgrank/commit/d30bbb5cb921b89628c0b9267854a1e2a2877a67) bump orhun/git-cliff-action from 2.1.1 to 2.2.0 ([#94](https://github.com/andros21/pgrank/issues/94))
+- [`788cccd`](https://github.com/andros21/pgrank/commit/788cccdcb8a6867d5a856dfbdce3f5ddef262716) bump orhun/git-cliff-action from 2.2.0 to 2.3.0 ([#95](https://github.com/andros21/pgrank/issues/95))
+- [`2d0d3f0`](https://github.com/andros21/pgrank/commit/2d0d3f03b9e54303a070c27b4dd01c68f55d0183) bump meson from 1.2.3 to 1.3.0 ([#96](https://github.com/andros21/pgrank/issues/96))
+
+### Features
+
+- [`18bd352`](https://github.com/andros21/pgrank/commit/18bd3523e3407b30e1662dc4c87245a62eda4077) add cytoscape.js app
+
+### Miscellaneous Tasks
+
+- [`3d61d7e`](https://github.com/andros21/pgrank/commit/3d61d7e2e0f5094bdb9e5234e1b359192d0e8594) add pgrank v0.1.5 changes
+- [`cf3658a`](https://github.com/andros21/pgrank/commit/cf3658a8ffa95a84dbf5c5e1f22a663492010402) git-cliff changelog detailed mode
+- [`ae558cd`](https://github.com/andros21/pgrank/commit/ae558cdcd1a68e14782bfd049ea40a496e208e10) manually publish to gh-pages cyto.js examples
+- [`9d14302`](https://github.com/andros21/pgrank/commit/9d1430269063c3347f4c0125eee980f717116f6f) publish cyto.js examples after doxygen
+- [`692013d`](https://github.com/andros21/pgrank/commit/692013d2b8c88eba01f6c2c4f41f5581231a11ba) add reference info at bottom page
+- [`cf133d2`](https://github.com/andros21/pgrank/commit/cf133d283cecc8d8a2c2772a5e79f01206ca7638) update README
+- [`7d06809`](https://github.com/andros21/pgrank/commit/7d06809aef8cf11c20d9b85c41d82d8dfe2f3815) remove tar.gz before moving with glob
+- [`b7f3b1a`](https://github.com/andros21/pgrank/commit/b7f3b1a49edb08d3de9c554be66729134d55bbee) bump pgrank from v0.1.5 to v0.1.6
+
+### Refactor
+
+- [`48578bc`](https://github.com/andros21/pgrank/commit/48578bc21d1173086409e03bcfe35ad7e92e702f) group input data in `data/` dir
+- [`61d1228`](https://github.com/andros21/pgrank/commit/61d1228c200806a0b6a02b8d6c8581025ef3b9a9) prettier refactor
+
 ## [v0.1.5] - 2023-04-29
 
 **Full Changelog**: [`3944b25...fa3f75c`](https://github.com/andros21/pgrank/compare/3944b25f24c2d4b10374b74922e4e3668916f481...fa3f75c71bcd0e7f551c5f0f7badc96b9daf24d8)
