@@ -53,7 +53,9 @@ jobs:
           extract: true
           out-file-path: "."
       - name: Rename doxygen-awesome-css
-        run: mv ./*doxygen-awesome-css* doxygen-awesome-css/
+        run: |
+          rm -f ./*.tar.gz
+          mv ./*doxygen-awesome-css* doxygen-awesome-css/
       - name: Create html docs
         run: |
           set -x
