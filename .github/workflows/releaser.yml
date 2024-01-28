@@ -44,7 +44,7 @@ jobs:
       - name: Checkout project
         uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
       - name: Download doxygen-awesome-css theme
-        uses: robinraju/release-downloader@efa4cd07bd0195e6cc65e9e30c251b49ce4d3e51
+        uses: robinraju/release-downloader@368754b9c6f47c345fcfbf42bcb577c2f0f5f395
         with:
           repository: "jothepro/doxygen-awesome-css"
           latest: true
